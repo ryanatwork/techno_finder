@@ -52,23 +52,20 @@ end
 
 # The next step in the session is posted to this resource when the 'ask' is completed in 'index.json'
 post '/process_zip.json' do
-  # Fetch the HTTP Body (the session) of the POST and parse it into a native Ruby Hash object
   v = Tropo::Generator.parse request.env["rack.input"].read
 
-  # Create a Tropo::Generator object which is used to build the resulting JSON response
   t = Tropo::Generator.new
-    # If no intial text was captured, use the zip in response to the ask in the previous route
-    session[:zip] = v[:result][:actions][:zip][:value].gsub(" ","") unless session[:zip]
 
-    begin
-      technology = Windy.views.find_by_id("nen3-vcxj")
-      places = technology.rows
-      session[:data]  = places.find_all_by_zip(session[:zip])
-    rescue
-      # Add a 'say' to the JSON response
-      t.say "It looks like something went wrong with our data source. Please try again later."
-      t.hangup
-    end
+  session[:zip] = v[:result][:actions][:zip][:value].gsub(" ","") unless session[:zip]
+
+  begin
+    technology = Windy.views.find_by_id("nen3-vcxj")
+    places = technology.rows
+    session[:data]  = places.find_all_by_zip(session[:zip])
+  rescue
+    t.say "It looks like something went wrong with our data source. Please try again later."
+    t.hangup
+  end
     # List the opportunities to the user in the form of a question. The selected opportunity will be handled in the next route.
     if session[:data].size > 0
       # Add a 'say' to the JSON response
