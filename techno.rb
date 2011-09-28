@@ -38,7 +38,7 @@ post '/index.json' do
           :say => [{:event => "timeout", :value => "Sorry, I did not hear anything."},
                    {:event => "nomatch:1 nomatch:2", :value => "Oops, that wasnt a five-digit zip code."},
                    {:value => "Please enter your zip code to search for public technology resources in your area."}],
-                    :choices => { :value => "[5 DIGITS]"}
+                    :choices => { :value => "[5 DIGITS]", :mode => "dtmf"}
     end
 
     # Add a 'hangup' to the JSON response and set which resource to go to if a Hangup event occurs on Tropo
@@ -75,7 +75,7 @@ post '/process_zip.json' do
       # Add an 'ask' to the JSON response
       t.ask :name => 'selection', :bargein => true, :timeout => 60, :attempts => 1,
           :say => [{:event => "nomatch:1", :value => "That wasn't a one-digit opportunity number. Here are your choices: "},
-                   {:value => items_say.join(", ")}], :choices => { :value => "[1 DIGITS]"}
+                   {:value => items_say.join(", ")}], :choices => { :value => "[1 DIGITS]", :mode => "dtmf"}
     else
       # Add a 'say' to the JSON response
       t.say "No public technology resources found in that zip code. Please try again later."
@@ -111,8 +111,8 @@ post '/process_selection.json' do
       t.ask :name => 'send_sms', :bargein => true, :timeout => 60, :attempts => 1,
             :say => [{:event => "nomatch:1", :value => "That wasnt a valid answer. "},
                    {:value => "Would you like to have a text message sent to you?
-                               Press 1 or say 'yes' to get a text message; Press 2 or say 'no' to conclude this session."}],
-            :choices => { :value => "true(1,yes), false(2,no)"}
+                               Press 1 to get a text message; Press 2 to conclude this session."}],
+            :choices => { :value => "true(1), false(2)", :mode => "dtmf"}
     else # No opportunity found
       t.say "No location with that value. Please try again."
     end
@@ -145,7 +145,7 @@ post '/send_text_message.json' do
               :say => [{:event => "timeout", :value => "Sorry, I did not hear anything."},
                      {:event => "nomatch:1 nomatch:2", :value => "Oops, that wasn't a 10-digit number."},
                      {:value => "What 10-digit phone number would you like to send the information to?"}],
-                      :choices => { :value => "[10 DIGITS]"}
+                      :choices => { :value => "[10 DIGITS]", :mode => "dtmf"}
         next_url = '/send_text_message.json'
       end # No need for an else, send them off to /goodbye.json
     end
