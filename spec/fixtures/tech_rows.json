@@ -1,0 +1,1351 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "nen3-vcxj",
+      "name" : "Public Technology Resources",
+      "attribution" : "City of Chicago",
+      "attributionLink" : "https://gisapps.cityofchicago.org/TechLocator/",
+      "averageRating" : 0,
+      "category" : "Technology",
+      "createdAt" : 1302292812,
+      "description" : "Chicago sites that offer free or affordable technology resources and services, like computers with Internet access, Wi-Fi hotspots and technology training. Call or visit the organization's website before going to the location. For more information, visit https://gisapps.cityofchicago.org/TechLocator/.",
+      "displayType" : "table",
+      "downloadCount" : 25,
+      "numberOfComments" : 0,
+      "oid" : 315109,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1302998589,
+      "publicationGroup" : 226677,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1313894856,
+      "rowsUpdatedBy" : "scy9-9wg4",
+      "signed" : false,
+      "tableId" : 226677,
+      "totalTimesRated" : 0,
+      "viewCount" : 261,
+      "viewLastModified" : 1314569393,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "id",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "position",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data"
+      }, {
+        "id" : 2684953,
+        "name" : "TYPE",
+        "dataTypeName" : "text",
+        "fieldName" : "type",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455567,
+        "width" : 118,
+        "cachedContents" : {
+          "non_null" : 235,
+          "smallest" : "Chicago Public Library",
+          "null" : 0,
+          "largest" : "Youth Center",
+          "top" : [ {
+            "count" : 95,
+            "item" : "Community Technology Center"
+          }, {
+            "count" : 75,
+            "item" : "Chicago Public Library"
+          }, {
+            "count" : 16,
+            "item" : "WorkForce Center"
+          }, {
+            "count" : 15,
+            "item" : "Senior Center"
+          }, {
+            "count" : 14,
+            "item" : "Chicago Public Schools"
+          }, {
+            "count" : 7,
+            "item" : "City Colleges of Chicago"
+          }, {
+            "count" : 7,
+            "item" : "Wireless Internet Zone"
+          }, {
+            "count" : 6,
+            "item" : "Youth Center"
+          } ]
+        },
+        "metadata" : {
+          "originalName" : "TYPE"
+        }
+      }, {
+        "id" : 2684954,
+        "name" : "FACILITY",
+        "dataTypeName" : "text",
+        "fieldName" : "facility",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455568,
+        "width" : 166,
+        "cachedContents" : {
+          "non_null" : 235,
+          "smallest" : "Abbot Park Satellite Center",
+          "null" : 0,
+          "largest" : "YWCA Parks Francis Community Technology Center",
+          "top" : [ {
+            "count" : 3,
+            "item" : "Jane Addams Hull House Association"
+          }, {
+            "count" : 3,
+            "item" : "Polish American Association"
+          }, {
+            "count" : 2,
+            "item" : "Goodwill Industries of Metropolitan Chicago"
+          }, {
+            "count" : 1,
+            "item" : "Woodson Regional"
+          }, {
+            "count" : 1,
+            "item" : "Erie Neighborhood House"
+          }, {
+            "count" : 1,
+            "item" : "Back of the Yards"
+          }, {
+            "count" : 1,
+            "item" : "Arthur D. Griffin Community Learn Center"
+          }, {
+            "count" : 1,
+            "item" : "Eli Whitney Elementary School CTC"
+          }, {
+            "count" : 1,
+            "item" : "Lake Grove Village CTC"
+          }, {
+            "count" : 1,
+            "item" : "Scottsdale"
+          }, {
+            "count" : 1,
+            "item" : "Manning"
+          }, {
+            "count" : 1,
+            "item" : "West Pullman"
+          }, {
+            "count" : 1,
+            "item" : "Henson Elementary School"
+          }, {
+            "count" : 1,
+            "item" : "Center on Halsted"
+          }, {
+            "count" : 1,
+            "item" : "Chinese Mutual Aid Association"
+          }, {
+            "count" : 1,
+            "item" : "Heartland Human Care Services"
+          }, {
+            "count" : 1,
+            "item" : "WHA-Youth Technology Center"
+          }, {
+            "count" : 1,
+            "item" : "Northtown"
+          }, {
+            "count" : 1,
+            "item" : "North Center Satellite Center"
+          }, {
+            "count" : 1,
+            "item" : "Jewish Vocational Service CTC"
+          } ]
+        },
+        "metadata" : {
+          "originalName" : "FACILITY"
+        }
+      }, {
+        "id" : 2684955,
+        "name" : "ADDRESS",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455569,
+        "width" : 154,
+        "cachedContents" : {
+          "non_null" : 235,
+          "smallest" : "10001 S. Woodlawn Ave.",
+          "null" : 0,
+          "largest" : "9525 S. Halsted Street",
+          "top" : [ {
+            "count" : 2,
+            "item" : "1116 N. Kedzie Ave."
+          }, {
+            "count" : 1,
+            "item" : "11010 S. Kedzie Avenue"
+          }, {
+            "count" : 1,
+            "item" : "1745 W. 63rd Street"
+          }, {
+            "count" : 1,
+            "item" : "6348 S. Archer Avenue"
+          }, {
+            "count" : 1,
+            "item" : "5150 N. Kimball Avenue"
+          }, {
+            "count" : 1,
+            "item" : "4211-13 West Madison"
+          }, {
+            "count" : 1,
+            "item" : "3353 W. 13th Street"
+          }, {
+            "count" : 1,
+            "item" : "6871 W. Belden Avenue"
+          }, {
+            "count" : 1,
+            "item" : "1334 South Ashland"
+          }, {
+            "count" : 1,
+            "item" : "4904 S. Lake Park Avenue"
+          }, {
+            "count" : 1,
+            "item" : "2121 W. 95th Street"
+          }, {
+            "count" : 1,
+            "item" : "5674 S. Archer Ave"
+          }, {
+            "count" : 1,
+            "item" : "2828 N Kilbourn Ave"
+          }, {
+            "count" : 1,
+            "item" : "642 W. 43rd Street"
+          }, {
+            "count" : 1,
+            "item" : "11071 S. Hoyne Avenue"
+          }, {
+            "count" : 1,
+            "item" : "6216 N. Clark St"
+          }, {
+            "count" : 1,
+            "item" : "4100 N. Long"
+          }, {
+            "count" : 1,
+            "item" : "9349 S. Wentworth Avenue"
+          }, {
+            "count" : 1,
+            "item" : "4343 W Wrightwood Ave"
+          }, {
+            "count" : 1,
+            "item" : "2570 S. Blue Island Avenue"
+          } ]
+        },
+        "metadata" : {
+          "originalName" : "ADDRESS"
+        }
+      }, {
+        "id" : 2684956,
+        "name" : "STREET ADDRESS",
+        "dataTypeName" : "text",
+        "fieldName" : "street_address",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455570,
+        "width" : 154,
+        "cachedContents" : {
+          "non_null" : 235,
+          "smallest" : "10001 S. Woodlawn Ave.",
+          "null" : 0,
+          "largest" : "9525 S. Halsted Street",
+          "top" : [ {
+            "count" : 2,
+            "item" : "790 N. Milwaukee Ave."
+          }, {
+            "count" : 2,
+            "item" : "1116 N. Kedzie Ave."
+          }, {
+            "count" : 1,
+            "item" : "11010 S. Kedzie Avenue"
+          }, {
+            "count" : 1,
+            "item" : "1745 W. 63rd Street"
+          }, {
+            "count" : 1,
+            "item" : "6348 S. Archer Avenue"
+          }, {
+            "count" : 1,
+            "item" : "5150 N. Kimball Avenue"
+          }, {
+            "count" : 1,
+            "item" : "4211-13 West Madison"
+          }, {
+            "count" : 1,
+            "item" : "3353 W. 13th Street"
+          }, {
+            "count" : 1,
+            "item" : "6871 W. Belden Avenue"
+          }, {
+            "count" : 1,
+            "item" : "1334 South Ashland"
+          }, {
+            "count" : 1,
+            "item" : "4904 S. Lake Park Avenue"
+          }, {
+            "count" : 1,
+            "item" : "2121 W. 95th Street"
+          }, {
+            "count" : 1,
+            "item" : "5674 S. Archer Ave"
+          }, {
+            "count" : 1,
+            "item" : "2828 N Kilbourn Ave"
+          }, {
+            "count" : 1,
+            "item" : "642 W. 43rd Street"
+          }, {
+            "count" : 1,
+            "item" : "11071 S. Hoyne Avenue"
+          }, {
+            "count" : 1,
+            "item" : "6216 N. Clark St"
+          }, {
+            "count" : 1,
+            "item" : "4100 N. Long"
+          }, {
+            "count" : 1,
+            "item" : "9349 S. Wentworth Avenue"
+          }, {
+            "count" : 1,
+            "item" : "4343 W Wrightwood Ave"
+          } ]
+        },
+        "metadata" : {
+          "originalName" : "STREET ADDRESS"
+        }
+      }, {
+        "id" : 2684957,
+        "name" : "CITY",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455571,
+        "width" : 75,
+        "cachedContents" : {
+          "non_null" : 235,
+          "smallest" : "Chicago",
+          "null" : 0,
+          "largest" : "Chicago",
+          "top" : [ {
+            "count" : 235,
+            "item" : "Chicago"
+          } ]
+        },
+        "metadata" : {
+          "originalName" : "CITY"
+        }
+      }, {
+        "id" : 2684958,
+        "name" : "STATE",
+        "dataTypeName" : "text",
+        "fieldName" : "state",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455572,
+        "width" : 51,
+        "cachedContents" : {
+          "non_null" : 235,
+          "smallest" : "IL",
+          "null" : 0,
+          "largest" : "IL",
+          "top" : [ {
+            "count" : 235,
+            "item" : "IL"
+          } ]
+        },
+        "metadata" : {
+          "originalName" : "STATE"
+        }
+      }, {
+        "id" : 2684997,
+        "name" : "ZIP",
+        "dataTypeName" : "text",
+        "fieldName" : "zip",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455581,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 235,
+          "smallest" : "60601",
+          "null" : 0,
+          "largest" : "60707",
+          "top" : [ {
+            "count" : 11,
+            "item" : "60623"
+          }, {
+            "count" : 10,
+            "item" : "60640"
+          }, {
+            "count" : 8,
+            "item" : "60618"
+          }, {
+            "count" : 8,
+            "item" : "60617"
+          }, {
+            "count" : 8,
+            "item" : "60620"
+          }, {
+            "count" : 8,
+            "item" : "60628"
+          }, {
+            "count" : 8,
+            "item" : "60651"
+          }, {
+            "count" : 8,
+            "item" : "60647"
+          }, {
+            "count" : 8,
+            "item" : "60612"
+          }, {
+            "count" : 7,
+            "item" : "60609"
+          }, {
+            "count" : 7,
+            "item" : "60601"
+          }, {
+            "count" : 7,
+            "item" : "60632"
+          }, {
+            "count" : 7,
+            "item" : "60622"
+          }, {
+            "count" : 7,
+            "item" : "60608"
+          }, {
+            "count" : 6,
+            "item" : "60619"
+          }, {
+            "count" : 6,
+            "item" : "60629"
+          }, {
+            "count" : 6,
+            "item" : "60602"
+          }, {
+            "count" : 5,
+            "item" : "60641"
+          }, {
+            "count" : 5,
+            "item" : "60613"
+          }, {
+            "count" : 5,
+            "item" : "60616"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 2684960,
+        "name" : "PHONE",
+        "dataTypeName" : "text",
+        "fieldName" : "phone",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455574,
+        "width" : 130,
+        "cachedContents" : {
+          "non_null" : 233,
+          "smallest" : "(312) 212-1290",
+          "null" : 2,
+          "largest" : "NA",
+          "top" : [ {
+            "count" : 7,
+            "item" : "NA"
+          }, {
+            "count" : 4,
+            "item" : "(312) 432-6301"
+          }, {
+            "count" : 2,
+            "item" : "(773) 862-1892"
+          }, {
+            "count" : 2,
+            "item" : "(773) 890-0055"
+          }, {
+            "count" : 2,
+            "item" : "(773) 472-6469"
+          }, {
+            "count" : 2,
+            "item" : "(312) 212-1290"
+          }, {
+            "count" : 2,
+            "item" : "(773) 728-9769 x. 19"
+          }, {
+            "count" : 1,
+            "item" : "(312) 798-3327"
+          }, {
+            "count" : 1,
+            "item" : "(312) 747-0440 (Voice) or (312) 746-0323 (TTY) "
+          }, {
+            "count" : 1,
+            "item" : "(773) 523-4416"
+          }, {
+            "count" : 1,
+            "item" : "(312) 747-9241"
+          }, {
+            "count" : 1,
+            "item" : "(773) 493-0656 x. 1010"
+          }, {
+            "count" : 1,
+            "item" : "(312) 235-7004"
+          }, {
+            "count" : 1,
+            "item" : "(773) 772-7170 x. 3102"
+          }, {
+            "count" : 1,
+            "item" : "(312) 746-0165"
+          }, {
+            "count" : 1,
+            "item" : "(312) 747-6900"
+          }, {
+            "count" : 1,
+            "item" : "(773) 235-0915"
+          }, {
+            "count" : 1,
+            "item" : "(312) 565-9431 "
+          }, {
+            "count" : 1,
+            "item" : "(773) 481-8775"
+          }, {
+            "count" : 1,
+            "item" : "(312) 747-1920"
+          } ]
+        },
+        "metadata" : {
+          "originalName" : "PHONE"
+        }
+      }, {
+        "id" : 2684961,
+        "name" : "WEBSITE",
+        "dataTypeName" : "url",
+        "fieldName" : "website",
+        "position" : 10,
+        "renderTypeName" : "url",
+        "tableColumnId" : 1455575,
+        "width" : 154,
+        "cachedContents" : {
+          "non_null" : 235,
+          "smallest" : {
+            "description" : "http://community.homansquare.org/content/page.php?cat=5&content_id=24",
+            "url" : "http://community.homansquare.org/content/page.php?cat=5&content_id=24"
+          },
+          "null" : 0,
+          "largest" : {
+            "url" : "http://www.hispanichousingdevelopment.com/opportunities/workforce.html"
+          },
+          "top" : [ {
+            "count" : 7,
+            "item" : {
+              "description" : "http://www.cityofchicago.org/city/en/depts/fss/supp_info/satellite_centerinformation.html",
+              "url" : "http://www.cityofchicago.org/city/en/depts/fss/supp_info/satellite_centerinformation.html"
+            }
+          }, {
+            "count" : 6,
+            "item" : {
+              "description" : "http://www.cityofchicago.org/city/en/depts/doit/supp_info/wireless_internetzones.html",
+              "url" : "http://www.cityofchicago.org/city/en/depts/doit/supp_info/wireless_internetzones.html"
+            }
+          }, {
+            "count" : 6,
+            "item" : {
+              "description" : "http://www.cityofchicago.org/city/en/depts/fss/supp_info/regional_center_information.html",
+              "url" : "http://www.cityofchicago.org/city/en/depts/fss/supp_info/regional_center_information.html"
+            }
+          }, {
+            "count" : 5,
+            "item" : {
+              "description" : "http://www.thecaraprogram.org",
+              "url" : "http://www.thecaraprogram.org/"
+            }
+          }, {
+            "count" : 5,
+            "item" : {
+              "description" : "http://www.mercyhousing.org",
+              "url" : "http://www.mercyhousing.org/"
+            }
+          }, {
+            "count" : 4,
+            "item" : {
+              "url" : "http://unocharterschools.org/uscn_campuses.aspx"
+            }
+          }, {
+            "count" : 4,
+            "item" : {
+              "description" : "http://www.cityofchicago.org/city/en/depts/fss/supp_info/chicago_workforcecenters-servicesforjobseekers.html",
+              "url" : "http://www.cityofchicago.org/city/en/depts/fss/supp_info/chicago_workforcecenters-servicesforjobseekers.html"
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "description" : "http://www.idpl.org",
+              "url" : "http://www.idpl.org/"
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "description" : "http://www.hullhouse.org",
+              "url" : "http://www.hullhouse.org/"
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "description" : "http://www.healthauthority.org",
+              "url" : "http://www.healthauthority.org/"
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "description" : "http://www.eriehouse.org",
+              "url" : "http://www.eriehouse.org/"
+            }
+          }, {
+            "count" : 3,
+            "item" : {
+              "description" : "http://www.cohd.com/",
+              "url" : "http://www.cohd.com/"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "description" : "http://www.capsinc.org",
+              "url" : "http://www.capsinc.org/"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "description" : "http://www.gwtp.org",
+              "url" : "http://www.gwtp.org/"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "description" : "http://www.cha.terau.com",
+              "url" : "http://www.cha.terau.com/"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "description" : "http://www.ahschicago.org",
+              "url" : "http://www.ahschicago.org/"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "description" : "http://www.hhdc.org",
+              "url" : "http://www.hhdc.org/"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "description" : "http://www.jane-addams.org",
+              "url" : "http://www.jane-addams.org/"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "description" : "http://www.nationalable.org",
+              "url" : "http://www.nationalable.org/"
+            }
+          }, {
+            "count" : 2,
+            "item" : {
+              "description" : "http://www.associationhouse.org",
+              "url" : "http://www.associationhouse.org/"
+            }
+          } ]
+        },
+        "metadata" : {
+          "originalName" : "WEBSITE"
+        },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 2684962,
+        "name" : "HOURS",
+        "dataTypeName" : "text",
+        "fieldName" : "hours",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455576,
+        "width" : 130,
+        "cachedContents" : {
+          "non_null" : 235,
+          "smallest" : "Call",
+          "null" : 0,
+          "largest" : "Wireless access is available 24 hours a day 7 days a week.",
+          "top" : [ {
+            "count" : 33,
+            "item" : "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed"
+          }, {
+            "count" : 29,
+            "item" : "Call for hours"
+          }, {
+            "count" : 22,
+            "item" : "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed"
+          }, {
+            "count" : 20,
+            "item" : "M-F: 9AM-5PM"
+          }, {
+            "count" : 16,
+            "item" : "Call"
+          }, {
+            "count" : 14,
+            "item" : "M, W: 12PM-8PM; TU, TH-SA: 9AM-5PM; SU: Closed"
+          }, {
+            "count" : 7,
+            "item" : "Wireless access is available 24 hours a day 7 days a week."
+          }, {
+            "count" : 5,
+            "item" : "M-F: 8:30AM-4:30PM; SA-SU: Closed "
+          }, {
+            "count" : 4,
+            "item" : "M-F: 9AM-4PM"
+          }, {
+            "count" : 4,
+            "item" : "M-F: 8:30AM-4PM"
+          }, {
+            "count" : 3,
+            "item" : "M, W: 11AM-5PM; TU, TH: 1PM-5PM"
+          }, {
+            "count" : 3,
+            "item" : "M-F: 9AM-8PM"
+          }, {
+            "count" : 3,
+            "item" : "M-F: 9AM-7PM"
+          }, {
+            "count" : 3,
+            "item" : "M-F: 8:30AM-4:30PM"
+          }, {
+            "count" : 3,
+            "item" : "M-TH: 5PM-8PM"
+          }, {
+            "count" : 2,
+            "item" : "M-TH: 9AM (Orientation)"
+          }, {
+            "count" : 2,
+            "item" : "M-F: 10AM-4PM"
+          }, {
+            "count" : 2,
+            "item" : "M-F: 9AM-9PM; SA: 9AM-1PM"
+          }, {
+            "count" : 2,
+            "item" : "M-F: 8AM-5PM"
+          }, {
+            "count" : 2,
+            "item" : "M-TH: 9AM-9PM; F-SA: 9AM-5PM: SU: 1PM-5PM"
+          } ]
+        },
+        "metadata" : {
+          "originalName" : "HOURS"
+        }
+      }, {
+        "id" : 2684963,
+        "name" : "APPOINTMENT",
+        "dataTypeName" : "text",
+        "fieldName" : "appointment",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1455577,
+        "width" : 65,
+        "cachedContents" : {
+          "non_null" : 199,
+          "smallest" : "NA",
+          "null" : 36,
+          "largest" : "Yes ",
+          "top" : [ {
+            "count" : 86,
+            "item" : "NA"
+          }, {
+            "count" : 74,
+            "item" : "No"
+          }, {
+            "count" : 28,
+            "item" : "Yes"
+          }, {
+            "count" : 11,
+            "item" : "Yes "
+          } ]
+        },
+        "metadata" : {
+          "originalName" : "APPOINTMENT"
+        }
+      }, {
+        "id" : 2684964,
+        "name" : "INTERNET",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "internet",
+        "position" : 13,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1455578,
+        "width" : 71,
+        "cachedContents" : {
+          "non_null" : 235,
+          "smallest" : false,
+          "null" : 0,
+          "largest" : true,
+          "top" : [ {
+            "count" : 225,
+            "item" : true
+          }, {
+            "count" : 10,
+            "item" : false
+          } ]
+        },
+        "metadata" : {
+          "originalName" : "INTERNET"
+        }
+      }, {
+        "id" : 2684965,
+        "name" : "WIFI",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "wifi",
+        "position" : 14,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1455579,
+        "width" : 71,
+        "cachedContents" : {
+          "non_null" : 235,
+          "smallest" : false,
+          "null" : 0,
+          "largest" : true,
+          "top" : [ {
+            "count" : 132,
+            "item" : true
+          }, {
+            "count" : 103,
+            "item" : false
+          } ]
+        },
+        "metadata" : {
+          "originalName" : "WIFI"
+        }
+      }, {
+        "id" : 2684966,
+        "name" : "TRAINING",
+        "dataTypeName" : "checkbox",
+        "fieldName" : "training",
+        "position" : 15,
+        "renderTypeName" : "checkbox",
+        "tableColumnId" : 1455580,
+        "width" : 73,
+        "cachedContents" : {
+          "non_null" : 235,
+          "smallest" : false,
+          "null" : 0,
+          "largest" : true,
+          "top" : [ {
+            "count" : 184,
+            "item" : true
+          }, {
+            "count" : 51,
+            "item" : false
+          } ]
+        },
+        "metadata" : {
+          "originalName" : "TRAINING"
+        }
+      }, {
+        "id" : 2684998,
+        "name" : "LOCATION",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 16,
+        "renderTypeName" : "location",
+        "tableColumnId" : 1455582,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 235,
+          "smallest" : {
+            "longitude" : -87.70617648625458,
+            "latitude" : 41.88085288039982,
+            "human_address" : "{\"address\":\"10 S. Kedzie, Room 134\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60612\"}"
+          },
+          "null" : 0,
+          "largest" : {
+            "longitude" : -87.64309395216542,
+            "latitude" : 41.72093481286736,
+            "human_address" : "{\"address\":\"9525 S. Halsted Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60628\"}"
+          },
+          "top" : [ {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.68087360369213,
+              "latitude" : 41.912590943855605,
+              "human_address" : "{\"address\":\"1701 N. Milwaukee Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60647\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.66075410604445,
+              "latitude" : 41.99087707637486,
+              "human_address" : "{\"address\":\"1210 W. Elmdale Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60660\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.80611318949246,
+              "latitude" : 41.98087646554035,
+              "human_address" : "{\"address\":\"7134 W. Higgins\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60656\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.75205184121931,
+              "latitude" : 41.87393384627249,
+              "human_address" : "{\"address\":\"5071 W. Congress Pkwy\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60644\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.79830189864583,
+              "latitude" : 41.99191752494232,
+              "human_address" : "{\"address\":\"6083 N. Northwest Highway\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60631\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.76240613886847,
+              "latitude" : 41.9021947811969,
+              "human_address" : "{\"address\":\"5437 West Division Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60651\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.62684233617182,
+              "latitude" : 41.88576416772162,
+              "human_address" : "{\"address\":\"30 E. Lake Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60601\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.69692650191519,
+              "latitude" : 41.905846028635835,
+              "human_address" : "{\"address\":\"1335 N. California\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60622\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.70245820750289,
+              "latitude" : 41.75279598376802,
+              "human_address" : "{\"address\":\"7723 South Kedzie\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60653\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.77747016474648,
+              "latitude" : 41.79347723329764,
+              "human_address" : "{\"address\":\"6276 S. Archer\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60638\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.69392719355542,
+              "latitude" : 41.79951956772524,
+              "human_address" : "{\"address\":\"5157 S. California\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60632\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.67737057229648,
+              "latitude" : 41.88676300186597,
+              "human_address" : "{\"address\":\"2021 W. Fulton Ave.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60622\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.63443485074811,
+              "latitude" : 41.85511173530427,
+              "human_address" : "{\"address\":\"2141 S. Tan Court\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60616\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.67339165430255,
+              "latitude" : 41.830447500170855,
+              "human_address" : "{\"address\":\"1915 W. 35th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60609\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.7867912079629,
+              "latitude" : 41.958228757316014,
+              "human_address" : "{\"address\":\"4300 N. Narragansett\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60634\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.63648979790898,
+              "latitude" : 41.90386938756309,
+              "human_address" : "{\"address\":\"310 W. Division Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60610\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.67182680255235,
+              "latitude" : 42.01937393447258,
+              "human_address" : "{\"address\":\"1623 W. Howard\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60626\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.67182680255235,
+              "latitude" : 42.01937393447258,
+              "human_address" : "{\"address\":\"1623 W. Howard\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60626\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.68795126806276,
+              "latitude" : 41.913993886221306,
+              "human_address" : "{\"address\":\"2418 West Bloomingdale\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60647\"}"
+            }
+          }, {
+            "count" : 1,
+            "item" : {
+              "longitude" : -87.62788137775613,
+              "latitude" : 41.69325802756094,
+              "human_address" : "{\"address\":\"11045 S. Wentworth Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60628\"}"
+            }
+          } ]
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Metadata" : {
+            "Time Period" : "",
+            "Data Owner" : "Innovation & Technology",
+            "Frequency" : "Data is updated as needed"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileImageUrlLarge" : "/images/profile/4783/7574/CitySeal_Small_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/4783/7574/CitySeal_Small_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/4783/7574/CitySeal_Small_tiny.jpg",
+        "profileLastModified" : 1316007354,
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets" ]
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileImageUrlLarge" : "/images/profile/4783/7574/CitySeal_Small_large.jpg",
+        "profileImageUrlMedium" : "/images/profile/4783/7574/CitySeal_Small_thumb.jpg",
+        "profileImageUrlSmall" : "/images/profile/4783/7574/CitySeal_Small_tiny.jpg",
+        "profileLastModified" : 1316007354,
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets" ]
+      },
+      "tags" : [ "facilities", "gis" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "4DBD74F3-4D58-4CC1-ACB2-7CAF952E9E7A", 1, 1302292813, "386464", 1302299142, "386464", null, "City Colleges of Chicago", "Harold Washington College", "30 E. Lake Street", "30 E. Lake Street", "Chicago", "IL", "60601", "(312) 553-5655", [ "http://hwashington.ccc.edu/", "http://hwashington.ccc.edu/" ], "Call for hours", "No", true, true, true, [ "{\"address\":\"30 E. Lake Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60601\"}", "41.88576416772162", "-87.62684233617182", null, false ] ]
+, [ 2, "A395DBAF-D875-4160-AED4-B4A83121CE98", 2, 1302292813, "386464", 1302299149, "386464", null, "City Colleges of Chicago", "Harry S. Truman College", "1145 W. Wilson", "1145 W. Wilson", "Chicago", "IL", "60640", "(773) 907-4429 or (773) 907-3998 or (773) 907-4849", [ "http://www.trumancollege.edu/index.php", "http://www.trumancollege.edu/index.php" ], "Call for hours", "No", true, true, true, [ "{\"address\":\"1145 W. Wilson\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60640\"}", "41.96537172202582", "-87.65901561549461", null, false ] ]
+, [ 3, "0D15DD6B-F313-4F74-A15A-503AE569E3A9", 3, 1302292813, "386464", 1302299123, "386464", null, "City Colleges of Chicago", "Kennedy-King College", "6301 S. Halsted Street", "6301 S. Halsted Street", "Chicago", "IL", "60621", "(773) 602-5198 or (773) 602-5199", [ "http://kennedyking.ccc.edu/", "http://kennedyking.ccc.edu/" ], "Call for hours", "No", true, true, true, [ "{\"address\":\"6301 S. Halsted Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60621\"}", "41.7795002767395", "-87.6447028716737", null, false ] ]
+, [ 4, "DFF654C8-E76E-4444-8EC0-E185C4E583EA", 4, 1302292813, "386464", 1302299151, "386464", null, "City Colleges of Chicago", "Malcolm X College", "1900 W. Van Buren", "1900 W. Van Buren", "Chicago", "IL", "60612", "(312) 850-7197", [ "http://malcolmx.ccc.edu/", "http://malcolmx.ccc.edu/" ], "Call for hours", "No", true, true, true, [ "{\"address\":\"1900 W. Van Buren\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60612\"}", "41.876258333871874", "-87.67395781728686", null, false ] ]
+, [ 5, "7929E54F-FA69-4CDC-BE4B-E401A7EAEC18", 5, 1302292813, "386464", 1302299146, "386464", null, "City Colleges of Chicago", "Olive-Harvey College", "10001 S. Woodlawn Ave.", "10001 S. Woodlawn Ave.", "Chicago", "IL", "60628", "(773) 291-6620", [ "http://oliveharvey.ccc.edu/", "http://oliveharvey.ccc.edu/" ], "Call for hours", "No", true, true, true, [ "{\"address\":\"10001 S. Woodlawn Ave.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60628\"}", "41.711961389369904", "-87.59267354013214", null, false ] ]
+, [ 6, "56E87786-7CEC-4FB9-AC96-76862C37ECD4", 6, 1302292813, "386464", 1302299142, "386464", null, "City Colleges of Chicago", "Richard J. Daley College", "7500 S. Pulaski Ave.", "7500 S. Pulaski Ave.", "Chicago", "IL", "60652", "(773) 838-7770 or (773) 838-7923", [ "http://daley.ccc.edu/", "http://daley.ccc.edu/" ], "Call for hours", "No", true, true, true, [ "{\"address\":\"7500 S. Pulaski Ave.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60652\"}", "41.75628961735153", "-87.72233277585292", null, false ] ]
+, [ 7, "96565307-BB66-4505-9927-34FB4741DD78", 7, 1302292813, "386464", 1302299148, "386464", null, "City Colleges of Chicago", "Wilbur Wright College", "4300 N. Narragansett", "4300 N. Narragansett", "Chicago", "IL", "60634", "(773) 481-8775", [ "http://wright.ccc.edu/", "http://wright.ccc.edu/" ], "Call for hours", "No", true, true, true, [ "{\"address\":\"4300 N. Narragansett\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60634\"}", "41.958228757316014", "-87.7867912079629", null, false ] ]
+, [ 8, "C94F34F4-44AF-4759-8DFF-7E9020D18EAB", 8, 1302292813, "386464", 1302299150, "386464", null, "Chicago Public Library", "Albany Park", "5150 N. Kimball Avenue", "5150 N. Kimball Avenue", "Chicago", "IL", "60625", "(312) 744-1933", [ "http://www.chipublib.org/branch/details/library/albany-park/", "http://www.chipublib.org/branch/details/library/albany-park/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"5150 N. Kimball Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60625\"}", "41.97478671549107", "-87.71359903393845", null, false ] ]
+, [ 9, "F3C7157D-7400-41D4-A735-6C3ACDD4550A", 9, 1302292813, "386464", 1302299152, "386464", null, "Chicago Public Library", "Archer Heights", "5055 S. Archer Avenue", "5055 S. Archer Avenue", "Chicago", "IL", "60632", "(312) 747-9241", [ "http://www.chipublib.org/branch/details/library/archer-heights/", "http://www.chipublib.org/branch/details/library/archer-heights/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"5055 S. Archer Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60632\"}", "41.8012136599335", "-87.72649071431441", null, false ] ]
+, [ 10, "D5380896-E9F8-4348-A3D8-8A7D14F7F7EC", 10, 1302292813, "386464", 1302299151, "386464", null, "Chicago Public Library", "Austin", "5615 W. Race Avenue", "5615 W. Race Avenue", "Chicago", "IL", "60644", "(312) 746-5038", [ "http://www.chipublib.org/branch/details/library/austin/", "http://www.chipublib.org/branch/details/library/austin/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"5615 W. Race Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60644\"}", "41.889272153514526", "-87.76571186722818", null, false ] ]
+, [ 11, "68D9650B-22D6-40B5-A0C1-556EBE3C144C", 11, 1302292813, "386464", 1302299144, "386464", null, "Chicago Public Library", "Austin-Irving", "6100 W. Irving Park Road", "6100 W. Irving Park Road", "Chicago", "IL", "60634", "(312) 744-6222", [ "http://www.chipublib.org/branch/details/library/austin-irving/", "http://www.chipublib.org/branch/details/library/austin-irving/" ], "M, W: 12PM-8PM; TU, TH-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"6100 W. Irving Park Road\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60634\"}", "41.953024462292944", "-87.77942131166287", null, false ] ]
+, [ 12, "95A95BF6-5262-4870-9BC5-2F15C559A9D1", 12, 1302292813, "386464", 1302299148, "386464", null, "Chicago Public Library", "Avalon", "8148 S. Stony Island Avenue ", "8148 S. Stony Island Avenue ", "Chicago", "IL", "60617", "(312) 747-5234", [ "http://www.chipublib.org/branch/details/library/avalon/", "http://www.chipublib.org/branch/details/library/avalon/" ], "M, W: 12PM-8PM; TU, TH-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"8148 S. Stony Island Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60617\"}", "41.74635126673951", "-87.5858692245169", null, false ] ]
+, [ 13, "2C7A9EDF-0B9B-4896-A34E-327C5D3AB675", 13, 1302292813, "386464", 1302299137, "386464", null, "Chicago Public Library", "Back of the Yards", "4650 S. Damen Avenue", "4650 S. Damen Avenue", "Chicago", "IL", "60609", "(312) 747-8367", [ "http://www.chipublib.org/branch/details/library/back-of-the-yards/", "http://www.chipublib.org/branch/details/library/back-of-the-yards/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"4650 S. Damen Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60609\"}", "41.80935185980043", "-87.67502399959994", null, false ] ]
+, [ 14, "CD170D07-E9EB-432D-9D61-8EFC92733113", 14, 1302292813, "386464", 1302299150, "386464", null, "Chicago Public Library", "Beverly", "2121 W. 95th Street", "2121 W. 95th Street", "Chicago", "IL", "60643", "(312) 747-9673", [ "http://www.chipublib.org/branch/details/library/beverly/", "http://www.chipublib.org/branch/details/library/beverly/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"2121 W. 95th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60643\"}", "41.72092968773025", "-87.67561212559056", null, false ] ]
+, [ 15, "E9A48BAE-3A7B-4BA6-B2E4-A6B563694EEC", 15, 1302292813, "386464", 1302299152, "386464", null, "Chicago Public Library", "Bezazian", "1226 W. Ainslie Street", "1226 W. Ainslie Street", "Chicago", "IL", "60640", "(312) 744-0019", [ "http://www.chipublib.org/branch/details/library/bezazian/", "http://www.chipublib.org/branch/details/library/bezazian/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"1226 W. Ainslie Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60640\"}", "41.971415597792145", "-87.66073778345611", null, false ] ]
+, [ 16, "93DEAD3F-5D02-4B5C-B666-CF285A47FC92", 16, 1302292813, "386464", 1302299148, "386464", null, "Chicago Public Library", "Blackstone", "4904 S. Lake Park Avenue", "4904 S. Lake Park Avenue", "Chicago", "IL", "60615", "(312) 747-0511", [ "http://www.chipublib.org/branch/details/library/blackstone/", "http://www.chipublib.org/branch/details/library/blackstone/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"4904 S. Lake Park Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60615\"}", "41.8058403098503", "-87.58934182212592", null, false ] ]
+, [ 17, "8CC8AF4F-9860-431E-BB82-97BE126BFD9C", 17, 1302292813, "386464", 1302299147, "386464", null, "Chicago Public Library", "Brainerd", "1350 W. 89th Street", "1350 W. 89th Street", "Chicago", "IL", "60620", "(312) 747-6291", [ "http://www.chipublib.org/branch/details/library/brainerd/", "http://www.chipublib.org/branch/details/library/brainerd/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"1350 W. 89th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60620\"}", "41.732316757097045", "-87.65723451581835", null, false ] ]
+, [ 18, "9B54241B-851F-468B-9F79-1179C6ACF10B", 18, 1302292813, "386464", 1302299148, "386464", null, "Chicago Public Library", "Brighton Park", "4314 S. Archer Avenue", "4314 S. Archer Avenue", "Chicago", "IL", "60632", "(312) 747-0666", [ "http://www.chipublib.org/branch/details/library/brighton-park/", "http://www.chipublib.org/branch/details/library/brighton-park/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"4314 S. Archer Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60632\"}", "41.815138789328266", "-87.70265431614907", null, false ] ]
+, [ 19, "B8D1BCAE-94B7-4B5A-9129-45DA78D4FA78", 19, 1302292813, "386464", 1302299150, "386464", null, "Chicago Public Library", "Bucktown-Wicker Park", "1701 N. Milwaukee Avenue", "1701 N. Milwaukee Avenue", "Chicago", "IL", "60647", "(312) 744-6022", [ "http://www.chipublib.org/branch/details/library/bucktown-wicker-park/", "http://www.chipublib.org/branch/details/library/bucktown-wicker-park/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"1701 N. Milwaukee Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60647\"}", "41.912590943855605", "-87.68087360369213", null, false ] ]
+, [ 20, "046153A2-1AAE-46D1-AC68-18510A93ECDF", 20, 1302292813, "386464", 1302299115, "386464", null, "Chicago Public Library", "Budlong Woods", "5630 N. Lincoln Avenue", "5630 N. Lincoln Avenue", "Chicago", "IL", "60659", "(312) 742-9590", [ "http://www.chipublib.org/branch/details/library/budlong-woods/", "http://www.chipublib.org/branch/details/library/budlong-woods/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"5630 N. Lincoln Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60659\"}", "41.98457226437275", "-87.69773449236712", null, false ] ]
+, [ 21, "F968D3EC-9549-46EA-A480-171B13DB80B7", 21, 1302292813, "386464", 1302299152, "386464", null, "Chicago Public Library", "Canaryville", "642 W. 43rd Street", "642 W. 43rd Street", "Chicago", "IL", "60609", "(312) 747-0644", [ "http://www.chipublib.org/branch/details/library/canaryville/", "http://www.chipublib.org/branch/details/library/canaryville/" ], "M, W: 12PM-8PM; TU, TH-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"642 W. 43rd Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60609\"}", "41.815374232488296", "-87.6425534920237", null, false ] ]
+, [ 22, "1088BEAB-7BB6-44B5-93BA-36841622EA1E", 22, 1302292813, "386464", 1302299123, "386464", null, "Chicago Public Library", "Chicago Bee", "3647 S. State Street", "3647 S. State Street", "Chicago", "IL", "60609", "(312) 747-6872", [ "http://www.chipublib.org/branch/details/library/chicago-bee/", "http://www.chipublib.org/branch/details/library/chicago-bee/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"3647 S. State Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60609\"}", "41.8284268698988", "-87.62640221644719", null, false ] ]
+, [ 23, "4ABE45AE-9BB7-4A6A-A837-B2FA2CD10D8C", 23, 1302292813, "386464", 1302299142, "386464", null, "Chicago Public Library", "Chicago Lawn", "6120 S. Kedzie Avenue ", "6120 S. Kedzie Avenue ", "Chicago", "IL", "60629", "(312) 747-0639", [ "http://www.chipublib.org/branch/details/library/chicago-lawn/", "http://www.chipublib.org/branch/details/library/chicago-lawn/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"6120 S. Kedzie Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60629\"}", "41.78180787787282", "-87.70326162211758", null, false ] ]
+, [ 24, "5A455AB7-0189-45F7-A586-B68398CA0452", 24, 1302292813, "386464", 1302299142, "386464", null, "Chicago Public Library", "Chinatown", "2353 S. Wentworth Avenue", "2353 S. Wentworth Avenue", "Chicago", "IL", "60616", "(312) 747-8013", [ "http://www.chipublib.org/branch/details/library/chinatown/", "http://www.chipublib.org/branch/details/library/chinatown/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"2353 S. Wentworth Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60616\"}", "41.849753498689424", "-87.63190001364559", null, false ] ]
+, [ 25, "1CDF2951-2AA1-4F11-AAAE-8295246866B7", 25, 1302292813, "386464", 1302299129, "386464", null, "Chicago Public Library", "Clearing", "6423 W. 63rd Place", "6423 W. 63rd Place", "Chicago", "IL", "60638", "(312) 747-5657", [ "http://www.chipublib.org/branch/details/library/clearing/", "http://www.chipublib.org/branch/details/library/clearing/" ], "M, W: 12PM-8PM; TU, TH-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"6423 W. 63rd Place\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60638\"}", "41.77678205621646", "-87.78181978755116", null, false ] ]
+, [ 26, "8F23374F-9F01-43C4-9000-84A1603BD177", 26, 1302292813, "386464", 1302299148, "386464", null, "Chicago Public Library", "Coleman", "731 E. 63rd Street", "731 E. 63rd Street", "Chicago", "IL", "60637", "(312) 747-7760", [ "http://www.chipublib.org/branch/details/library/bessie-coleman/", "http://www.chipublib.org/branch/details/library/bessie-coleman/" ], "M, W: 12PM-8PM; TU, TH-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"731 E. 63rd Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60637\"}", "41.78037301095412", "-87.60715724280014", null, false ] ]
+, [ 27, "8CF75DAB-34CC-4958-BEE4-56BB2786BA42", 27, 1302292813, "386464", 1302299147, "386464", null, "Chicago Public Library", "Daley, Richard J. - Bridgeport", "3400 S. Halsted Street", "3400 S. Halsted Street", "Chicago", "IL", "60608", "(312) 747-8990", [ "http://www.chipublib.org/branch/details/library/daley/", "http://www.chipublib.org/branch/details/library/daley/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"3400 S. Halsted Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60608\"}", "41.832605242569684", "-87.64614178692057", null, false ] ]
+, [ 28, "C28FCDA9-2DDC-4029-9248-B8F30E195716", 28, 1302292813, "386464", 1302299150, "386464", null, "Chicago Public Library", "Douglass", "3353 W. 13th Street", "3353 W. 13th Street", "Chicago", "IL", "60623", "(312) 747-3725", [ "http://www.chipublib.org/branch/details/library/douglass/", "http://www.chipublib.org/branch/details/library/douglass/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"3353 W. 13th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60623\"}", "41.864500759742604", "-87.70968548933996", null, false ] ]
+, [ 29, "BEB0AE1D-9394-4A78-9F8F-1DFB1DAE0BAA", 29, 1302292813, "386464", 1302299150, "386464", null, "Chicago Public Library", "Edgebrook", "5331 W. Devon Avenue", "5331 W. Devon Avenue", "Chicago", "IL", "60646", "(312) 744-8313", [ "http://www.chipublib.org/branch/details/library/edgebrook/", "http://www.chipublib.org/branch/details/library/edgebrook/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"5331 W. Devon Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60646\"}", "41.99724412647362", "-87.76222627446265", null, false ] ]
+, [ 30, "A5074BCC-C936-40B3-9AAE-F2ABEF1E3C3E", 30, 1302292813, "386464", 1302299149, "386464", null, "Chicago Public Library", "Edgewater", "1210 W. Elmdale Avenue", "1210 W. Elmdale Avenue", "Chicago", "IL", "60660", "(312) 744-0718", [ "http://www.chipublib.org/branch/details/library/edgewater/", "http://www.chipublib.org/branch/details/library/edgewater/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"1210 W. Elmdale Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60660\"}", "41.99087707637486", "-87.66075410604445", null, false ] ]
+, [ 31, "AE93E0AB-208D-40AB-AB3B-D6434515979F", 31, 1302292813, "386464", 1302299149, "386464", null, "Chicago Public Library", "Gage Park", "2807 W. 55th Street", "2807 W. 55th Street", "Chicago", "IL", "60632", "(312) 747-0032", [ "http://www.chipublib.org/branch/details/library/gage-park/", "http://www.chipublib.org/branch/details/library/gage-park/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"2807 W. 55th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60632\"}", "41.79369723271382", "-87.69404645462895", null, false ] ]
+, [ 32, "87F05173-4640-466D-A940-E92375E807F6", 32, 1302292813, "386464", 1302299147, "386464", null, "Chicago Public Library", "Galewood-Montclare ", "6871 W. Belden Avenue", "6871 W. Belden Avenue", "Chicago", "IL", "60707", "(312) 746-0165", [ "http://www.chipublib.org/branch/details/library/galewood-mont-clare/", "http://www.chipublib.org/branch/details/library/galewood-mont-clare/" ], "M-TH: 10AM-6PM; F: 9AM-5PM", "NA", true, true, false, [ "{\"address\":\"6871 W. Belden Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60707\"}", "41.921114724943386", "-87.79724102070298", null, false ] ]
+, [ 33, "78082C95-C2EE-4ED5-A8CE-04DD1A2AAF27", 33, 1302292813, "386464", 1302299146, "386464", null, "Chicago Public Library", "Garfield Ridge", "6348 S. Archer Avenue", "6348 S. Archer Avenue", "Chicago", "IL", "60638", "(312) 747-6094", [ "http://www.chipublib.org/branch/details/library/garfield-ridge/", "http://www.chipublib.org/branch/details/library/garfield-ridge/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"6348 S. Archer Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60638\"}", "41.792855208874585", "-87.78009580318485", null, false ] ]
+, [ 34, "CEDD3F37-5666-4A62-8BA8-FA8368F09E3F", 34, 1302292813, "386464", 1302299151, "386464", null, "Chicago Public Library", "Hall", "4801 S. Michigan Avenue", "4801 S. Michigan Avenue", "Chicago", "IL", "60615", "(312) 747-2541", [ "http://www.chipublib.org/branch/details/library/hall/", "http://www.chipublib.org/branch/details/library/hall/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"4801 S. Michigan Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60615\"}", "41.80743298280974", "-87.62273981936815", null, false ] ]
+, [ 35, "D8EF473D-B93F-4034-9D3C-AFCC3F6ED28D", 35, 1302292813, "386464", 1302299151, "386464", null, "Chicago Public Library", "Harold Washington-HWLC", "400 S. State Street", "400 S. State Street", "Chicago", "IL", "60605", "(312) 747-4300", [ "http://www.chipublib.org/branch/details/library/harold-washington/", "http://www.chipublib.org/branch/details/library/harold-washington/" ], "M-TH: 9AM-9PM; F-SA: 9AM-5PM; SU: 1PM-5PM", "NA", true, true, true, [ "{\"address\":\"400 S. State Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60605\"}", "41.87686087963152", "-87.62770568531994", null, false ] ]
+, [ 36, "4F6F5894-7FD2-4795-825A-6D5859A2F408", 36, 1302292813, "386464", 1302299142, "386464", null, "Chicago Public Library", "Hegewisch", "3048 E. 130th Street", "3048 E. 130th Street", "Chicago", "IL", "60633", "(312) 747-0046", [ "http://www.chipublib.org/branch/details/library/hegewisch/", "http://www.chipublib.org/branch/details/library/hegewisch/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"3048 E. 130th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60633\"}", "41.65917887033542", "-87.54824132727411", null, false ] ]
+, [ 37, "FD79B7DE-9D9A-4BD2-B1C9-DD3BD02C0C88", 37, 1302292813, "386464", 1302299153, "386464", null, "Chicago Public Library", "Humboldt Park ", "1605 N. Troy Street", "1605 N. Troy Street", "Chicago", "IL", "60647", "(312) 744-2244", [ "http://www.chipublib.org/branch/details/library/humboldt/", "http://www.chipublib.org/branch/details/library/humboldt/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"1605 N. Troy Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60647\"}", "41.9103187230366", "-87.70560888123632", null, false ] ]
+, [ 38, "CEC0A91B-1613-4454-998C-E8DBE2E048E4", 38, 1302292813, "386464", 1302299151, "386464", null, "Chicago Public Library", "Independence", "3548 W. Irving Park Road", "3548 W. Irving Park Road", "Chicago", "IL", "60618", "(312) 744-0900", [ "http://www.chipublib.org/branch/details/library/independence/", "http://www.chipublib.org/branch/details/library/independence/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"3548 W. Irving Park Road\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60618\"}", "41.953903720729926", "-87.71694255042644", null, false ] ]
+, [ 39, "1A4A6D89-3C00-4112-B104-99A97A8CBEBD", 39, 1302292813, "386464", 1302299129, "386464", null, "Chicago Public Library", "Jefferson Park", "5363 W. Lawrence Avenue", "5363 W. Lawrence Avenue", "Chicago", "IL", "60630", "(312) 744-1998", [ "http://www.chipublib.org/branch/details/library/jefferson-park/", "http://www.chipublib.org/branch/details/library/jefferson-park/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"5363 W. Lawrence Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60630\"}", "41.96759739182978", "-87.76155426232721", null, false ] ]
+, [ 40, "B09B0839-DA69-47BC-9440-CD680CF4804F", 40, 1302292813, "386464", 1302299149, "386464", null, "Chicago Public Library", "Jeffery Manor", "2401 E. 100th Street", "2401 E. 100th Street", "Chicago", "IL", "60617", "(312) 747-6479", [ "http://www.chipublib.org/branch/details/library/jeffery-manor/", "http://www.chipublib.org/branch/details/library/jeffery-manor/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"2401 E. 100th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60617\"}", "41.71351701944974", "-87.56549058733299", null, false ] ]
+, [ 41, "C5F1A069-EB97-42AF-82BD-A4926BF15B56", 41, 1302292813, "386464", 1302299150, "386464", null, "Chicago Public Library", "Kelly", "6151 S. Normal Boulevard", "6151 S. Normal Boulevard", "Chicago", "IL", "60621", "(312) 747-8418", [ "http://www.chipublib.org/branch/details/library/kelly/", "http://www.chipublib.org/branch/details/library/kelly/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"6151 S. Normal Boulevard\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60621\"}", "41.78217163315653", "-87.63740786532117", null, false ] ]
+, [ 42, "E6DCC675-6264-4330-982C-919944107648", 42, 1302292813, "386464", 1302299152, "386464", null, "Chicago Public Library", "King", "3436 S. King Drive", "3436 S. Dr Martin Luther King Drive", "Chicago", "IL", "60616", "(312) 747-7543", [ "http://www.chipublib.org/branch/details/library/king/", "http://www.chipublib.org/branch/details/library/king/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"3436 S. Dr Martin Luther King Drive\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60616\"}", "41.8445422070572", "-87.62802274745184", null, false ] ]
+, [ 43, "EA5C8C2E-9574-4EF5-9FCA-1424DF90D16D", 43, 1302292813, "386464", 1302299152, "386464", null, "Chicago Public Library", "Legler", "115 S. Pulaski Road", "115 S. Pulaski Road", "Chicago", "IL", "60624", "(312) 746-7730", [ "http://www.chipublib.org/branch/details/library/legler/", "http://www.chipublib.org/branch/details/library/legler/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"115 S. Pulaski Road\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60624\"}", "41.87933865849079", "-87.72556034620074", null, false ] ]
+, [ 44, "8A3925F3-036A-43C5-8F4A-772C94B5D781", 44, 1302292813, "386464", 1302299147, "386464", null, "Chicago Public Library", "Lincoln Belmont", "1659 W. Melrose Street", "1659 W. Melrose Street", "Chicago", "IL", "60657", "(312) 744-0166", [ "http://www.chipublib.org/branch/details/library/lincoln-belmont/", "http://www.chipublib.org/branch/details/library/lincoln-belmont/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"1659 W. Melrose Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60657\"}", "41.940613818288625", "-87.67075623086254", null, false ] ]
+, [ 45, "3F6A8E00-F527-4C79-A4CF-0A543431FC8D", 45, 1302292813, "386464", 1302299140, "386464", null, "Chicago Public Library", "Lincoln Park", "1150 W. Fullerton Avenue", "1150 W. Fullerton Avenue", "Chicago", "IL", "60614", "(312) 744-1926", [ "http://www.chipublib.org/branch/details/library/lincoln-park/", "http://www.chipublib.org/branch/details/library/lincoln-park/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"1150 W. Fullerton Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60614\"}", "41.9253163505702", "-87.65811176313059", null, false ] ]
+, [ 46, "4FF41FB3-BE1B-4749-8C02-E61F0B33C2DC", 46, 1302292813, "386464", 1302299142, "386464", null, "Chicago Public Library", "Logan Square", "3030 W. Fullerton Avenue", "3030 W. Fullerton Avenue", "Chicago", "IL", "60647", "(312) 744-5295", [ "http://www.chipublib.org/branch/details/library/logan-square/", "http://www.chipublib.org/branch/details/library/logan-square/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"3030 W. Fullerton Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60647\"}", "41.92480373701352", "-87.70340162052611", null, false ] ]
+, [ 47, "55E19A1D-0D57-4196-9FF4-54787600C720", 47, 1302292813, "386464", 1302299142, "386464", null, "Chicago Public Library", "Lozano", "1805 S. Loomis Street", "1805 S. Loomis Street", "Chicago", "IL", "60608", "(312) 746-4329", [ "http://www.chipublib.org/branch/details/library/lozano/", "http://www.chipublib.org/branch/details/library/lozano/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"1805 S. Loomis Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60608\"}", "41.857525456001554", "-87.66129536311428", null, false ] ]
+, [ 48, "9D75204A-E012-4343-9F34-1FF51ACD7D96", 48, 1302292813, "386464", 1302299148, "386464", null, "Chicago Public Library", "Manning", "6 S. Hoyne Avenue", "6 S. Hoyne Avenue", "Chicago", "IL", "60612", "(312) 746-6800", [ "http://www.chipublib.org/branch/details/library/mabel-manning/", "http://www.chipublib.org/branch/details/library/mabel-manning/" ], "M, W: 12PM-8PM; TU, TH-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"6 S. Hoyne Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60612\"}", "41.88118570415187", "-87.67914211111776", null, false ] ]
+, [ 49, "89FA3272-D4EF-4E40-AFFA-6819171DA5D5", 49, 1302292813, "386464", 1302299147, "386464", null, "Chicago Public Library", "Mayfair", "4400 W. Lawrence Avenue", "4400 W. Lawrence Avenue", "Chicago", "IL", "60630", "(312) 744-1254", [ "http://www.chipublib.org/branch/details/library/mayfair/", "http://www.chipublib.org/branch/details/library/mayfair/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"4400 W. Lawrence Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60630\"}", "41.968151058825754", "-87.73827732882239", null, false ] ]
+, [ 50, "39937509-FDD1-4536-84ED-42D3A58E2007", 50, 1302292813, "386464", 1302299137, "386464", null, "Chicago Public Library", "McKinley Park", "1915 W. 35th Street", "1915 W. 35th Street", "Chicago", "IL", "60609", "(312) 747-6082", [ "http://www.chipublib.org/branch/details/library/mckinley-park/", "http://www.chipublib.org/branch/details/library/mckinley-park/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"1915 W. 35th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60609\"}", "41.830447500170855", "-87.67339165430255", null, false ] ]
+, [ 51, "FB68CF12-6E66-4F9C-ADF1-A884306808DD", 51, 1302292813, "386464", 1302299153, "386464", null, "Chicago Public Library", "Merlo", "644 W. Belmont Avenue", "644 W. Belmont Avenue", "Chicago", "IL", "60657", "(312) 744-1139", [ "http://www.chipublib.org/branch/details/library/j-merlo-branch/", "http://www.chipublib.org/branch/details/library/j-merlo-branch/" ], "M, W: 12PM-8PM; TU, TH-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"644 W. Belmont Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60657\"}", "41.940084208613214", "-87.64614322696454", null, false ] ]
+, [ 52, "1198A2B6-771C-42D7-BD7C-19D8F67CA7B8", 52, 1302292813, "386464", 1302299123, "386464", null, "Chicago Public Library", "Mount Greenwood", "11010 S. Kedzie Avenue", "11010 S. Kedzie Avenue", "Chicago", "IL", "60655", "(312) 747-2805", [ "http://www.chipublib.org/branch/details/library/mt-greenwood/", "http://www.chipublib.org/branch/details/library/mt-greenwood/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"11010 S. Kedzie Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60655\"}", "41.69294053141937", "-87.70087452562382", null, false ] ]
+, [ 53, "2CC33D68-8695-4BB6-B75C-535F76B164F7", 53, 1302292813, "386464", 1302299137, "386464", null, "Chicago Public Library", "Near North", "310 W. Division Street", "310 W. Division Street", "Chicago", "IL", "60610", "(312) 744-0991", [ "http://www.chipublib.org/branch/details/library/near-north/", "http://www.chipublib.org/branch/details/library/near-north/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"310 W. Division Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60610\"}", "41.90386938756309", "-87.63648979790898", null, false ] ]
+, [ 54, "533456F3-4C8F-4D8A-8D29-B60DCB1433DD", 54, 1302292813, "386464", 1302299142, "386464", null, "Chicago Public Library", "North Austin", "5724 W. North Avenue", "5724 W. North Avenue", "Chicago", "IL", "60639", "(312) 746-4233", [ "http://www.chipublib.org/branch/details/library/north-austin/", "http://www.chipublib.org/branch/details/library/north-austin/" ], "M, W: 12PM-8PM; TU, TH-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"5724 W. North Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60639\"}", "41.90942919798428", "-87.76879898888265", null, false ] ]
+, [ 55, "F87DC564-1E9D-4B3F-B0F5-A42368072472", 55, 1302292813, "386464", 1302299152, "386464", null, "Chicago Public Library", "North Pulaski", "4300 W. North Avenue", "4302 W. North Avenue", "Chicago", "IL", "60639", "(312) 744-9573", [ "http://www.chipublib.org/branch/details/library/north-pulaski/", "http://www.chipublib.org/branch/details/library/north-pulaski/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"4302 W. North Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60639\"}", "41.90988358089676", "-87.73396360100361", null, false ] ]
+, [ 56, "4F8FDA04-2166-4B25-89C9-FB366EFF6CD7", 56, 1302292813, "386464", 1302299142, "386464", null, "Chicago Public Library", "Northtown", "6435 N. California Avenue", "6435 N. California Avenue", "Chicago", "IL", "60645", "(312) 744-2292", [ "http://www.chipublib.org/branch/details/library/northtown/", "http://www.chipublib.org/branch/details/library/northtown/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"6435 N. California Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60645\"}", "41.99833902904292", "-87.6996500514452", null, false ] ]
+, [ 57, "66BB44F8-4A1C-46CF-892A-CC4127C9357D", 57, 1302292813, "386464", 1302299143, "386464", null, "Chicago Public Library", "Oriole Park", "7454 W. Balmoral Avenue", "7454 W. Balmoral Avenue", "Chicago", "IL", "60656", "(312) 744-1965", [ "http://www.chipublib.org/branch/details/library/oriole-park/", "http://www.chipublib.org/branch/details/library/oriole-park/" ], "M, W: 12PM-8PM; TU, TH-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"7454 W. Balmoral Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60656\"}", "41.977961140156296", "-87.8132091093451", null, false ] ]
+, [ 58, "FFD6D40B-8992-418C-97AD-E8B7E738E31E", 58, 1302292813, "386464", 1302299153, "386464", null, "Chicago Public Library", "Portage-Cragin", "5108 W. Belmont Avenue", "5108 W. Belmont Avenue", "Chicago", "IL", "60641", "(312) 744-0152", [ "http://www.chipublib.org/branch/details/library/portage-cragin/", "http://www.chipublib.org/branch/details/library/portage-cragin/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"5108 W. Belmont Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60641\"}", "41.93877675039972", "-87.75449293765163", null, false ] ]
+, [ 59, "BD2479F4-0E32-421B-8C1A-A68B8C2C4AE6", 59, 1302292813, "386464", 1302299150, "386464", null, "Chicago Public Library", "Pullman", "11001 S. Indiana Avenue", "11001 S. Indiana Avenue", "Chicago", "IL", "60628", "(312) 747-2033", [ "http://www.chipublib.org/branch/details/library/pullman/", "http://www.chipublib.org/branch/details/library/pullman/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"11001 S. Indiana Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60628\"}", "41.69440640901795", "-87.61826066226358", null, false ] ]
+, [ 60, "7B4D8276-8F66-4C57-9E69-173CE4A86616", 60, 1302292813, "386464", 1302299146, "386464", null, "Chicago Public Library", "Roden", "6083 N. Northwest Highway", "6083 N. Northwest Highway", "Chicago", "IL", "60631", "(312) 744-1478", [ "http://www.chipublib.org/branch/details/library/roden/", "http://www.chipublib.org/branch/details/library/roden/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"6083 N. Northwest Highway\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60631\"}", "41.99191752494232", "-87.79830189864583", null, false ] ]
+, [ 61, "9F2CB52C-DC12-4B92-84CF-98E2DDE63432", 61, 1302292813, "386464", 1302299148, "386464", null, "Chicago Public Library", "Rogers Park", "6907 N. Clark Street", "6907 N. Clark Street", "Chicago", "IL", "60626", "(312) 744-0156", [ "http://www.chipublib.org/branch/details/library/rogers-park/", "http://www.chipublib.org/branch/details/library/rogers-park/" ], "M, W: 12PM-8PM; TU, TH-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"6907 N. Clark Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60626\"}", "42.00670763656976", "-87.67340767268539", null, false ] ]
+, [ 62, "E388220C-BE9C-44FE-9F76-DC6EF48C2DDF", 62, 1302292813, "386464", 1302299151, "386464", null, "Chicago Public Library", "Roosevelt", "1101 W. Taylor Street", "1101 W. Taylor Street", "Chicago", "IL", "60607", "(312) 746-5656", [ "http://www.chipublib.org/branch/details/library/roosevelt/", "http://www.chipublib.org/branch/details/library/roosevelt/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"1101 W. Taylor Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60607\"}", "41.869450466110095", "-87.65434360382778", null, false ] ]
+, [ 63, "47CE9641-BBE6-40BF-ADE4-12085A0B57BB", 63, 1302292813, "386464", 1302299141, "386464", null, "Chicago Public Library", "Scottsdale", "4101 W. 79th Street", "4101 W. 79th Street", "Chicago", "IL", "60652", "(312) 747-0193", [ "http://www.chipublib.org/branch/details/library/scottsdale/", "http://www.chipublib.org/branch/details/library/scottsdale/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"4101 W. 79th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60652\"}", "41.749361683410754", "-87.72439557570442", null, false ] ]
+, [ 64, "C96DE5EC-9DCE-416C-8D26-18C7B356D688", 64, 1302292813, "386464", 1302299150, "386464", null, "Chicago Public Library", "Sherman Park", "5440 S. Racine Avenue", "5440 S. Racine Avenue", "Chicago", "IL", "60609", "(312) 747-0477", [ "http://www.chipublib.org/branch/details/library/sherman-park/", "http://www.chipublib.org/branch/details/library/sherman-park/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"5440 S. Racine Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60609\"}", "41.795279421214886", "-87.65492071930115", null, false ] ]
+, [ 65, "FF6EE8C2-DF26-41FD-BD8F-86E6C2CCDEE4", 65, 1302292813, "386464", 1302299153, "386464", null, "Chicago Public Library", "South Chicago", "9055 S. Houston Avenue", "9055 S. Houston Avenue", "Chicago", "IL", "60617", "(312) 747-8065", [ "http://www.chipublib.org/branch/details/library/south-chicago/", "http://www.chipublib.org/branch/details/library/south-chicago/" ], "M, W: 12PM-8PM; TU, TH-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"9055 S. Houston Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60617\"}", "41.73057483460938", "-87.54980694003919", null, false ] ]
+, [ 66, "9E2F799E-E3E0-483F-9ABF-BA9B28CAA614", 66, 1302292813, "386464", 1302299148, "386464", null, "Chicago Public Library", "South Shore", "2505 E. 73rd Street", "2505 E. 73rd Street", "Chicago", "IL", "60649", "(312) 747-5281", [ "http://www.chipublib.org/branch/details/library/south-shore/", "http://www.chipublib.org/branch/details/library/south-shore/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"2505 E. 73rd Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60649\"}", "41.76175665310143", "-87.56229799412893", null, false ] ]
+, [ 67, "CE19B2B6-CEBD-4548-A278-10D78C6CD983", 67, 1302292813, "386464", 1302299150, "386464", null, "Chicago Public Library", "Sulzer Regional", "4455 N. Lincoln Avenue", "4455 N. Lincoln Avenue", "Chicago", "IL", "60625", "(312) 744-7616", [ "http://www.chipublib.org/branch/details/library/sulzer-regional/", "http://www.chipublib.org/branch/details/library/sulzer-regional/" ], "M-TH: 9AM-9PM; F-SA: 9AM-5PM: SU: 1PM-5PM", "NA", true, true, true, [ "{\"address\":\"4455 N. Lincoln Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60625\"}", "41.96240358108169", "-87.68441684946531", null, false ] ]
+, [ 68, "05D90FB7-F99D-48BF-87E8-1618010CCFDD", 68, 1302292813, "386464", 1302299115, "386464", null, "Chicago Public Library", "Thurgood Marshall", "7506 S. Racine Avenue", "7506 S. Racine Avenue", "Chicago", "IL", "60620", "(312) 747-5927", [ "http://www.chipublib.org/branch/details/library/thurgood-marshall/", "http://www.chipublib.org/branch/details/library/thurgood-marshall/" ], "M, W: 12PM-8PM; TU, TH-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"7506 S. Racine Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60620\"}", "41.757801751628755", "-87.65398155309862", null, false ] ]
+, [ 69, "F9CA1AF6-B24C-46AE-9681-5DF82A1764B9", 69, 1302292813, "386464", 1302299152, "386464", null, "Chicago Public Library", "Toman", "2708 S. Pulaski Road", "2708 S. Pulaski Road", "Chicago", "IL", "60623", "(312) 745-1660", [ "http://www.chipublib.org/branch/details/library/toman/", "http://www.chipublib.org/branch/details/library/toman/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"2708 S. Pulaski Road\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60623\"}", "41.84207510353821", "-87.72447273567263", null, false ] ]
+, [ 70, "44E2B3F5-94B3-41CF-BAD5-A69AB51521E3", 70, 1302292813, "386464", 1302299141, "386464", null, "Chicago Public Library", "Uptown", "929 W. Buena Avenue", "929 W. Buena Avenue", "Chicago", "IL", "60613", "(312) 744-8400", [ "http://www.chipublib.org/branch/details/library/uptown/", "http://www.chipublib.org/branch/details/library/uptown/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"929 W. Buena Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60613\"}", "41.958445207514295", "-87.65351012268938", null, false ] ]
+, [ 71, "73729BEC-4B35-43DD-B5E2-68EB41BC6BCB", 71, 1302292813, "386464", 1302299146, "386464", null, "Chicago Public Library", "Vodak-East Side", "3710 E. 106th Street", "3710 E. 106th Street", "Chicago", "IL", "60617", "(312) 747-5500", [ "http://www.chipublib.org/branch/details/library/vodak-east-side/", "http://www.chipublib.org/branch/details/library/vodak-east-side/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"3710 E. 106th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60617\"}", "41.702716161877845", "-87.53351069597107", null, false ] ]
+, [ 72, "FA232E99-0844-4B23-A897-6BE0BE022F1E", 72, 1302292813, "386464", 1302299152, "386464", null, "Chicago Public Library", "Walker", "11071 S. Hoyne Avenue", "11071 S. Hoyne Avenue", "Chicago", "IL", "60643", "(312) 747-1920", [ "http://www.chipublib.org/branch/details/library/walker/", "http://www.chipublib.org/branch/details/library/walker/" ], "M, W:10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"11071 S. Hoyne Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60643\"}", "41.69244169242589", "-87.67413286555718", null, false ] ]
+, [ 73, "56F1C97A-9CC3-4DC1-82F1-3B539F9881C1", 73, 1302292813, "386464", 1302299142, "386464", null, "Chicago Public Library", "Water Works", "163 E. Pearson Street", "163 E. Pearson Street", "Chicago", "IL", "60611", "(312) 742-8811", [ "http://www.chipublib.org/branch/details/library/water-works/", "http://www.chipublib.org/branch/details/library/water-works/" ], "M-TH: 9AM-7PM; F-SA: 9AM-5PM; SU: 1PM-5PM", "NA", true, true, false, [ "{\"address\":\"163 E. Pearson Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60611\"}", "41.89758435399726", "-87.62314877110073", null, false ] ]
+, [ 74, "E3F2C400-BBBC-49CB-972F-C4B5D3ABAF04", 74, 1302292813, "386464", 1302299151, "386464", null, "Chicago Public Library", "West Belmont", "3104 N. Narragansett Avenue", "3104 N. Narragansett Avenue", "Chicago", "IL", "60634", "(312) 746-5142", [ "http://www.chipublib.org/branch/details/library/west-belmont/", "http://www.chipublib.org/branch/details/library/west-belmont/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"3104 N. Narragansett Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60634\"}", "41.93666211869315", "-87.78589145006396", null, false ] ]
+, [ 75, "052CC306-3753-42D5-9B79-A1AD379C72E5", 75, 1302292813, "386464", 1302299115, "386464", null, "Chicago Public Library", "West Chicago Avenue", "4856 W. Chicago Avenue", "4856 W. Chicago Avenue", "Chicago", "IL", "60651", "(312) 743-0260", [ "http://www.chipublib.org/branch/details/library/west-chicago-avenue/", "http://www.chipublib.org/branch/details/library/west-chicago-avenue/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"4856 W. Chicago Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60651\"}", "41.895046508790834", "-87.74732954000841", null, false ] ]
+, [ 76, "810ECD7C-A449-4B03-8B66-F09F2E7C43EF", 76, 1302292813, "386464", 1302299146, "386464", null, "Chicago Public Library", "West Englewood", "1745 W. 63rd Street", "1745 W. 63rd Street", "Chicago", "IL", "60636", "(312) 747-3481", [ "http://www.chipublib.org/branch/details/library/west-englewood/", "http://www.chipublib.org/branch/details/library/west-englewood/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, true, [ "{\"address\":\"1745 W. 63rd Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60636\"}", "41.779334358813195", "-87.66812159090755", null, false ] ]
+, [ 77, "0A847D1E-EABD-4B50-B660-C65B472DD70F", 77, 1302292813, "386464", 1302299115, "386464", null, "Chicago Public Library", "West Lawn", "4020 W. 63rd Street", "4020 W. 63rd Street", "Chicago", "IL", "60629", "(312) 747-7381", [ "http://www.chipublib.org/branch/details/library/west-lawn/", "http://www.chipublib.org/branch/details/library/west-lawn/" ], "M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"4020 W. 63rd Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60629\"}", "41.778662219559784", "-87.7235385705056", null, false ] ]
+, [ 78, "6FAD38DD-DA40-4875-A9F4-65BA36EFA777", 78, 1302292813, "386464", 1302299144, "386464", null, "Chicago Public Library", "West Pullman", "830 W. 119th Street", "830 W. 119th Street", "Chicago", "IL", "60643", "(312) 747-1425", [ "http://www.chipublib.org/branch/details/library/west-pullman/", "http://www.chipublib.org/branch/details/library/west-pullman/" ], "M, W: 12PM-8PM; TU, TH-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"830 W. 119th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60643\"}", "41.67785087178982", "-87.64299968326193", null, false ] ]
+, [ 79, "2D8134F8-A957-43D7-B439-57AD128A2787", 79, 1302292813, "386464", 1302299137, "386464", null, "Chicago Public Library", "West Town", "1625 W. Chicago Ave", "1625 W. Chicago Ave", "Chicago", "IL", "60622", "(312) 743-0450", [ "http://www.chipublib.org/branch/details/library/west-town/", "http://www.chipublib.org/branch/details/library/west-town/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "No", true, true, true, [ "{\"address\":\"1625 W. Chicago Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60622\"}", "41.89609737783826", "-87.66820215629934", null, false ] ]
+, [ 80, "69DCB922-5D3A-4366-8FC5-7948600111CE", 80, 1302292813, "386464", 1302299144, "386464", null, "Chicago Public Library", "Whitney M. Young, Jr.", "7901 S. King Drive", "7901 S. Dr Martin Luther King Drive", "Chicago", "IL", "60619", "(312) 747-0039", [ "http://www.chipublib.org/branch/details/library/whitney-young/", "http://www.chipublib.org/branch/details/library/whitney-young/" ], "M, W: 10AM-6PM; TU, TH: 12AM-8PM; F-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"7901 S. Dr Martin Luther King Drive\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60619\"}", "41.74392966552165", "-87.60526142897174", null, false ] ]
+, [ 81, "924B10F3-D411-447B-832F-BFA7ED6130D4", 81, 1302292813, "386464", 1302299148, "386464", null, "Chicago Public Library", "Woodson Regional", "9525 S. Halsted Street", "9525 S. Halsted Street", "Chicago", "IL", "60628", "(312) 747-6900", [ "http://www.chipublib.org/branch/details/library/woodson-regional/", "http://www.chipublib.org/branch/details/library/woodson-regional/" ], "M-TH: 9AM-9PM; F-SA: 9AM-5PM: SU: 1PM-5PM", "NA", true, true, true, [ "{\"address\":\"9525 S. Halsted Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60628\"}", "41.72093481286736", "-87.64309395216542", null, false ] ]
+, [ 82, "C18D6CC1-6263-4FE6-8799-A680E985FB7A", 82, 1302292813, "386464", 1302299150, "386464", null, "Chicago Public Library", "Wrightwood-Ashburn", "8530 S. Kedzie Avenue", "8530 S. Kedzie Avenue", "Chicago", "IL", "60652", "(312) 747-2696", [ "http://www.chipublib.org/branch/details/library/wrightwood/", "http://www.chipublib.org/branch/details/library/wrightwood/" ], "M, W: 12PM-8PM; TU, TH-SA: 9AM-5PM; SU: Closed", "NA", true, true, false, [ "{\"address\":\"8530 S. Kedzie Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60652\"}", "41.73832399791064", "-87.70213010561923", null, false ] ]
+, [ 83, "6126DBE1-3C33-4B23-B45D-5F2EB496A7BD", 83, 1302292813, "386464", 1302299143, "386464", null, "Chicago Public Schools", "Agassiz Elementary", "2851 N Seminary Ave", "2851 N Seminary Ave", "Chicago", "IL", "60657", "(773) 534-5725", [ "http://www.agassizschool.org/", "http://www.agassizschool.org/" ], "Call for hours", "No", true, true, false, [ "{\"address\":\"2851 N Seminary Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60657\"}", "41.933748955341294", "-87.65626459570065", null, false ] ]
+, [ 84, "AEB3D4AF-27FA-49C0-B7C4-09FB652D0528", 84, 1302292813, "386464", 1302299149, "386464", null, "Chicago Public Schools", "Alexander Graham Bell Elementary School", "3730 N Oakley Ave", "3730 N Oakley Ave", "Chicago", "IL", "60618", "(773) 534-5150", [ "http://www.agbellschool.com/", "http://www.agbellschool.com" ], "Call for hours", "No", true, true, true, [ "{\"address\":\"3730 N Oakley Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60618\"}", "41.94917633529138", "-87.6859037022046", null, false ] ]
+, [ 85, "67635BE0-23AE-4F96-86FB-A60D16C59B2F", 85, 1302292813, "386464", 1302299143, "386464", null, "Chicago Public Schools", "Black Magnet School", "9101 S Euclid Ave", "9101 S Euclid Ave", "Chicago", "IL", "60617", "(773) 535-6390", [ "http://www.cps.edu/Schools/Pages/school.aspx?unit=7860", "http://www.cps.edu/Schools/Pages/school.aspx?unit=7860" ], "Call for hours", "No", true, false, true, [ "{\"address\":\"9101 S Euclid Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60617\"}", "41.72970826895113", "-87.57673028744705", null, false ] ]
+, [ 86, "81F2FBC9-D33D-4173-A164-3DBF49BB2A10", 86, 1302292813, "386464", 1302299146, "386464", null, "Chicago Public Schools", "Cristo Rey Jesuit High School", "1852 W 22nd Pl", "1852 W 22nd Pl", "Chicago", "IL", "60608", "(773) 890-6800", [ "http://www.cristorey.net/", "http://www.cristorey.net/" ], "Call for hours", "No", true, true, false, [ "{\"address\":\"1852 W 22nd Pl\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60608\"}", "41.8514730187444", "-87.67256386814142", null, false ] ]
+, [ 87, "2097261A-63DC-4201-B5DA-DE3DC704807E", 87, 1302292813, "386464", 1302299129, "386464", null, "Chicago Public Schools", "Henson Elementary School", "1326 S Avers Ave", "1326 S Avers Ave", "Chicago", "IL", "60623", "(773) 534-1804", [ "http://www.cps.edu/Schools/Pages/school.aspx?unit=6570", "http://www.cps.edu/Schools/Pages/school.aspx?unit=6570" ], "Call for hours", "Yes ", true, true, false, [ "{\"address\":\"1326 S Avers Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60623\"}", "41.8638841219421", "-87.72148813094125", null, false ] ]
+, [ 88, "DAC5A9CD-3257-433C-ACD5-141AC9306BC0", 88, 1302292813, "386464", 1302299151, "386464", null, "Chicago Public Schools", "Hubbard High School", "6200 S Hamlin Ave", "6200 S Hamlin Ave", "Chicago", "IL", "60629", "(773) 535-2200", [ "http://www.hubbard.cps.k12.il.us/", "http://www.hubbard.cps.k12.il.us/" ], "Call for hours", "Yes ", true, true, false, [ "{\"address\":\"6200 S Hamlin Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60629\"}", "41.78045248610408", "-87.71786402018176", null, false ] ]
+, [ 89, "18B73B39-55DA-4749-A1A3-3A5BE68A21A3", 89, 1302292813, "386464", 1302299129, "386464", null, "Chicago Public Schools", "John Barry Elementary School", "2828 N Kilbourn Ave", "2828 N Kilbourn Ave", "Chicago", "IL", "60641", "(773) 534-3455", [ "http://www.barry.cps.k12.il.us/", "http://www.barry.cps.k12.il.us/" ], "Call for hours", "Yes ", true, true, false, [ "{\"address\":\"2828 N Kilbourn Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60641\"}", "41.932198056770474", "-87.73929160265872", null, false ] ]
+, [ 90, "D122A22C-98A2-4FDA-BD9C-B660A02A56D7", 90, 1302292813, "386464", 1302299151, "386464", null, "Chicago Public Schools", "John C. Coonley Elementary School", "4046 N Leavitt St", "4046 N Leavitt St", "Chicago", "IL", "60618", "(773) 534-5140‎", [ "http://coonley.org/", "http://coonley.org/" ], "Call for hours", "Yes ", true, false, false, [ "{\"address\":\"4046 N Leavitt St\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60618\"}", "41.95534207700479", "-87.68368642827733", null, false ] ]
+, [ 91, "499AAA05-5450-4100-A956-9DA7923C65EE", 91, 1302292813, "386464", 1302299141, "386464", null, "Chicago Public Schools", "John Hope College Prep High School", "5515 S Lowe Ave", "5515 S Lowe Ave", "Chicago", "IL", "60621", "(773) 535-3160", [ "http://www.johnhopecollegeprep.org/", "http://www.johnhopecollegeprep.org/" ], "Call for hours", "Yes ", true, false, false, [ "{\"address\":\"5515 S Lowe Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60621\"}", "41.793573422665105", "-87.64143639384837", null, false ] ]
+, [ 92, "50F81D22-8375-40F6-819A-3BD90CE64B06", 92, 1302292813, "386464", 1302299142, "386464", null, "Chicago Public Schools", "Kelvyn Park High School", "4343 W Wrightwood Ave", "4343 W Wrightwood Ave", "Chicago", "IL", "60639", "(773) 534-4200", [ "http://www.kelvynparkhs.org/", "http://www.kelvynparkhs.org/" ], "Call for hours", "Yes ", true, false, true, [ "{\"address\":\"4343 W Wrightwood Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60639\"}", "41.927999616383985", "-87.73561409512168", null, false ] ]
+, [ 93, "0A00783C-98AC-4CFE-8D9B-22374FC69A4B", 93, 1302292813, "386464", 1302299115, "386464", null, "Chicago Public Schools", "Monroe Elementary School", "3651 W Schubert Ave", "3651 W Schubert Ave", "Chicago", "IL", "60647", "(773) 534-4155", [ "http://www.jamesmonroeschool.org/education/school/school.php?sectionid=3", "http://www.jamesmonroeschool.org/education/school/school.php?sectionid=3" ], "Call for hours", "Yes ", true, true, false, [ "{\"address\":\"3651 W Schubert Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60647\"}", "41.93007681863489", "-87.71874944155151", null, false ] ]
+, [ 94, "F8AF0135-BA4C-4532-8FBB-A1A2523F54CF", 94, 1302292813, "386464", 1302299152, "386464", null, "Chicago Public Schools", "Patrick Henry Elementary School", "4250 N. St. Louis Ave.", "4250 N. St. Louis Ave.", "Chicago", "IL", "60618", "(773) 534-5060", [ "http://www.henry.cps.k12.il.us/", "http://www.henry.cps.k12.il.us/" ], "Call for hours", "Yes ", true, false, false, [ "{\"address\":\"4250 N. St. Louis Ave.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60618\"}", "41.95828360275645", "-87.71538494920581", null, false ] ]
+, [ 95, "0F040741-A6F9-445F-AF09-ED54B0C37C7C", 95, 1302292813, "386464", 1302299123, "386464", null, "Chicago Public Schools", "Saucedo Scholastic Academy", "2850 W 24th Blvd # 4250", "2850 W 24th Blvd # 4250", "Chicago", "IL", "60623", "(773) 534-1770", [ "http://www.cps.edu/Schools/Pages/school.aspx?unit=4250", "http://www.cps.edu/Schools/Pages/school.aspx?unit=4250" ], "SA: 11AM-12:45PM   ", "Yes ", true, false, true, [ "{\"address\":\"2850 W 24th Blvd # 4250\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60623\"}", "41.84788515557685", "-87.69713852792434", null, false ] ]
+, [ 96, "AD346545-702E-4DC3-92A6-CB2D83950CDA", 96, 1302292813, "386464", 1302299149, "386464", null, "Chicago Public Schools", "Sawyer Elementary School", "5248 S Sawyer Ave", "5248 S Sawyer Ave", "Chicago", "IL", "60632", "(773) 535-9275", [ "http://www.sawyer.cps.k12.il.us/", "http://www.sawyer.cps.k12.il.us/" ], "Call for hours", "Yes ", true, true, false, [ "{\"address\":\"5248 S Sawyer Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60632\"}", "41.79805345279219", "-87.70491836775638", null, false ] ]
+, [ 97, "4807E8C9-3E04-49BC-A5DA-7CABC7678EC7", 97, 1302292813, "386464", 1302299141, "386464", null, "Community Technology Center", "A Knock At Midnight Tech Center", "400 W. 76th Street, Ste. 206", "400 W. 76th Street, Ste. 206", "Chicago", "IL", "60620", "(773) 488-2960", [ "http://www.akamworks.org/", "http://www.akamworks.org" ], "M-F: 10AM-5PM", "Yes ", true, true, true, [ "{\"address\":\"400 W. 76th Street, Ste. 206\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60620\"}", "41.7562438090618", "-87.6351880446037", null, false ] ]
+, [ 98, "2C193C31-DC03-4164-A918-2EB06E408792", 98, 1302292813, "386464", 1302299137, "386464", null, "Community Technology Center", "Albany Park Community Center, Inc.", "5121 N. Kimball", "5121 N. Kimball", "Chicago", "IL", "60625", "(773) 583-5062", [ "http://www.apcc-chgo.org/", "http://www.apcc-chgo.org/" ], "M-TH: 9AM-9PM; F: 12PM-6PM; SA: 9AM-4PM", "No", true, false, true, [ "{\"address\":\"5121 N. Kimball\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60625\"}", "41.97423231802921", "-87.71350806983033", null, false ] ]
+, [ 99, "8217299E-A427-4A3D-B269-1D4AA77B9021", 99, 1302292813, "386464", 1302299146, "386464", null, "Community Technology Center", "Alternatives' CTC", "4730 N. Sheridan Road", "4730 N. Sheridan Road", "Chicago", "IL", "60640", "(773) 506-7474", [ "http://www.alternativesyouth.org/", "http://www.alternativesyouth.org" ], "M-F: 4PM-7PM; SA: 12PM- 4PM", "No", true, false, true, [ "{\"address\":\"4730 N. Sheridan Road\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60640\"}", "41.96841186221428", "-87.65483823094394", null, false ] ]
+, [ 100, "CB42D53B-FEFD-431E-8C87-445F8410CF06", 100, 1302292813, "386464", 1302299150, "386464", null, "Community Technology Center", "Asian Human Services, LEAF Program", "6015 N. Francisco", "6015 N. Francisco", "Chicago", "IL", "60659", "(773) 338-5943", [ "http://www.ahschicago.org/", "http://www.ahschicago.org" ], "M-F: 9AM-5PM", "No", true, false, true, [ "{\"address\":\"6015 N. Francisco\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60659\"}", "41.99074165043551", "-87.70180879468523", null, false ] ]
+, [ 101, "6FE52C36-E020-4285-8B0D-3A4AE2896F2A", 101, 1302292813, "386464", 1302299146, "386464", null, "Community Technology Center", "AHS Career Resource Center", "4820 N. Broadway, 3rd floor", "4820 N. Broadway, 3rd floor", "Chicago", "IL", "60640", "(773) 293-8119", [ "http://www.ahschicago.org/", "http://www.ahschicago.org" ], "M-F: 10AM-4PM", "No", true, false, true, [ "{\"address\":\"4820 N. Broadway, 3rd floor\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60640\"}", "41.96962594695384", "-87.65969456990217", null, false ] ]
+, [ 102, "3B0F91F2-99DC-4F1A-A7A0-8DE71EABE25A", 102, 1302292813, "386464", 1302299140, "386464", null, "Community Technology Center", "Association House of Chicago", "1116 N. Kedzie Ave.", "1116 N. Kedzie Ave.", "Chicago", "IL", "60651", "(773) 772-7170 x. 3102", [ "http://www.associationhouse.org/", "http://www.associationhouse.org" ], "M-F: 9AM-9PM", "No", true, false, true, [ "{\"address\":\"1116 N. Kedzie Ave.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60651\"}", "41.90152028967492", "-87.70678307135631", null, false ] ]
+, [ 103, "8B80C15B-3B16-46AE-83E4-5C87E6E38895", 103, 1302292813, "386464", 1302299147, "386464", null, "Community Technology Center", "Casa Central", "1335 N. California", "1335 N. California", "Chicago", "IL", "60622", "(773) 645-2300", [ "http://www.casacentral.org/", "http://www.casacentral.org/" ], "M: 12PM-7PM; TU: 10AM-7PM; W: 1PM-7PM; TH: 10AM-12PM & 3PM-7PM; SA: 10AM-2:30PM", "No", true, false, true, [ "{\"address\":\"1335 N. California\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60622\"}", "41.905846028635835", "-87.69692650191519", null, false ] ]
+, [ 104, "15D2F322-6983-44E8-9A75-BF1B69C4548C", 104, 1302292813, "386464", 1302299129, "386464", null, "Community Technology Center", "Lake Grove Village CTC", "3515 South Cottage Grove", "3515 South Cottage Grove", "Chicago", "IL", "60653", "(773) 538-4671", [ "http://www.cohd.com/", "http://www.cohd.com/" ], "M, W: 11AM-5PM; TU, TH: 1PM-5PM", "No", true, true, true, [ "{\"address\":\"3515 South Cottage Grove\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60653\"}", "41.81942497598186", "-87.61039020504393", null, false ] ]
+, [ 105, "A9BE26BB-A62E-4DC7-9380-041E59FF5370", 105, 1302292813, "386464", 1302299149, "386464", null, "Community Technology Center", "Archer Courts CTC", "2242 South Princeton", "2242 South Princeton", "Chicago", "IL", "60616", "(312) 225-5340", [ "http://www.cohd.com/", "http://www.cohd.com/" ], "M, W: 11AM-5PM; TU, TH: 1PM-5PM", "No", true, false, true, [ "{\"address\":\"2242 South Princeton\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60616\"}", "41.85149100518498", "-87.63477435647025", null, false ] ]
+, [ 106, "F022B7C6-D946-4734-BCED-F564818F2251", 106, 1302292813, "386464", 1302299152, "386464", null, "Community Technology Center", "Germano Millgate CTC", "8732 South Burley", "8732 South Burley", "Chicago", "IL", "60617", "(773) 221-2210", [ "http://www.cohd.com/", "http://www.cohd.com/" ], "M, W: 11AM-5PM; TU, TH: 1PM-5PM", "No", true, false, true, [ "{\"address\":\"8732 South Burley\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60617\"}", "41.73649420995555", "-87.5458475707533", null, false ] ]
+, [ 107, "420F7E7A-9B95-437D-8CEE-488E3F63ED95", 107, 1302292813, "386464", 1302299140, "386464", null, "Community Technology Center", "Dr. David J. Lochman Cyber Center", "3656 N Halsted St", "3656 N Halsted St", "Chicago", "IL", "60613", "(773) 472-6469", [ "http://www.centeronhalsted.org/", "http://www.centeronhalsted.org/" ], "M-TU: 12:30PM-7:30PM; W-TH: 9:30AM-7:30PM; F: 9:30AM-5:30PM; SA-SU: 10AM-5:30PM", "Yes", true, true, true, [ "{\"address\":\"3656 N Halsted St\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60613\"}", "41.9468437629363", "-87.64948308268914", null, false ] ]
+, [ 108, "6DDDBF85-08AE-45AB-A1FB-6DEA07DE4400", 108, 1302292813, "386464", 1302299144, "386464", null, "Community Technology Center", "SER Little Village CTC", "3948 W. 26th Street, Suite 213", "3948 W. 26th Street, Suite 213", "Chicago", "IL", "60623", "(773) 542-9030 x. 226", [ "http://www.centralstatesser.org/", "http://www.centralstatesser.org" ], "M-F: 8AM-6PM; SA: 9AM-12PM", "No", true, true, true, [ "{\"address\":\"3948 W. 26th Street, Suite 213\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60623\"}", "41.8442694492897", "-87.72391515601447", null, false ] ]
+, [ 109, "13F78248-4353-4737-8062-0B5160E034CD", 109, 1302292813, "386464", 1302299129, "386464", null, "Community Technology Center", "Centro Romero", "6216 N. Clark St", "6216 N. Clark St", "Chicago", "IL", "60660", "(773) 508-5300", [ "http://www.centroromero.org/", "http://www.centroromero.org" ], "Call for hours", "Yes", true, true, true, [ "{\"address\":\"6216 N. Clark St\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60660\"}", "41.99508583445003", "-87.67033324889923", null, false ] ]
+, [ 110, "78CFD19D-3D4F-4336-838A-CB47473ED1BD", 110, 1302292813, "386464", 1302299146, "386464", null, "Community Technology Center", "CRDDC Technology Center", "25 N. Cicero Avenue", "25 N. Cicero Avenue", "Chicago", "IL", "60644", "(773) 261-6098", [ "http://www.crddc.net/", "http://www.CRDDC.net" ], "M-F: 9AM-5PM", "No", true, true, true, [ "{\"address\":\"25 N. Cicero Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60644\"}", "41.880880926578236", "-87.74522431816175", null, false ] ]
+, [ 111, "2FD38EA4-F247-4202-BC41-920F1AD3C5F3", 111, 1302292813, "386464", 1302299137, "386464", null, "Community Technology Center", "Chicago Commons ETC", "3441 W. Chicago Ave", "3441 W. Chicago Ave", "Chicago", "IL", "60651", "(773) 826-0739", [ "http://www.chicagocommons.org/", "http://www.chicagocommons.org/" ], "M-F: 9AM-5PM", "No", true, false, true, [ "{\"address\":\"3441 W. Chicago Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60651\"}", "41.895530804959776", "-87.71314127810342", null, false ] ]
+, [ 112, "39CD6175-EED2-4702-8DDC-F92928A022EC", 112, 1302292813, "386464", 1302299140, "386464", null, "Community Technology Center", "Resurrection Lutheran Church", "9349 S. Wentworth Avenue", "9349 S. Wentworth Avenue", "Chicago", "IL", "60620", "(773) 928-6312", [ "http://resurrectionlutheranschool.com/", "http://resurrectionlutheranschool.com/" ], "M-TH: 2PM-6PM", "No", true, true, true, [ "{\"address\":\"9349 S. Wentworth Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60620\"}", "41.72445199025898", "-87.62866773328479", null, false ] ]
+, [ 113, "99A7EBB6-A845-4650-81A0-B08E65969CD3", 113, 1302292813, "386464", 1302299148, "386464", null, "Community Technology Center", "FORUM", "200 E 75th Street", "200 E 75th Street", "Chicago", "IL", "60619", "(773) 994-9200", [ "http://www.forumdigital.org/chicago/", "http://www.forumdigital.org/chicago/" ], "M-F: 8AM-9PM; SA: 8AM-1PM", "Yes", true, true, true, [ "{\"address\":\"200 E 75th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60619\"}", "41.75833144736613", "-87.61990506377317", null, false ] ]
+, [ 114, "B2E0419C-7A09-424A-97AA-6FDD365C4D65", 114, 1302292813, "386464", 1302299149, "386464", null, "Community Technology Center", "Chesterfield Community Council", "651 E 88th Street", "651 E 88th Street", "Chicago", "IL", "60619", "773-651-3958", [ "http://www.chesterfieldcommunitycouncil.org/", "http://www.chesterfieldcommunitycouncil.org/" ], "M-F: 8:30AM-4PM", "Yes", true, true, true, [ "{\"address\":\"651 E 88th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60619\"}", "41.73385968375254", "-87.6076148311854", null, false ] ]
+, [ 115, "78E15C80-B060-4A72-A74E-2CB657EB8904", 115, 1302292813, "386464", 1302299146, "386464", null, "Community Technology Center", "Charles Hayes Center", "4859 S. Wabash Ave", "4859 S. Wabash Ave", "Chicago", "IL", "60615", null, [ "http://www.cha.terau.com/", "http://www.cha.terau.com" ], "M-F: 9AM-4PM", "No", true, false, true, [ "{\"address\":\"4859 S. Wabash Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60615\"}", "41.806399383990446", "-87.62426482476789", null, false ] ]
+, [ 116, "7FC27C9C-A065-4DED-890B-9021BEAD5B2E", 116, 1302292813, "386464", 1302299146, "386464", null, "Community Technology Center", "Lowden Homes", "200 W. 95th Street", "200 W. 95th Street", "Chicago", "IL", "60620", null, [ "http://www.cha.terau.com/", "http://www.cha.terau.com" ], "M, W, F: 10AM-6PM", "Yes", true, false, true, [ "{\"address\":\"200 W. 95th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60620\"}", "41.72175480923818", "-87.62484970835149", null, false ] ]
+, [ 117, "AB875508-F52D-4604-AADB-165F9B676D9F", 117, 1302292813, "386464", 1302299149, "386464", null, "Community Technology Center", "Chinese American Service League", "2141 S. Tan Court", "2141 S. Tan Court", "Chicago", "IL", "60616", "(312) 791-0418", [ "http://www.caslservice.org/", "http://www.caslservice.org" ], "M-F: 9AM-5PM", "No", true, true, true, [ "{\"address\":\"2141 S. Tan Court\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60616\"}", "41.85511173530427", "-87.63443485074811", null, false ] ]
+, [ 118, "3C97226E-EA48-4322-B26A-60E7269ECD6B", 118, 1302292813, "386464", 1302299140, "386464", null, "Community Technology Center", "Chinese Mutual Aid Association", "1016 W Argyle St", "1016 W Argyle St", "Chicago", "IL", "60640", "(773) 784-2900", [ "http://www.chinesemutualaid.org/", "http://www.chinesemutualaid.org" ], "M-F: 10AM-6PM; SA: 9AM-2PM", "No", true, false, true, [ "{\"address\":\"1016 W Argyle St\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60640\"}", "41.9732592079522", "-87.6557825190747", null, false ] ]
+, [ 119, "3E810C4E-E275-44E9-8D1C-91A752053F40", 119, 1302292813, "386464", 1302299140, "386464", null, "Community Technology Center", "CAPs - Roseland", "11444 South Halsted", "11444 South Halsted", "Chicago", "IL", "60628", "(773) 568-1782", [ "http://www.capsinc.org/", "http://www.capsinc.org" ], "M-F: 8AM-5PM", "No", true, false, true, [ "{\"address\":\"11444 South Halsted\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60628\"}", "41.68608671004569", "-87.64229107418457", null, false ] ]
+, [ 120, "B591BFD2-4492-4D01-A6DB-4CA0AC3FAB25", 120, 1302292813, "386464", 1302299149, "386464", null, "Community Technology Center", "CAPs - Kedzie", "7723 South Kedzie, Suite D&E", "7723 South Kedzie", "Chicago", "IL", "60653", "(773) 863-5089", [ "http://www.capsinc.org/", "http://www.capsinc.org" ], "M-F: 8AM-5PM", "Yes", true, false, true, [ "{\"address\":\"7723 South Kedzie\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60653\"}", "41.75279598376802", "-87.70245820750289", null, false ] ]
+, [ 121, "D19FC4EE-79E2-45E3-867C-A0F7E6A256E9", 121, 1302292813, "386464", 1302299151, "386464", null, "Community Technology Center", "Community TV Network Youth Media Ctr.", "2418 West Bloomingdale", "2418 West Bloomingdale", "Chicago", "IL", "60647", "(773) 278-8500", [ "http://www.ctvnetwork.org/", "http://www.ctvnetwork.org" ], "M-F: 3PM-7PM", "No", true, true, true, [ "{\"address\":\"2418 West Bloomingdale\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60647\"}", "41.913993886221306", "-87.68795126806276", null, false ] ]
+, [ 122, "DF674974-01A0-40FF-8712-E31D96478A01", 122, 1302292813, "386464", 1302299151, "386464", null, "Community Technology Center", "Rogers Park Computer Lab and Technology Center", "1557 W. Howard", "1557 W. Howard", "Chicago", "IL", "60626", "(773) 508-5885", [ "http://www.rogers-park.com/", "http://www.rogers-park.com" ], "M-F: 9AM-5PM", "Yes", true, true, true, [ "{\"address\":\"1557 W. Howard\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60626\"}", "42.01936701666497", "-87.67038163325262", null, false ] ]
+, [ 123, "8BA83BC2-1AF7-4588-9576-01B43CB0F867", 123, 1302292813, "386464", 1302299147, "386464", null, "Community Technology Center", "Literacy Volunteers of Illinois - Kedzie Center", "1116 N. Kedzie, Suite 528", "1116 N. Kedzie, Suite 528", "Chicago", "IL", "60651", "(773) 235-0915", [ "http://www.literacyvolunteersillinois.org/northsideprograms.asp", "http://www.literacyvolunteersillinois.org/northsideprograms.asp" ], "M-F: 8:30AM-4:30PM", "Yes", true, false, true, [ "{\"address\":\"1116 N. Kedzie, Suite 528\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60651\"}", "41.90152028967492", "-87.70678307135631", null, false ] ]
+, [ 124, "5B9D01BC-D874-4AB8-8D33-0549F0285482", 124, 1302292813, "386464", 1302299142, "386464", null, "Community Technology Center", "Eli Whitney Elementary School CTC", "2815 S. Komensky", "2815 S. Komensky", "Chicago", "IL", "60623", "(773) 540-8236", [ "http://www.cps.edu/Schools/Pages/school.aspx?unit=6440", "http://www.cps.edu/Schools/Pages/school.aspx?unit=6440" ], "M-TH: 3PM-8PM; SA: 9AM-1PM", "No", true, true, true, [ "{\"address\":\"2815 S. Komensky\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60623\"}", "41.84036261899501", "-87.72561660792111", null, false ] ]
+, [ 125, "90AC4E75-8142-49DB-8F13-FA7D09DD060D", 125, 1302292813, "386464", 1302299148, "386464", null, "Community Technology Center", "Erie Neighborhood House", "1347 W. Erie St.", "1347 W. Erie St.", "Chicago", "IL", "60642", "(312) 666-3430", [ "http://www.eriehouse.org/", "http://www.eriehouse.org" ], "M-F: 9AM-9PM; SA: 9AM-1PM", "Yes", true, true, true, [ "{\"address\":\"1347 W. Erie St.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60642\"}", "41.89342639141125", "-87.66142126819841", null, false ] ]
+, [ 126, "C96F0045-B3F8-4A55-B1AD-AF28BB354D48", 126, 1302292813, "386464", 1302299150, "386464", null, "Community Technology Center", "BP Technology Center", "1701 W. Superior St.", "1701 W. Superior St.", "Chicago", "IL", "60622", "(312) 563-5800", [ "http://www.eriehouse.org/", "http://www.eriehouse.org" ], "M-F: 9AM-9PM; SA: 9AM-1PM", "No", true, true, true, [ "{\"address\":\"1701 W. Superior St.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60622\"}", "41.89512611004659", "-87.67011771222172", null, false ] ]
+, [ 127, "A9053437-1A04-4341-BD83-92B0BBE749AF", 127, 1302292813, "386464", 1302299149, "386464", null, "Community Technology Center", "Erie Little Village Technology Center", "4225 W. 25th. St.", "4225 W. 25th. St.", "Chicago", "IL", "60623", "(773) 542-7705", [ "http://www.eriehouse.org/", "http://www.eriehouse.org" ], "M-F: 9AM-8PM", "No", true, true, true, [ "{\"address\":\"4225 W. 25th. St.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60623\"}", "41.84507883911607", "-87.73056114581101", null, false ] ]
+, [ 128, "AA7219ED-AE2F-4385-A0F0-7C8D0D8D0D53", 128, 1302292813, "386464", 1302299149, "386464", null, "Community Technology Center", "Goodwill Industries of Metropolitan Chicago", "819 S. Wabash", "819 S. Wabash", "Chicago", "IL", "60605", "(312) 212-1290", [ "http://www.goodwillchicago.com/page.asp?dbID=78", "http://www.goodwillchicago.com/page.asp?dbID=78" ], "M-F: 8:30AM-4PM", "Yes", true, false, true, [ "{\"address\":\"819 S. Wabash\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60605\"}", "41.8715698287163", "-87.62589174654214", null, false ] ]
+, [ 129, "8D3DDF5B-3A99-4068-9620-D931CF3FD992", 129, 1302292813, "386464", 1302299147, "386464", null, "Community Technology Center", "Goodwill Industries of Metropolitan Chicago", "2435 W. 63rd Street", "2435 W. 63rd Street", "Chicago", "IL", "60629", "(312) 212-1290", [ "http://www.goodwillchicago.com/page.asp?dbID=78", "http://www.goodwillchicago.com/page.asp?dbID=78" ], "M-F: 8:30AM-4PM", "No", true, false, true, [ "{\"address\":\"2435 W. 63rd Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60629\"}", "41.77924846657129", "-87.68509142400956", null, false ] ]
+, [ 130, "67585D9D-EF63-4819-8526-9DCE8B2B0374", 130, 1302292813, "386464", 1302299143, "386464", null, "Community Technology Center", "Career Resource Center", "790 N. Milwaukee Ave.", "790 N. Milwaukee Ave.", "Chicago", "IL", "60642", "(312) 432-1300", [ "http://www.gwtp.org/", "http://www.gwtp.org" ], "M-F: 8:30AM-4:30PM ", "No", true, true, true, [ "{\"address\":\"790 N. Milwaukee Ave.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60642\"}", "41.8962592558035", "-87.65544976992385", null, false ] ]
+, [ 131, "135F07CA-78F8-40D7-8902-AF2CEE7FD691", 131, 1302292813, "386464", 1302299123, "386464", null, "Community Technology Center", "Community Job Training and Education Center", "2021 W. Fulton Ave.", "2021 W. Fulton Ave.", "Chicago", "IL", "60622", "(312) 563-9028", [ "http://www.gwtp.org/", "http://www.gwtp.org" ], "M-F: 8:30AM-4:30PM", "No", true, true, true, [ "{\"address\":\"2021 W. Fulton Ave.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60622\"}", "41.88676300186597", "-87.67737057229648", null, false ] ]
+, [ 132, "E7FA53CE-024A-4E57-8444-9BB203FB3FAA", 132, 1302292813, "386464", 1302299152, "386464", null, "Community Technology Center", "Guild for the Blind", "180 N. Michigan Avenue Suite 1700", "180 N. Michigan Avenue Suite 1700", "Chicago", "IL", "60601", "(312) 236-8569", [ "http://www.guildfortheblind.org/", "http://www.guildfortheblind.org" ], "M-F: 8:30AM-4:30PM", "No", true, false, true, [ "{\"address\":\"180 N. Michigan Avenue Suite 1700\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60601\"}", "41.8857821541622", "-87.624576044658", null, false ] ]
+, [ 133, "F46B37F5-EBDA-4F32-B75E-A091780B9FC8", 133, 1302292813, "386464", 1302299152, "386464", null, "Community Technology Center", "Workforce Development Office CTC", "2610 W. North Ave. 2nd Flr.", "2610 W. North Ave. 2nd Flr.", "Chicago", "IL", "60647", "(773) 862-1892", [ "http://www.hhdc.org/", "http://www.hhdc.org" ], "M-TH: 9AM-7:30PM; F: 12:30PM-4:30PM", "Yes", true, false, true, [ "{\"address\":\"2610 W. North Ave. 2nd Flr.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60647\"}", "41.91035796790201", "-87.69251126003941", null, false ] ]
+, [ 134, "2D0210F5-E74E-45C9-81F4-022A4A1EF400", 134, 1302292813, "386464", 1302299137, "386464", null, "Community Technology Center", "Continental Plaza CTC", "1330 W. 76th St.", "1330 W. 76th St.", "Chicago", "IL", "60620", "(773) 487-3300", [ "http://www.hhdc.org/", "http://www.hhdc.org" ], "T-TH: 10AM-7:30PM; F: 12:30PM-4:30PM", "No", true, false, true, [ "{\"address\":\"1330 W. 76th St.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60620\"}", "41.7560143097528", "-87.65704211505383", null, false ] ]
+, [ 135, "02774E1B-97EA-4DFA-8026-FCD0670EBF24", 135, 1302292813, "386464", 1302299115, "386464", null, "Community Technology Center", "Employment Resource Center", "1623 W. Howard  ", "1623 W. Howard  ", "Chicago", "IL", "60626", "(773) 262-3515", [ "http://www.howardarea.org/", "http://www.howardarea.org" ], "M-F: 9AM-5PM; SA: 9AM-1PM", "No", true, false, true, [ "{\"address\":\"1623 W. Howard\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60626\"}", "42.01937393447258", "-87.67182680255235", null, false ] ]
+, [ 136, "470AAC2B-B75C-4163-9801-B04EEC48BF19", 136, 1302292813, "386464", 1302299141, "386464", null, "Community Technology Center", "Jane Addams Hull House Association", "1030 West Van Buren Street", "1030 West Van Buren Street", "Chicago", "IL", "60607", "(312) 235-7004", [ "http://www.hullhouse.org/", "http://www.hullhouse.org" ], "M-F: 9AM-5PM", "No", true, false, true, [ "{\"address\":\"1030 West Van Buren Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60607\"}", "41.87663339075829", "-87.65335193126667", null, false ] ]
+, [ 137, "E2C95DF2-FE36-47D3-A17D-7E1203847649", 137, 1302292813, "386464", 1302299151, "386464", null, "Community Technology Center", "Jane Addams Hull House Association", "5797 North Lincoln Avenue", "5797 North Lincoln Avenue", "Chicago", "IL", "60659", "(773) 506-0293", [ "http://www.hullhouse.org/", "http://www.hullhouse.org" ], "M-F: 9AM-5PM", "No", true, false, true, [ "{\"address\":\"5797 North Lincoln Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60659\"}", "41.986999694939485", "-87.70154833660554", null, false ] ]
+, [ 138, "64BA69C2-E046-4EEA-9E82-686F4E909729", 138, 1302292813, "386464", 1302299143, "386464", null, "Community Technology Center", "Jane Addams Hull House Association", "1937 West Irving Park", "1937 West Irving Park", "Chicago", "IL", "60613", "(773) 348-1866", [ "http://www.hullhouse.org/", "http://www.hullhouse.org" ], "M-F: 9AM-5PM", "No", true, false, true, [ "{\"address\":\"1937 West Irving Park\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60613\"}", "41.95411309147063", "-87.67728860206898", null, false ] ]
+, [ 139, "57104214-EB23-479F-813F-146742112654", 139, 1302292813, "386464", 1302299142, "386464", null, "Community Technology Center", "Industrial Council of Nearwest Chicago (ICNC)", "2010 W. Fulton St.  Suite 280", "2010 W. Fulton St.  Suite 280", "Chicago", "IL", "60612", "(312) 421-3941", [ "http://www.industrialcouncil.com/", "http://www.industrialcouncil.com/" ], "M-F: 10AM-3PM", "Yes", true, false, true, [ "{\"address\":\"2010 W. Fulton St. Suite 280\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60612\"}", "41.8867983880553", "-87.67682665456033", null, false ] ]
+, [ 140, "4B5C2569-C00F-4ACF-BDEA-876DC7C45D1A", 140, 1302292813, "386464", 1302299142, "386464", null, "Community Technology Center", "IMAN (Inner-City Muslim Action Network)", "2744 W. 63rd Street", "2744 W. 63rd Street", "Chicago", "IL", "60629", "(773) 434-4626", [ "http://www.imancentral.org/", "http://www.imancentral.org" ], "M-TH: 9AM-5PM", "No", true, false, true, [ "{\"address\":\"2744 W. 63rd Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60629\"}", "41.779131554707476", "-87.69263673583538", null, false ] ]
+, [ 141, "AA12701E-9F65-4CA2-A586-B7D6FD307E22", 141, 1302292813, "386464", 1302299149, "386464", null, "Community Technology Center", "Instituto del Progreso Latino (Main Site - Pilsen)", "2570 S. Blue Island Avenue", "2570 S. Blue Island Avenue", "Chicago", "IL", "60608", "(773) 890-0055", [ "http://www.idpl.org/", "http://www.idpl.org" ], "M-F: 8AM-9:30PM", "No", true, false, true, [ "{\"address\":\"2570 S. Blue Island Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60608\"}", "41.8455105136901", "-87.6837424409656", null, false ] ]
+, [ 142, "68D5F67C-DCDE-477C-BB70-D06AF4B84954", 142, 1302292813, "386464", 1302299144, "386464", null, "Community Technology Center", "Instituto del Progreso Latino (Back of the Yards Site)", "4600 S. Wood Street", "4600 S. Wood Street", "Chicago", "IL", "60609", "(773) 927-7712", [ "http://www.idpl.org/", "http://www.idpl.org" ], "M-F: 9AM-5PM", "No", true, false, true, [ "{\"address\":\"4600 S. Wood Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60609\"}", "41.81007722573571", "-87.66978496307087", null, false ] ]
+, [ 143, "49C5D33B-EDE4-4067-8FFE-DDF811E0EEF9", 143, 1302292813, "386464", 1302299141, "386464", null, "Community Technology Center", "Instituto del Progreso Latino (Saint. Michaels Site)", "2315 W. 24th Place", "2315 W. 24th Place", "Chicago", "IL", "60608", "(773) 890-0055", [ "http://www.idpl.org/", "http://www.idpl.org" ], "M-F: 8:30AM-9:30PM", "Yes", true, false, true, [ "{\"address\":\"2315 W. 24th Place\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60608\"}", "41.84754298147635", "-87.68372445452502", null, false ] ]
+, [ 144, "457A6E9B-FCEB-4E7C-9DD2-5DEA6EF5CD2E", 144, 1302292813, "386464", 1302299141, "386464", null, "Community Technology Center", "Interfaith Refugee & Immigration Ministries", "4753 N. Broadway, Suite 815", "4753 N. Broadway, Suite 815", "Chicago", "IL", "60640", "(773) 989-5647", [ "http://www.irim.org/", "http://www.irim.org" ], "M-F: 8AM-4:30PM", "No", true, false, true, [ "{\"address\":\"4753 N. Broadway, Suite 815\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60640\"}", "41.9683938757737", "-87.65944275973396", null, false ] ]
+, [ 145, "332338F6-203E-4D64-9ED8-B65DF106CC57", 145, 1302292813, "386464", 1302299137, "386464", null, "Community Technology Center", "Jane Addams Resource Corporation Main CTC", "4432 N. Ravenswood, Chicago, IL", "4432 N. Ravenswood", "Chicago", "IL", "60640", "(773) 728-9769 x. 19", [ "http://www.jane-addams.org/", "http://www.jane-addams.org" ], "M-SA: 9AM-9:30PM (Classes); Call for Open Lab hours", "No", true, false, true, [ "{\"address\":\"4432 N. Ravenswood\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60640\"}", "41.96214373836762", "-87.6745643775208", null, false ] ]
+, [ 146, "69A765DD-8994-423A-BA81-F89E2C345289", 146, 1302292813, "386464", 1302299144, "386464", null, "Community Technology Center", "Jane Addams Resource Corporation Training CTC Satellite", "4222 N. Ravenswood, Chicago, IL", "4222 N. Ravenswood", "Chicago", "IL", "60613", "(773) 728-9769 x. 19", [ "http://www.jane-addams.org/", "http://www.jane-addams.org" ], "M-F: 9AM-5PM", "No", true, false, true, [ "{\"address\":\"4222 N. Ravenswood\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60613\"}", "41.95831224025638", "-87.67391326146551", null, false ] ]
+, [ 147, "D357627C-B374-459C-A01C-03D909959B0A", 147, 1302292813, "386464", 1302299151, "386464", null, "Community Technology Center", "Jewish Vocational Service CTC", "6526 N. California", "6526 N. California", "Chicago", "IL", "60645", "(773) 743-5638", [ "http://www.jvschicago.org/", "http://www.jvschicago.org" ], "M-F: 9AM-8:30PM", "Yes", true, true, true, [ "{\"address\":\"6526 N. California\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60645\"}", "41.99988266067863", "-87.69976133242402", null, false ] ]
+, [ 148, "A2AFF9B2-1E6F-40CD-84A2-F6DA3DD87E40", 148, 1302292813, "386464", 1302299149, "386464", null, "Community Technology Center", "Jobs For Youth Chicago", "17 North State Street, Sixth Floor", "17 North State Street, Sixth Floor", "Chicago", "IL", "60602", "(312) 499-4778", [ "http://www.jfychicago.org/", "http://www.jfychicago.org" ], "M-F: 9AM-5PM", "No", true, false, false, [ "{\"address\":\"17 North State Street, Sixth Floor\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60602\"}", "41.88225578547685", "-87.62769650932145", null, false ] ]
+, [ 149, "C28A2F9D-82BC-4886-8FE6-6423CDD8A3C7", 149, 1302292813, "386464", 1302299150, "386464", null, "Community Technology Center", "Knowledge Hook Up", "3457 East 106th Street", "3457 East 106th Street", "Chicago", "IL", "60617", "(773) 221-9111", [ "http://www.knowledgehookup.org/", "http://www.knowledgehookup.org" ], "M-F: 9AM-4PM", "No", true, true, true, [ "{\"address\":\"3457 East 106th Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60617\"}", "41.70274314153875", "-87.53912246543388", null, false ] ]
+, [ 150, "4A42F1B6-9175-4AA8-A9C7-0AD9620DCB5C", 150, 1302292813, "386464", 1302299142, "386464", null, "Community Technology Center", "Korean American Community Services, Inc.", "4300 N. California Ave", "4300 N. California Ave", "Chicago", "IL", "60618", "(773) 583-5501", [ "http://www.kacschgo.org/", "http://www.kacschgo.org" ], "M-F: 9AM-5PM", "Yes", true, true, true, [ "{\"address\":\"4300 N. California Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60618\"}", "41.95974239785181", "-87.69840139004322", null, false ] ]
+, [ 151, "066DE371-3531-4023-877A-B5EED9106443", 151, 1302292813, "386464", 1302299115, "386464", null, "Community Technology Center", "La Casa Norte", "3533 W. North Ave.", "3533 W. North Ave.", "Chicago", "IL", "60647", "(773) 276-4900 x. 211", [ "http://www.lacasanorte.org/", "http://www.lacasanorte.org" ], "M-F: 9AM-7PM", "No", true, false, true, [ "{\"address\":\"3533 W. North Ave.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60647\"}", "41.909982909970665", "-87.71573132554784", null, false ] ]
+, [ 152, "C8914A5D-4553-49C9-A966-2DC36A937AE0", 152, 1302292813, "386464", 1302299150, "386464", null, "Community Technology Center", "LEED Council, Community Technology Center", "1866 N. Marcey Street", "1866 N. Marcey Street", "Chicago", "IL", "60614", "(773) 929-5552 x. 230", [ "http://www.leedcouncil.org/", "http://www.leedcouncil.org" ], "M-TH: 9AM-6:30PM; TU, TH 6:30PM-9PM; F: 9AM-5PM; SA: 10:30AM-4PM", "No", true, false, true, [ "{\"address\":\"1866 N. Marcey Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60614\"}", "41.91561042562993", "-87.65721647571155", null, false ] ]
+, [ 153, "65B1D4B7-ABDE-4F9D-B97D-14875A54CCBF", 153, 1302292813, "386464", 1302299143, "386464", null, "Community Technology Center", "Lumity", "29 E. Madison St., Ste. 1005", "29 E. Madison St., Ste. 1005", "Chicago", "IL", "60602", "(312) 372-4872", [ "http://www.lumity.org/", "http://www.lumity.org" ], "M-F: 9AM-5PM", "No", true, false, true, [ "{\"address\":\"29 E. Madison St., Ste. 1005\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60602\"}", "41.88207694740146", "-87.6269952209168", null, false ] ]
+, [ 154, "3B44F4E6-16D3-4B6B-8A14-4B3C3920FA9A", 154, 1302292813, "386464", 1302299140, "386464", null, "Community Technology Center", "Mather's More Than a Cafe (Higgins)", "7134 W. Higgins", "7134 W. Higgins", "Chicago", "IL", "60656", "(773) 774-4804", [ "http://www.matherlifeways.org/iyc_mathersmorethanacafe.asp", "http://www.matherlifeways.org/iyc_mathersmorethanacafe.asp" ], "M-TH: 7:30AM-3:30PM; F: 7:30AM-7:00PM; SA: 9AM-2PM ", null, true, false, true, [ "{\"address\":\"7134 W. Higgins\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60656\"}", "41.98087646554035", "-87.80611318949246", null, false ] ]
+, [ 155, "3A8CFD3E-4D24-4B8F-AE20-D27089730FA2", 155, 1302292813, "386464", 1302299140, "386464", null, "Community Technology Center", "Mather’s-More Than a Café (Central)", "3235 N. Central Ave", "3235 N. Central Ave", "Chicago", "IL", "60634", "(773) 205-3300 ", [ "http://www.matherlifeways.org/iyc_wherearematherscafes.asp", "http://www.matherlifeways.org/iyc_wherearematherscafes.asp" ], "M-F: 8AM-4PM", null, true, false, true, [ "{\"address\":\"3235 N. Central Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60634\"}", "41.93956579920783", "-87.76646387262535", null, false ] ]
+, [ 156, "4491CAF6-059F-4134-8280-4EC5F48C355D", 156, 1302292813, "386464", 1302299141, "386464", null, "Community Technology Center", "Mather's More Than a Cafe (83rd Street)", "33 E. 83rd Street", "33 E. 83rd Street", "Chicago", "IL", "60619", "(773) 488-2801 ", [ "http://www.matherlifeways.org/iyc_wherearematherscafes.asp", "http://www.matherlifeways.org/iyc_wherearematherscafes.asp" ], "M-F: 8:30AM-4:30PM; SA: 8AM-2PM", null, true, false, true, [ "{\"address\":\"33 E. 83rd Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60619\"}", "41.743609155306366", "-87.62316363911623", null, false ] ]
+, [ 157, "8BF35B17-02AE-4F20-A674-03970A7C25AE", 157, 1302292813, "386464", 1302299147, "386464", null, "Community Technology Center", "South Loop CTC", "1521 S. Wabash Ave", "1521 S. Wabash Ave", "Chicago", "IL", "60605", "(312) 447-4681", [ "http://www.mercyhousing.org/", "http://www.mercyhousing.org" ], "M-F: 9AM-5PM", null, true, false, true, [ "{\"address\":\"1521 S. Wabash Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60605\"}", "41.86228603602855", "-87.62567586841125", null, false ] ]
+, [ 158, "B4752B6D-3207-470F-A809-A22F928FCC0B", 158, 1302292813, "386464", 1302299149, "386464", null, "Community Technology Center", "Wentworth Commons CTC", "11045 S. Wentworth Ave", "11045 S. Wentworth Ave", "Chicago", "IL", "60628", "(312) 447-4640", [ "http://www.mercyhousing.org/", "http://www.mercyhousing.org" ], "M, W, F: 9AM-4PM; TU, TH: 10AM-6PM; SA: 2PM-6PM", null, true, false, true, [ "{\"address\":\"11045 S. Wentworth Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60628\"}", "41.69325802756094", "-87.62788137775613", null, false ] ]
+, [ 159, "F30B8A4C-E516-402F-A264-CF03354F07BA", 159, 1302292813, "386464", 1302299152, "386464", null, "Community Technology Center", "Harold Washington CTC", "4946 W. Sheridan", "4946 N. Sheridan Rd", "Chicago", "IL", "60640", "(312) 447-4601", [ "http://www.mercyhousing.org/", "http://www.mercyhousing.org" ], "M-F: 9AM to 5PM", null, true, false, true, [ "{\"address\":\"4946 N. Sheridan Rd\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60640\"}", "41.97242305867886", "-87.65496475165041", null, false ] ]
+, [ 160, "3E245431-7556-4A59-AA98-3E504A7850AD", 160, 1302292813, "386464", 1302299140, "386464", null, "Community Technology Center", "Austin CTC", "4943 W. Quincy", "4943 W. Quincy", "Chicago", "IL", "60644", "(773) 626-5685", [ "http://www.mercyhousing.org/", "http://www.mercyhousing.org" ], "M-W: 8:30AM-6:30PM; TH: 10AM-8PM; F: 8:30AM-6:30PM; SA: 8:30AM-5PM", null, true, false, true, [ "{\"address\":\"4943 W. Quincy\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60644\"}", "41.8776445096355", "-87.74808929419349", null, false ] ]
+, [ 161, "A16721FD-7286-43E2-B5DF-6966D52FE64C", 161, 1302292813, "386464", 1302299148, "386464", null, "Community Technology Center", "Holland CTC", "240 W. 107th Place", "240 W. 107th Place", "Chicago", "IL", "60628", "(312) 447-4630", [ "http://www.mercyhousing.org/", "http://www.mercyhousing.org" ], "M-TH: 9AM-2PM ", null, true, false, true, [ "{\"address\":\"240 W. 107th Place\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60628\"}", "41.69978437206237", "-87.62987305141053", null, false ] ]
+, [ 162, "82A65EEB-B1E5-4C4D-A260-C71F253AC441", 162, 1302292813, "386464", 1302299146, "386464", null, "Community Technology Center", "National Able Network", "180 North Wabash Room 600-02", "180 North Wabash Room 600-02", "Chicago", "IL", "60601", "(312) 580-0389", [ "http://www.nationalable.org/", "http://www.nationalable.org" ], "M-F: 9AM-4PM", null, true, false, true, [ "{\"address\":\"180 North Wabash Room 600-02\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60601\"}", "41.88568322873897", "-87.62628475651366", null, false ] ]
+, [ 163, "13163F48-0136-447F-B9C6-B3967272933F", 163, 1302292813, "386464", 1302299123, "386464", null, "Community Technology Center", "Chicago Workforce Center - Pilsen", "1657 S. Blue Island Avenue", "1657 S. Blue Island Avenue", "Chicago", "IL", "60607", "(312) 256-5716", [ "http://www.nationalable.org/", "http://www.nationalable.org" ], "M-F: 9AM-4PM", null, true, false, true, [ "{\"address\":\"1657 S. Blue Island Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60607\"}", "41.85864061531788", "-87.66050395972849", null, false ] ]
+, [ 164, "0B7CF1A8-5952-4AA9-8EEC-66AA1CA1A5BD", 164, 1302292813, "386464", 1302299123, "386464", null, "Community Technology Center", "OAI CTC", "180 N Wabash Ave.  Suite 400", "180 N Wabash Ave.  Suite 400", "Chicago", "IL", "60601", "(312) 528-3501", [ "http://www.oaiinc.org/", "http://www.oaiinc.org" ], "M-F: 8:30AM-4PM", null, true, true, true, [ "{\"address\":\"180 N Wabash Ave. Suite 400\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60601\"}", "41.88568322873897", "-87.62628475651366", null, false ] ]
+, [ 165, "CD2F64D8-58FF-4189-A967-438CB89F8923", 165, 1302292813, "386464", 1302299150, "386464", null, "Community Technology Center", "Onward Neighborhood House", "5423 W. Diversey Avenue", "5423 W. Diversey Avenue", "Chicago", "IL", "60639", "(312) 666-6726", [ "http://www.onwardhouse.org/", "http://www.onwardhouse.org/" ], "M-TH: 9AM-8PM; F: 12PM-8PM", null, true, false, true, [ "{\"address\":\"5423 W. Diversey Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60639\"}", "41.93134180816651", "-87.76233419310614", null, false ] ]
+, [ 166, "CE9965DF-39CF-4B35-9FE8-440BE39E2902", 166, 1302292813, "386464", 1302299151, "386464", null, "Community Technology Center", "Poder Learning Center", "1637 S. Allport St.", "1637 S. Allport St.", "Chicago", "IL", "60608", "(312) 226-2002", [ "http://www.poderlc.org/", "http://www.poderlc.org/" ], "M-TH: 7:30AM-8:30PM; F: 7:30AM-5PM", null, true, false, true, [ "{\"address\":\"1637 S. Allport St.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60608\"}", "41.85907796654481", "-87.65765901512678", null, false ] ]
+, [ 167, "F31869E4-3FFA-462D-A705-ED249194DEE4", 167, 1302292813, "386464", 1302299152, "386464", null, "Community Technology Center", "Polish American Association", "3815 N. Cicero Ave", "3815 N. Cicero Ave", "Chicago", "IL", "60641", "(773) 282-1122", [ "http://www.polish.org/", "http://www.polish.org" ], "TU, TH: 9AM-6PM; W, F: 1PM-7PM; SA: 9AM-5PM", null, true, false, true, [ "{\"address\":\"3815 N. Cicero Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60641\"}", "41.95023736313508", "-87.74710780284266", null, false ] ]
+, [ 168, "A73A5547-D923-4D31-A17D-602D3BA709E0", 168, 1302292813, "386464", 1302299149, "386464", null, "Community Technology Center", "Pui Tak Center", "2216 S. Wentworth Avenue", "2216 S. Wentworth Avenue", "Chicago", "IL", "60616", "(312) 328-1188", [ "http://www.puitak.org/", "http://www.puitak.org" ], "M-TH: 8:30AM-7PM; F: 9AM-5PM; SA: 8:30AM-12:30PM", null, true, false, true, [ "{\"address\":\"2216 S. Wentworth Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60616\"}", "41.852376592118176", "-87.63204124510791", null, false ] ]
+, [ 169, "2CC9C40C-D75B-4FDB-82BA-1B06BEC55781", 169, 1302292813, "386464", 1302299137, "386464", null, "Community Technology Center", "Southeast Chicago Development Commission", "2938 East 91st Street", "2938 East 91st Street", "Chicago", "IL", "60617", "(773) 731-8755", [ "http://www.southeastchicago.org/", "http://www.southeastchicago.org/" ], "M-F: 8AM-5PM; SA: 9AM-1PM", null, true, false, true, [ "{\"address\":\"2938 East 91st Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60617\"}", "41.73011839235401", "-87.552655812531", null, false ] ]
+, [ 170, "EA92DA0A-B613-4DC1-B45D-13BB0A0DC169", 170, 1302292813, "386464", 1302299152, "386464", null, "Community Technology Center", "St. Agatha Family Empowerment", "3143 W. Douglas Boulevard", "3143 W. Douglas Boulevard", "Chicago", "IL", "60623", "(773) 522-1354", [ "http://www.chicagoareaproject.org/", "http://www.chicagoareaproject.org/" ], "M-F: 12PM-6PM; SA: 10AM-1PM", null, true, true, true, [ "{\"address\":\"3143 W. Douglas Boulevard\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60623\"}", "41.862543672925085", "-87.70466067136715", null, false ] ]
+, [ 171, "21AD4C5D-C0A1-4379-8228-F72641A2AFD1", 171, 1302292813, "386464", 1302299129, "386464", null, "Community Technology Center", "Street-Level Youth Media", "2459 W. Augusta Blvd.", "2459 W. Augusta Blvd.", "Chicago", "IL", "60622", "(773) 862-5331", [ "http://www.street-level.org/", "http://www.street-level.org" ], "M-F: 3PM-6PM", null, true, true, true, [ "{\"address\":\"2459 W. Augusta Blvd.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60622\"}", "41.899379903245176", "-87.68927327144581", null, false ] ]
+, [ 172, "CD198025-25B5-4DF9-8611-3FE85CBC5BF7", 172, 1302292813, "386464", 1302299150, "386464", null, "Community Technology Center", "Sunshine Gospel Ministries", "500 East 61st Street", "500 East 61st Street", "Chicago", "IL", "60637", "(773) 493-0656 x. 1010", [ "http://www.sunshinegospel.org/", "http://www.sunshinegospel.org" ], "M-F: 10AM-4PM", null, true, false, true, [ "{\"address\":\"500 East 61st Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60637\"}", "41.78391594790338", "-87.61292083115825", null, false ] ]
+, [ 173, "6E3C9D5B-E8F6-42E6-ABE8-C31764813A41", 173, 1302292813, "386464", 1302299144, "386464", null, "Community Technology Center", "Arthur D. Griffin Community Learn Center", "1613 West Washington Blvd.", "1613 West Washington Blvd.", "Chicago", "IL", "60612", "(773) 243-1373", [ "http://www.adgclc.org/", "http://www.adgclc.org" ], "T-F: 9:30AM-12:30PM & 3:30PM-8PM; SA: 10PM-2PM", null, true, true, true, [ "{\"address\":\"1613 West Washington Blvd.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60612\"}", "41.88332700502218", "-87.66695209867862", null, false ] ]
+, [ 174, "6446D344-B37C-4D4B-95A1-139702CD26D7", 174, 1302292813, "386464", 1302299143, "386464", null, "Community Technology Center", "Back of the Yards Neighborhood Council CTC", "1751 W 47th Street, 2nd Floor", "1751 W 47th Street, 2nd Floor", "Chicago", "IL", "60609", "(773) 523-4416", [ "http://www.bync.org/", "http://www.bync.org" ], "M-F: 9AM-7PM", null, true, true, true, [ "{\"address\":\"1751 W 47th Street, 2nd Floor\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60609\"}", "41.80859334438736", "-87.66938026815768", null, false ] ]
+, [ 175, "C171E42E-F82C-4FEA-87A8-B3A8418BC2CC", 175, 1302292813, "386464", 1302299150, "386464", null, "Community Technology Center", "The Cara Program (West Loop Campus)", "703 West Monroe", "703 West Monroe", "Chicago", "IL", "60661", "(312) 798-3300", [ "http://www.thecaraprogram.org/", "http://www.thecaraprogram.org" ], "M-F: 9AM-5PM", null, true, false, true, [ "{\"address\":\"703 West Monroe\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60661\"}", "41.88052068856135", "-87.64416744103168", null, false ] ]
+, [ 176, "9DF717D1-7C67-4FAB-9059-A3A50ABF258C", 176, 1302292813, "386464", 1302299148, "386464", null, "Community Technology Center", "The Cara Program (East Loop Campus)", "228 South Wabash", "228 South Wabash", "Chicago", "IL", "60604", "(312) 798-3327", [ "http://www.thecaraprogram.org/", "http://www.thecaraprogram.org" ], "M-F: 9AM-5PM", null, true, false, true, [ "{\"address\":\"228 South Wabash\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60604\"}", "41.87887536097713", "-87.6260869056672", null, false ] ]
+, [ 177, "6DBA048E-BDF5-438D-B83C-E7B981767315", 177, 1302292813, "386464", 1302299144, "386464", null, "Community Technology Center", "Cleanslate (The Cara Program)", "1334 South Ashland", "1334 South Ashland", "Chicago", "IL", "60608", "(312) 226-6361", [ "http://www.thecaraprogram.org/", "http://www.thecaraprogram.org" ], "M-F: 7:30AM-3:30PM", null, true, false, true, [ "{\"address\":\"1334 South Ashland\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60608\"}", "41.8640635271546", "-87.66635854613924", null, false ] ]
+, [ 178, "D0589919-E4E5-4105-94C1-2C902859B904", 178, 1302292813, "386464", 1302299151, "386464", null, "Community Technology Center", "Career Pathways Resource Center", "950 East 61st Street", "950 East 61st Street", "Chicago", "IL", "60637", "(773) 752-0687", [ "http://www.thecaraprogram.org/", "http://www.thecaraprogram.org" ], "M-F: 9AM-5PM", null, true, false, true, [ "{\"address\":\"950 East 61st Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60637\"}", "41.78411213476334", "-87.60247044974348", null, false ] ]
+, [ 179, "97BD9C14-D2EC-4DBD-B80B-1E35915E3238", 179, 1302292813, "386464", 1302299148, "386464", null, "Community Technology Center", "Center for Working Families (The Cara Program)", "4804 - 4806 South Cottage Grove Avenue", "4804 - 4806 South Cottage Grove Avenue", "Chicago", "IL", "60615", "(773) 924-2205", [ "http://www.thecaraprogram.org/", "http://www.thecaraprogram.org" ], "M-F: 9AM-5PM", null, true, false, true, [ "{\"address\":\"4804 - 4806 South Cottage Grove Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60615\"}", "41.80594716922875", "-87.60650972278101", null, false ] ]
+, [ 180, "136E1E6D-2DC9-4529-817B-31DDEC8D52D3", 180, 1302292813, "386464", 1302299129, "386464", null, "Community Technology Center", "NTRC Homan Square", "3517 W. Arthington St.", "3517 W. Arthington St.", "Chicago", "IL", "60624", "(773) 722-5653", [ "http://community.homansquare.org/content/page.php?cat=5&content_id=24", "http://community.homansquare.org/content/page.php?cat=5&content_id=24" ], "M-F: 10AM-6PM", null, true, true, true, [ "{\"address\":\"3517 W. Arthington St.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60624\"}", "41.86997239288473", "-87.71355153820612", null, false ] ]
+, [ 181, "93019EB7-B5F0-4794-9AEB-F997826E577C", 181, 1302292813, "386464", 1302299148, "386464", null, "Community Technology Center", "Carlos Fuentes School", "2845 W Barry", "2845 W Barry", "Chicago", "IL", "60618", "(312) 432-6301", [ "http://unocharterschools.org/uscn_campuses.aspx", null ], "M-TH: 5PM-8PM", null, true, true, true, [ "{\"address\":\"2845 W Barry\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60618\"}", "41.93755612338896", "-87.69953453580013", null, false ] ]
+, [ 182, "FF57C811-236C-4D2D-BCF0-5ACAB6370986", 182, 1302292813, "386464", 1302299153, "386464", null, "Community Technology Center", "Officer Donald J. Marquez School ", "2916 W. 47th St.", "2916 W. 47th St.", "Chicago", "IL", "60632", "(312) 432-6301", [ "http://unocharterschools.org/uscn_campuses.aspx", null ], "M-TH: 5PM-8PM", null, true, true, true, [ "{\"address\":\"2916 W. 47th St.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60632\"}", "41.80829164533198", "-87.69730233777177", null, false ] ]
+, [ 183, "E27544AF-B1B6-44A4-932F-D7A0A7EF00E8", 183, 1302292813, "386464", 1302299151, "386464", null, "Community Technology Center", "Rufino Tamayo School (housed at St. Simon the Apostle Parish)", "5157 S. California", "5157 S. California", "Chicago", "IL", "60632", "(312) 432-6301", [ "http://unocharterschools.org/uscn_campuses.aspx", null ], "W: 1PM-3PM; T-TH: 9AM-1PM & 5PM-9PM", null, true, true, true, [ "{\"address\":\"5157 S. California\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60632\"}", "41.79951956772524", "-87.69392719355542", null, false ] ]
+, [ 184, "52630616-31A3-4BA4-877D-F69146A10F5C", 184, 1302292813, "386464", 1302299142, "386464", null, "Community Technology Center", "Veterans Memorial High School", "4248 W 47th St", "4248 W 47th St", "Chicago", "IL", "60632", "(312) 432-6301", [ "http://unocharterschools.org/uscn_campuses.aspx", null ], "M-TH: 5PM-8PM", null, true, true, true, [ "{\"address\":\"4248 W 47th St\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60632\"}", "41.80779294778131", "-87.73075899665741", null, false ] ]
+, [ 185, "1DC5741E-3B5A-43C8-BEFF-59D54D9CD45E", 185, 1302292813, "386464", 1302299129, "386464", null, "Community Technology Center", "WHA-Community Tech Center", "5417 West Division Street", "5417 West Division Street", "Chicago", "IL", "60651", "(773) 378-1878", [ "http://www.healthauthority.org/", "http://www.healthauthority.org" ], "M-F: 9AM-8PM", null, true, true, true, [ "{\"address\":\"5417 West Division Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60651\"}", "41.90221276763748", "-87.76156976938125", null, false ] ]
+, [ 186, "76BD2010-98E5-476E-B070-68907C3EDF6A", 186, 1302292813, "386464", 1302299146, "386464", null, "Community Technology Center", "WHA-Youth Technology Center", "5437 West Division Street", "5437 West Division Street", "Chicago", "IL", "60651", "(773) 378-5034", [ "http://www.healthauthority.org/", "http://www.healthauthority.org" ], "M-F: 9AM-7PM", null, true, true, true, [ "{\"address\":\"5437 West Division Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60651\"}", "41.9021947811969", "-87.76240613886847", null, false ] ]
+, [ 187, "038876A5-5B00-46D4-A65D-0E101C8CE634", 187, 1302292813, "386464", 1302299115, "386464", null, "Community Technology Center", "WHA-Business and Human Resource Center", "4800 West Chicago Avenue", "4800 West Chicago Avenue", "Chicago", "IL", "60651", "(773) 786-0148", [ "http://www.healthauthority.org/", "http://www.healthauthority.org" ], "M-F: 7AM-7PM", null, true, false, true, [ "{\"address\":\"4800 West Chicago Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60651\"}", "41.89503617784368", "-87.74616438301933", null, false ] ]
+, [ 188, "D72BD564-4FC3-4230-A559-ADB8A0337A7E", 188, 1302292813, "386464", 1302299151, "386464", null, "Community Technology Center", "Westside Youth Technical Entrepreneur Center", "4211-13 West Madison", "4211-13 West Madison", "Chicago", "IL", "60624", "(773) 533-3500", [ "http://www.wytec4213.org/", "http://www.WYTEC4213.org" ], "M-F: 11AM-7PM", null, true, true, true, [ "{\"address\":\"4211-13 West Madison\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60624\"}", "41.88077327346775", "-87.72323005951961", null, false ] ]
+, [ 189, "4A184234-8384-47FC-B45D-D4CE9E9407A0", 189, 1302292813, "386464", 1302299141, "386464", null, "Community Technology Center", "YWCA Parks Francis Community Technology Center", "6600 S. Cottage Grove", "6600 S. Cottage Grove", "Chicago", "IL", "60637", "(773) 496-5619", [ "http://www.ywcachicago.org/", "http://www.ywcachicago.org" ], "M-F: 9AM-8PM", null, true, true, true, [ "{\"address\":\"6600 S. Cottage Grove\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60637\"}", "41.78108506142644", "-87.60296617924575", null, false ] ]
+, [ 190, "5D0ADAF5-4B10-459E-B7E3-CA2D36160347", 190, 1302292813, "386464", 1302299142, "386464", null, "Youth Center", "Association House", "1116 N. Kedzie Ave.", "1116 N. Kedzie Ave.", "Chicago", "IL", "60651", "(773) 772-7170", [ "http://www.associationhouse.org/", "http://www.associationhouse.org" ], "Call for hours", "No", true, false, true, [ "{\"address\":\"1116 N. Kedzie Ave.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60651\"}", "41.90152028967492", "-87.70678307135631", null, false ] ]
+, [ 191, "F1C96A19-7AE6-4C99-8013-9BF768145B03", 191, 1302292813, "386464", 1302299152, "386464", null, "Youth Center", "Boys and Girls Club", "2950 W. Washington Blvd.", "2950 W. Washington Blvd.", "Chicago", "IL", "60612", "(773) 376-6847 x. 4717 or (773) 638-5464 x. 4813", [ "http://www.bgcc.org/", "http://www.bgcc.org/" ], "Call for hours", "No", true, false, true, [ "{\"address\":\"2950 W. Washington Blvd.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60612\"}", "41.88286835078725", "-87.7008655324035", null, false ] ]
+, [ 192, "473B2C3A-A61A-4ED8-9265-875677563BA5", 192, 1302292813, "386464", 1302299141, "386464", null, "Youth Center", "Center on Halsted", "3656 N. Halsted", "3656 N. Halsted", "Chicago", "IL", "60613", "(773) 472-6469", [ "http://www.centeronhalsted.org/", "http://www.centeronhalsted.org/" ], "Call for hours", "No", true, false, true, [ "{\"address\":\"3656 N. Halsted\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60613\"}", "41.9468437629363", "-87.64948308268914", null, false ] ]
+, [ 193, "97C7D139-3ED1-482A-9BB4-FFF6368C1E06", 193, 1302292813, "386464", 1302299148, "386464", null, "Youth Center", "Central States SER", "3948 W. 26th St.", "3948 W. 26th St.", "Chicago", "IL", "60623", "(773) 542-9030 x. 257", [ "http://www.centralstatesser.org/", "http://www.centralstatesser.org/" ], "Call for hours", "No", true, false, true, [ "{\"address\":\"3948 W. 26th St.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60623\"}", "41.8442694492897", "-87.72391515601447", null, false ] ]
+, [ 194, "4044BEC5-0D39-4E05-BCE3-D5D304A4C51D", 194, 1302292813, "386464", 1302299140, "386464", null, "Youth Center", "Community Assistance Programs", "11444 S. Halsted St.", "11444 S. Halsted St.", "Chicago", "IL", "60628", "(773) 568-1782 or (773) 468-1993", [ "http://www.capsinc.org/", "http://www.capsinc.org/" ], "Call for hours", "No", true, false, true, [ "{\"address\":\"11444 S. Halsted St.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60628\"}", "41.68608671004569", "-87.64229107418457", null, false ] ]
+, [ 195, "8288DF5B-B4A5-4D5D-849E-A97A57E1DC21", 195, 1302292813, "386464", 1302299146, "386464", null, "Youth Center", "The Beloved Community St. Sabina", "7909 S. Racine Ave.", "7909 S. Racine Ave.", "Chicago", "IL", "60620", "(773) 783-3760", [ "http://www.belovedcommunitychicago.org/", "http://www.belovedcommunitychicago.org/" ], "Call for hours", "No", true, false, true, [ "{\"address\":\"7909 S. Racine Ave.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60620\"}", "41.75030288821149", "-87.65371655267938", null, false ] ]
+, [ 196, "24D2CBE7-4072-49AB-898A-8B325A371FDA", 196, 1302292813, "386464", 1302299137, "386464", null, "Senior Center", "Abbot Park Satellite Center", "49 E. 95th St.", "49 E. 95th St.", "Chicago", "IL", "60619", "(312) 745-3493", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/satellite_centerinformation.html", "http://www.cityofchicago.org/city/en/depts/fss/supp_info/satellite_centerinformation.html" ], "M-F: 8:30AM-4:30PM; SA-SU: Closed ", "Yes", false, false, true, [ "{\"address\":\"49 E. 95th St.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60619\"}", "41.721658859945016", "-87.62236238854524", null, false ] ]
+, [ 197, "661B555D-5E8B-4CA4-938B-CA8EE80EBC45", 197, 1302292813, "386464", 1302299143, "386464", null, "Senior Center", "Auburn Gresham Satellite Center", "1040 W. 79th St.", "1040 W. 79th St.", "Chicago", "IL", "60620", "(312) 745-4798", [ "http://www.cityofchicago.org/city/en/depts/fss/provdrs/senior/svcs/regional_senior_centers.html", "http://www.cityofchicago.org/city/en/depts/fss/provdrs/senior/svcs/regional_senior_centers.html" ], "Call for hours", "Yes", false, false, true, [ "{\"address\":\"1040 W. 79th St.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60620\"}", "41.750577216156685", "-87.65029061794029", null, false ] ]
+, [ 198, "B2759D46-B6C1-4DB7-8AEB-090DB1BB4AD3", 198, 1302292813, "386464", 1302299149, "386464", null, "Senior Center", "Austin Satellite Center", "5071 W. Congress Pkwy", "5071 W. Congress Pkwy", "Chicago", "IL", "60644", "(312) 743-1538", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/satellite_centerinformation.html", "http://www.cityofchicago.org/city/en/depts/fss/supp_info/satellite_centerinformation.html" ], "M-F: 8:30AM-4:30PM; SA-SU: Closed ", "Yes", false, false, true, [ "{\"address\":\"5071 W. Congress Pkwy\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60644\"}", "41.87393384627249", "-87.75205184121931", null, false ] ]
+, [ 199, "7029BD8B-C23D-4639-9510-68814DDAE1D0", 199, 1302292813, "386464", 1302299146, "386464", null, "Senior Center", "Central West Center", "2102 W. Ogden", "2102 W. Ogden", "Chicago", "IL", "60612", "(312) 746-5300 (Voice) or (312) 746-0321 (TTY) ", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/regional_center_information.html", "http://www.cityofchicago.org/city/en/depts/fss/supp_info/regional_center_information.html" ], "Call for hours", "No", true, false, true, [ "{\"address\":\"2102 W. Ogden\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60612\"}", "41.87104299405995", "-87.67859824824583", null, false ] ]
+, [ 200, "B10263E0-8321-4F04-B7AA-90B2F9B40348", 200, 1302292813, "386464", 1302299149, "386464", null, "Senior Center", "Chatham Satellite Center", "8300 S. Cottage Grove", "8300 S. Cottage Grove", "Chicago", "IL", "60619", "(312) 745-0385", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/satellite_centerinformation.html", "http://www.cityofchicago.org/city/en/depts/fss/supp_info/satellite_centerinformation.html" ], "M-F: 8:30AM-4:30PM; SA-SU: Closed ", "Yes", true, false, true, [ "{\"address\":\"8300 S. Cottage Grove\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60619\"}", "41.74392966552165", "-87.60526142897174", null, false ] ]
+, [ 201, "9C0D51BF-7C42-4F8C-BACC-289406DDB814", 201, 1302292813, "386464", 1302299148, "386464", null, "Senior Center", "Englewood Satellite Center", "653 W. 63rd St.", "653 W. 63rd St.", "Chicago", "IL", "60621", "(312) 745-3328", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/satellite_centerinformation.html", "http://www.cityofchicago.org/city/en/depts/fss/supp_info/satellite_centerinformation.html" ], "M-F: 8:30AM-4:30PM; SA-SU: Closed ", "Yes", true, false, true, [ "{\"address\":\"653 W. 63rd St.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60621\"}", "41.77980604622945", "-87.64196893270463", null, false ] ]
+, [ 202, "84A0C284-BCB1-4584-9785-A16DAE198E27", 202, 1302292813, "386464", 1302299146, "386464", null, "Senior Center", "Garfield Ridge Satellite Center", "5674 S. Archer Ave", "5674 S. Archer Ave", "Chicago", "IL", "60638", "(312) 745-4250", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/satellite_centerinformation.html", "http://www.cityofchicago.org/city/en/depts/fss/supp_info/satellite_centerinformation.html" ], "M-F: 8:30AM-3PM; SA-SU: Closed ", "Yes", true, false, true, [ "{\"address\":\"5674 S. Archer Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60638\"}", "41.797226434618594", "-87.75315471018392", null, false ] ]
+, [ 203, "5879308F-A08A-45F9-B978-D7B37DF7C906", 203, 1302292813, "386464", 1302299142, "386464", null, "Senior Center", "North Center Satellite Center", "4040 N. Oakley Ave", "4040 N. Oakley Ave", "Chicago", "IL", "60618", "(312) 745-4029", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/satellite_centerinformation.html", "http://www.cityofchicago.org/city/en/depts/fss/supp_info/satellite_centerinformation.html" ], "Call", "Yes", true, false, true, [ "{\"address\":\"4040 N. Oakley Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60618\"}", "41.954849869961514", "-87.68608804614789", null, false ] ]
+, [ 204, "13B0F90A-FE8C-4F03-8876-982EA9C0363A", 204, 1302292813, "386464", 1302299129, "386464", null, "Senior Center", "Northeast (Levy) Senior Center", "2019 W. Lawrence Avenue", "2019 W. Lawrence Avenue", "Chicago", "IL", "60625", "Mike Toma at (312) 742-2630 or Court Chilton at (312) 742-2623", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/regional_center_information.html", "http://www.cityofchicago.org/city/en/depts/fss/supp_info/regional_center_information.html" ], "Call", "No", true, false, true, [ "{\"address\":\"2019 W. Lawrence Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60625\"}", "41.96872254686461", "-87.68019238203728", null, false ] ]
+, [ 205, "F088C985-8A26-47F7-A7FD-603A2DB553C5", 205, 1302292813, "386464", 1302299152, "386464", null, "Senior Center", "Northwest (Copernicus) Senior Center", "3160 N. Milwaukee Avenue", "3160 N. Milwaukee Avenue", "Chicago", "IL", "60618", "(312) 744-6681 (Voice) or (312) 744-0321 (TTY) ", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/regional_center_information.html", "http://www.cityofchicago.org/city/en/depts/fss/supp_info/regional_center_information.html" ], "Call", "No", true, false, true, [ "{\"address\":\"3160 N. Milwaukee Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60618\"}", "41.938368983472756", "-87.72268832479132", null, false ] ]
+, [ 206, "F0FE3F70-1DE0-47AD-B9D0-B25BB59F600A", 206, 1302292813, "386464", 1302299152, "386464", null, "Senior Center", "Portage Park Satellite Center", "4100 N. Long", "4100 N. Long", "Chicago", "IL", "60641", "(312) 744-9022", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/satellite_centerinformation.html", "http://www.cityofchicago.org/city/en/depts/fss/supp_info/satellite_centerinformation.html" ], "M-F: 8:30AM-4:30PM; SA-SU: Closed ", "Yes", true, false, true, [ "{\"address\":\"4100 N. Long\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60641\"}", "41.95497573162156", "-87.76210231986396", null, false ] ]
+, [ 207, "4F1754EE-EC1E-49AC-93FB-601375ABAF46", 207, 1302292813, "386464", 1302299142, "386464", null, "Senior Center", "Renaissance Court", "78 E. Washington", "78 E. Washington", "Chicago", "IL", "60602", "(312) 744-4550 (Voice) or (312) 744-6777 (TTY) ", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/regional_center_information.html", "http://www.cityofchicago.org/city/en/depts/fss/supp_info/regional_center_information.html" ], "Call", "No", true, false, true, [ "{\"address\":\"78 E. Washington\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60602\"}", "41.88324606603953", "-87.6249627531306", null, false ] ]
+, [ 208, "805E3626-1154-4FE2-BB64-817C940FC4B8", 208, 1302292813, "386464", 1302299146, "386464", null, "Senior Center", "Southeast Center (Atlas)", "1767 E. 79th St.", "1767 E. 79th St.", "Chicago", "IL", "60649", "(312) 747-0189 (Voice) or (312) 746-0322 (TTY) ", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/regional_center_information.html", "http://www.cityofchicago.org/city/en/depts/fss/supp_info/regional_center_information.html" ], "Call", "No", true, false, true, [ "{\"address\":\"1767 E. 79th St.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60649\"}", "41.751512943458266", "-87.5819826459126", null, false ] ]
+, [ 209, "0759D521-7BE6-48DC-8301-64F2C774F6B3", 209, 1302292813, "386464", 1302299115, "386464", null, "Senior Center", "Southwest Center", "6117 S. Kedzie", "6117 S. Kedzie", "Chicago", "IL", "60629", "(312) 747-0440 (Voice) or (312) 746-0323 (TTY) ", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/regional_center_information.html", "http://www.cityofchicago.org/city/en/depts/fss/supp_info/regional_center_information.html" ], "Call", "No", true, false, true, [ "{\"address\":\"6117 S. Kedzie\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60629\"}", "41.78212991978889", "-87.70319764951621", null, false ] ]
+, [ 210, "63A16EBC-4D7C-4246-AA79-C182887D674A", 210, 1302292813, "386464", 1302299143, "386464", null, "Senior Center", "West Town Satellite Center", "1613 W. Chicago Ave.", "1613 W. Chicago Ave.", "Chicago", "IL", "60622", "(312) 743-1016", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/satellite_centerinformation.html", null ], "M-F: 9AM-4PM; SA-SU: Closed  ", "Yes", true, false, true, [ "{\"address\":\"1613 W. Chicago Ave.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60622\"}", "41.89610637105852", "-87.66751867155705", null, false ] ]
+, [ 211, "D3113446-6CFA-4C0E-8437-4B2486B5829C", 211, 1302292813, "386464", 1302299151, "386464", null, "Wireless Internet Zone", "Center for Green Technology ", "445 N. Sacramento Boulevard", "445 N. Sacramento Boulevard", "Chicago", "IL", "60612", "NA", [ "http://www.cityofchicago.org/city/en/depts/doe/provdrs/ccgt.html", "http://www.cityofchicago.org/city/en/depts/doe/provdrs/ccgt.html" ], "Wireless access is available 24 hours a day 7 days a week.", "No", false, true, false, [ "{\"address\":\"445 N. Sacramento Boulevard\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60612\"}", "41.889658232108445", "-87.70151304426457", null, false ] ]
+, [ 212, "660D060C-CA57-4BF7-B0A8-4C156377C428", 212, 1302292813, "386464", 1302299143, "386464", null, "Wireless Internet Zone", "Chicago Cultural Center", "78 E Washington Street", "78 E Washington Street", "Chicago", "IL", "60602", "NA", [ "http://www.cityofchicago.org/city/en/depts/doit/supp_info/wireless_internetzones.html", "http://www.cityofchicago.org/city/en/depts/doit/supp_info/wireless_internetzones.html" ], "Wireless access is available 24 hours a day 7 days a week.", "No", false, true, false, [ "{\"address\":\"78 E Washington Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60602\"}", "41.88324606603953", "-87.6249627531306", null, false ] ]
+, [ 213, "7889494B-2A30-4EAF-ABD2-65AE1CB04344", 213, 1302292813, "386464", 1302299146, "386464", null, "Wireless Internet Zone", "Daley Center Plaza", "50 W. Washington Street", "50 W. Washington Street", "Chicago", "IL", "60602", "NA", [ "http://www.cityofchicago.org/city/en/depts/doit/supp_info/wireless_internetzones.html", "http://www.cityofchicago.org/city/en/depts/doit/supp_info/wireless_internetzones.html" ], "Wireless access is available 24 hours a day 7 days a week.", "No", false, true, false, [ "{\"address\":\"50 W. Washington Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60602\"}", "41.88322807959895", "-87.62943238361618", null, false ] ]
+, [ 214, "8DF24C1D-6E16-4A8A-9A55-0F253E97B949", 214, 1302292813, "386464", 1302299147, "386464", null, "Wireless Internet Zone", "Federal Plaza", "230 S. Dearborn Street", "230 S. Dearborn Street", "Chicago", "IL", "60603", "NA", [ "http://www.cityofchicago.org/city/en/depts/doit/supp_info/wireless_internetzones.html", "http://www.cityofchicago.org/city/en/depts/doit/supp_info/wireless_internetzones.html" ], "Wireless access is available 24 hours a day 7 days a week.", "No", false, true, false, [ "{\"address\":\"230 S. Dearborn Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60603\"}", "41.87946025405504", "-87.62937953524037", null, false ] ]
+, [ 215, "D09E3625-7F30-429B-B592-BFDF2592FAD8", 215, 1302292813, "386464", 1302299151, "386464", null, "Wireless Internet Zone", "Gallery 37", "66 E Randolph Street", "66 E Randolph Street", "Chicago", "IL", "60601", "NA", [ "http://www.cityofchicago.org/city/en/depts/doit/supp_info/wireless_internetzones.html", "http://www.cityofchicago.org/city/en/depts/doit/supp_info/wireless_internetzones.html" ], "Wireless access is available 24 hours a day 7 days a week.", "No", false, true, false, [ "{\"address\":\"66 E Randolph Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60601\"}", "41.88453209654148", "-87.62538543448437", null, false ] ]
+, [ 216, "07A301B1-0E4A-4B0E-9CF0-8FEA51DCA4F5", 216, 1302292813, "386464", 1302299115, "386464", null, "Wireless Internet Zone", "Millennium Park", "55 N Michigan Avenue", "55 N Michigan Avenue", "Chicago", "IL", "60602", "NA", [ "http://www.cityofchicago.org/city/en/depts/doit/supp_info/wireless_internetzones.html", "http://www.cityofchicago.org/city/en/depts/doit/supp_info/wireless_internetzones.html" ], "Wireless access is available 24 hours a day 7 days a week.", "No", false, true, false, [ "{\"address\":\"55 N Michigan Avenue\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60602\"}", "41.88335043436731", "-87.62419581995832", null, false ] ]
+, [ 217, "6E7EB819-9C76-462D-A02A-E241659BB920", 217, 1302292813, "386464", 1302299144, "386464", null, "Wireless Internet Zone", "Thompson Center Plaza", "100 W. Randolph Street", "100 W. Randolph Street", "Chicago", "IL", "60601", "NA", [ "http://www.cityofchicago.org/city/en/depts/doit/supp_info/wireless_internetzones.html", "http://www.cityofchicago.org/city/en/depts/doit/supp_info/wireless_internetzones.html" ], "Wireless access is available 24 hours a day 7 days a week.", "No", false, true, false, [ "{\"address\":\"100 W. Randolph Street\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60601\"}", "41.884496123660256", "-87.63158176326624", null, false ] ]
+, [ 218, "ED90195B-0220-4AD9-970C-87DC5EEF68FE", 218, 1302292813, "386464", 1302299152, "386464", null, "WorkForce Center", "CARES Chicago", "3333 W. Arthington, Suite 139", "3333 W. Arthington, Suite 139", "Chicago", "IL", "60624", "(773) 265-3300", [ "http://www.careschicago.org/", "http://www.careschicago.org/" ], "Call", "NA", true, false, true, [ "{\"address\":\"3333 W. Arthington, Suite 139\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60624\"}", "41.87001651299184", "-87.70903665300229", null, false ] ]
+, [ 219, "0DAA61E5-D503-42A2-8797-27B149B48D20", 219, 1302292813, "386464", 1302299123, "386464", null, "WorkForce Center", "Chicago Career Center", "11000 S. Michigan", "11000 S. Michigan", "Chicago", "IL", "60628", "(773) 233-4364", [ "http://www.southeastchicago.com/", "http://www.southeastchicago.com/" ], "Call", "NA", true, false, true, [ "{\"address\":\"11000 S. Michigan\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60628\"}", "41.69419058904009", "-87.62082587179577", null, false ] ]
+, [ 220, "BAEE405C-4626-470B-9649-83DF6082A152", 220, 1302292813, "386464", 1302299150, "386464", null, "WorkForce Center", "Chicago Federation of Labor", "130 W. Randolph", "130 W. Randolph", "Chicago", "IL", "60601", "(312) 565-9431 ", [ "http://www.chicagolabor.org/", "http://www.chicagolabor.org/" ], "Call", "NA", true, false, true, [ "{\"address\":\"130 W. Randolph\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60601\"}", "41.8845214177322", "-87.63180885702371", null, false ] ]
+, [ 221, "7D1F20B8-51A9-470E-845B-430C5802EF91", 221, 1302292813, "386464", 1302299146, "386464", null, "WorkForce Center", "Chicago Workforce Center - Garfield", "10 S. Kedzie, Room 134", "10 S. Kedzie, Room 134", "Chicago", "IL", "60612", "(773) 722-3885 (Voice or (773) 722-6081(TTY)", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/chicago_workforcecenters-servicesforjobseekers.html", "http://www.cityofchicago.org/city/en/depts/fss/supp_info/chicago_workforcecenters-servicesforjobseekers.html" ], "M-TH: 9AM (Orientation)", "Yes", true, false, true, [ "{\"address\":\"10 S. Kedzie, Room 134\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60612\"}", "41.88085288039982", "-87.70617648625458", null, false ] ]
+, [ 222, "4BA2A051-E3E5-4A51-B0AF-052F3617D601", 222, 1302292813, "386464", 1302299142, "386464", null, "WorkForce Center", "Chicago Workforce Center - Mid-South", "4314 S. Cottage Grove", "4314 S. Cottage Grove", "Chicago", "IL", "60653", "(773) 538-5627 (Voice) or (773) 538-8260 (TTY)", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/chicago_workforcecenters-servicesforjobseekers.html", "http://www.cityofchicago.org/city/en/depts/fss/supp_info/chicago_workforcecenters-servicesforjobseekers.html" ], "M-TH: 8:45AM (Orientation)", "Yes", true, false, true, [ "{\"address\":\"4314 S. Cottage Grove\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60653\"}", "41.81942497598186", "-87.61039020504393", null, false ] ]
+, [ 223, "9B24A016-26A0-4826-B92F-C29FE6E670A2", 223, 1302292813, "386464", 1302299148, "386464", null, "WorkForce Center", "Chicago Workforce Center - Northside", "4740 N. Sheridan", "4740 N. Sheridan", "Chicago", "IL", "60640", "(773) 334-4747 (Voice) or (773) 334-9804 (TTY)", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/chicago_workforcecenters-servicesforjobseekers.html", "http://www.cityofchicago.org/city/en/depts/fss/supp_info/chicago_workforcecenters-servicesforjobseekers.html" ], "M-TH: 9AM (Orientation)", "Yes", true, false, true, [ "{\"address\":\"4740 N. Sheridan\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60640\"}", "41.96841186221428", "-87.65483823094394", null, false ] ]
+, [ 224, "EFA343FC-F3B6-4DD8-997C-E2A6E79E3405", 224, 1302292813, "386464", 1302299152, "386464", null, "WorkForce Center", "Chicago Workforce Center - Southwest", "7500 S. Pulaski, Bldg 100", "7500 S. Pulaski, Bldg 100", "Chicago", "IL", "60652", "(773) 884-7000 (Voice) or (773) 884-0269 (TTY)", [ "http://www.cityofchicago.org/city/en/depts/fss/supp_info/chicago_workforcecenters-servicesforjobseekers.html", "http://www.cityofchicago.org/city/en/depts/fss/supp_info/chicago_workforcecenters-servicesforjobseekers.html" ], "M-TH: 8:30AM (Orientation)", "Yes", true, false, true, [ "{\"address\":\"7500 S. Pulaski, Bldg 100\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60652\"}", "41.74600312264596", "-87.71210439540152", null, false ] ]
+, [ 225, "786FE8C0-1378-42AF-A345-F22ACF9969A6", 225, 1302292813, "386464", 1302299146, "386464", null, "WorkForce Center", "Greater West Town Development Corporation", "790 N. Milwaukee", "790 N. Milwaukee Ave.", "Chicago", "IL", "60622", "(312) 432-1300 ", [ "http://www.gwtp.org/programs.html", "http://www.gwtp.org/programs.html" ], "Call", "NA", true, false, true, [ "{\"address\":\"790 N. Milwaukee Ave.\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60622\"}", "41.904133296280236", "-87.66768738512661", null, false ] ]
+, [ 226, "6CA872F0-D89A-4C04-AFA3-493AEAA62BF2", 226, 1302292813, "386464", 1302299144, "386464", null, "WorkForce Center", "Heartland Human Care Services", "3500 S. Lake Park, 1 West", "3500 S. Lake Park, 1 West", "Chicago", "IL", "60653", "(312) 660-1890 x. 6421 ", [ "http://www.heartlandalliance.org/", "http://www.heartlandalliance.org/" ], "Call", "NA", true, false, true, [ "{\"address\":\"3500 S. Lake Park, 1 West\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60653\"}", "41.81942497598186", "-87.61039020504393", null, false ] ]
+, [ 227, "BA583C9B-50EA-4977-8C31-03C1256AC081", 227, 1302292813, "386464", 1302299150, "386464", null, "WorkForce Center", "Howard Area Community Center", "1623 W. Howard", "1623 W. Howard", "Chicago", "IL", "60626", "(773) 262-3515 ", [ "http://www.howardarea.org/", "http://www.howardarea.org/" ], "Call", "NA", true, false, true, [ "{\"address\":\"1623 W. Howard\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60626\"}", "42.01937393447258", "-87.67182680255235", null, false ] ]
+, [ 228, "A26936C1-0810-4541-9430-115BA4912250", 228, 1302292813, "386464", 1302299149, "386464", null, "WorkForce Center", "Inspiration Corporation", "4554 N. Broadway, Suite 207", "4554 N. Broadway, Suite 207", "Chicago", "IL", "60640", "(773) 878-0981 ", [ "http://www.inspirationcorp.org/", "http://www.inspirationcorp.org/" ], "Call", "NA", true, false, true, [ "{\"address\":\"4554 N. Broadway, Suite 207\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60640\"}", "41.96483256053767", "-87.6570955292375", null, false ] ]
+, [ 229, "9D1D0D1C-8B35-4A0E-9BBF-138F994C3631", 229, 1302292813, "386464", 1302299148, "386464", null, "WorkForce Center", "Polish American Association", "3815-3819 N. Cicero", "3815-3819 N. Cicero", "Chicago", "IL", "60641", "(773) 282-1122 ", [ "http://www.polish.org/", "http://www.polish.org/" ], "TU, TH: 9AM-2PM and 3PM-5:45PM; W, F: 1PM-2PM; 3PM-6:45PM; SA: 9AM-2PM and 3PM-4:45PM; SU-M: Closed", "NA", true, false, true, [ "{\"address\":\"3815-3819 N. Cicero\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60641\"}", "41.946175853233", "-87.7470192248573", null, false ] ]
+, [ 230, "B41C626F-D5E0-4CD4-BC2A-8C9C7374341D", 230, 1302292813, "386464", 1302299149, "386464", null, "WorkForce Center", "Polish American Association", "6276 W. Archer", "6276 S. Archer", "Chicago", "IL", "60638", "(773) 767-7773 ", [ "http://www.polish.org/", "http://www.polish.org/" ], "TU-TH 1PM-8:45PM; SA: 10AM-5:45PM; M, F, SU: Closed", "NA", true, false, true, [ "{\"address\":\"6276 S. Archer\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60638\"}", "41.79347723329764", "-87.77747016474648", null, false ] ]
+, [ 231, "BF32F81A-E542-4BCB-8FAE-30047F0F3FA0", 231, 1302292813, "386464", 1302299150, "386464", null, "WorkForce Center", "Safer Foundation", "571 W. Jackson", "571 W. Jackson", "Chicago", "IL", "60661", "(312) 922-2200", [ "http://www.saferfoundation.org/viewpage.asp?id=4", "http://www.saferfoundation.org/viewpage.asp?id=4" ], "Call", "NA", true, false, true, [ "{\"address\":\"571 W. Jackson\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60661\"}", "41.8780299982696", "-87.6422836954149", null, false ] ]
+, [ 232, "92CE74D9-B168-400E-A163-8DBEC82BB688", 232, 1302292813, "386464", 1302299148, "386464", null, "WorkForce Center", "Ser Services Inc.", "3948 W. 26th St., Suite 213", "3948 W. 26th St., Suite 213", "Chicago", "IL", "60623", "(773) 542-9030 x. 250 ", [ "http://www.centralstatesser.org/", "http://www.centralstatesser.org/" ], "Call", "NA", true, false, true, [ "{\"address\":\"3948 W. 26th St., Suite 213\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60623\"}", "41.8442694492897", "-87.72391515601447", null, false ] ]
+, [ 233, "12833778-C9A9-4E8C-AD89-189A515CD1C7", 233, 1302292813, "386464", 1302299123, "386464", null, "WorkForce Center", "YMCA of Metropolitan Chicago", "11 E. Adams", "11 E. Adams", "Chicago", "IL", "60603", "(312) 913-2150", [ "http://www.ymcachgo.org/", "http://www.ymcachgo.org/" ], "Call", "NA", true, false, true, [ "{\"address\":\"11 E. Adams\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60603\"}", "41.87944824745233", "-87.62719331718964", null, false ] ]
+, [ 234, "D42A8C88-BDCE-4BE9-95DB-52946D5041CE", 234, 1302292813, "386464", 1302299151, "386464", null, "Community Technology Center", "Hispanic Housing Development Corporation", "2610 W. North Ave", "2610 W. North Ave", "Chicago", "IL", "60647", "(773) 862-1892", [ "http://www.hispanichousingdevelopment.com/opportunities/workforce.html", null ], "M-F: 9AM-5PM", "No", true, false, true, [ "{\"address\":\"2610 W. North Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60647\"}", "41.91035796790201", "-87.69251126003941", null, false ] ]
+, [ 235, "105C9908-73E6-4764-9E40-0D365A83DE71", 235, 1302292813, "386464", 1302299123, "386464", null, "Community Technology Center", "Lawndale Christian Development Corporation", "3843 W. Ogden Ave", "3843 W. Ogden Ave", "Chicago", "IL", "60623", "(773) 762-8889", [ "http://www.lcdc.net/", "http://www.lcdc.net" ], "M-F: 9AM-5PM", "No", true, false, true, [ "{\"address\":\"3843 W. Ogden Ave\",\"city\":\"Chicago\",\"state\":\"IL\",\"zip\":\"60623\"}", "41.85208455772431", "-87.72147799331503", null, false ] ]
+ ]
+}
