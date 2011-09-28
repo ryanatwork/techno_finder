@@ -4,6 +4,7 @@ require 'net/http'
 require 'haml'
 require 'windy'
 require 'geocoder'
+require 'tropo-webapi-ruby'
 
 # To manage the web session coookies
 use Rack::Session::Pool
