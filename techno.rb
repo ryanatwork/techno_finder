@@ -112,7 +112,7 @@ post '/process_selection.json' do
 
       # Ask the user if they would like an SMS sent to them
       t.ask :name => 'send_sms', :bargein => true, :timeout => 60, :attempts => 1,
-            :say => [{:event => "nomatch:1", :value => "That wasn't a valid answer. "},
+            :say => [{:event => "nomatch:1", :value => "That wasnt a valid answer. "},
                    {:value => "Would you like to have a text message sent to you?
                                Press 1 or say 'yes' to get a text message; Press 2 or say 'no' to conclude this session."}],
             :choices => { :value => "true(1,yes), false(2,no)"}
