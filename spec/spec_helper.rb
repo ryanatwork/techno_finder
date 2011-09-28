@@ -19,6 +19,31 @@ RSpec.configure do |conf|
     File.new(fixture_path + '/' + file)
   end
 
+  def process_zip
+   '{"result":
+                {"sessionId":"abc123",
+                  "callId":"xyzABC",
+                  "state":"ANSWERED",
+                  "sessionDuration":9,
+                  "sequence":1,
+                  "complete":true,
+                  "error":null,
+                  "actions":{
+                      "name":"zip",
+                      "attempts":1,
+                      "disposition":"SUCCESS",
+                      "confidence":100,
+                      "interpretation":"60647",
+                      "utterance":"6 0 6 4 7",
+                      "value":"60647",
+                      "xml":"<?xml version=\"1.0\"?>\r\n<result grammar=\"0@4e1adcec.vxmlgrammar\">\r\n <interpretation grammar=\"0@4e1adcec.vxmlgrammar\" confidence=\"100\">\r\n \r\n <input mode=\"dtmf\">dtmf-6 dtmf-0 dtmf-6 dtmf-4 dtmf-7<\/input>\r\n <\/interpretation>\r\n<\/result>\r\n"}
+                  }
+                }'
+
+
+  end
+
+
 end
 
 def app

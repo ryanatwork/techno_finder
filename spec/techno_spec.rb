@@ -39,54 +39,14 @@ describe 'TechnoFinder Application' do
     end
 
     it "should find locations in the zip code and return json" do
-     json = '{"result":
-                {"sessionId":"abc123",
-                  "callId":"xyzABC",
-                  "state":"ANSWERED",
-                  "sessionDuration":9,
-                  "sequence":1,
-                  "complete":true,
-                  "error":null,
-                  "actions":{
-                      "name":"zip",
-                      "attempts":1,
-                      "disposition":"SUCCESS",
-                      "confidence":100,
-                      "interpretation":"60647",
-                      "utterance":"6 0 6 4 7",
-                      "value":"60647",
-                      "xml":"<?xml version=\"1.0\"?>\r\n<result grammar=\"0@4e1adcec.vxmlgrammar\">\r\n <interpretation grammar=\"0@4e1adcec.vxmlgrammar\" confidence=\"100\">\r\n \r\n <input mode=\"dtmf\">dtmf-6 dtmf-0 dtmf-6 dtmf-4 dtmf-7<\/input>\r\n <\/interpretation>\r\n<\/result>\r\n"}
-                  }
-                }'
-
-      post '/process_zip.json', json
+      post '/process_zip.json', process_zip
       last_response.body.should == "{\"tropo\":[{\"say\":[{\"value\":\"Here are 8 locations. Press the location number you want more information about.\"}]},{\"ask\":{\"name\":\"selection\",\"bargein\":true,\"timeout\":60,\"attempts\":1,\"say\":[{\"event\":\"nomatch:1\",\"value\":\"That wasn't a one-digit opportunity number. Here are your choices: \"},{\"value\":\"Location #1 Bucktown-Wicker Park, Location #2 Humboldt Park , Location #3 Logan Square, Location #4 Monroe Elementary School, Location #5 Community TV Network Youth Media Ctr., Location #6 Workforce Development Office CTC, Location #7 La Casa Norte, Location #8 Hispanic Housing Development Corporation\"}],\"choices\":{\"value\":\"[1 DIGITS]\"}}},{\"on\":{\"event\":\"continue\",\"next\":\"/process_selection.json\"}},{\"on\":{\"event\":\"hangup\",\"next\":\"/hangup.json\"}}]}"
     end
   end
 
   describe "/process_selection.json" do
     before do
-    json = '{"result":
-                {"sessionId":"abc123",
-                  "callId":"xyzABC",
-                  "state":"ANSWERED",
-                  "sessionDuration":9,
-                  "sequence":1,
-                  "complete":true,
-                  "error":null,
-                  "actions":{
-                      "name":"zip",
-                      "attempts":1,
-                      "disposition":"SUCCESS",
-                      "confidence":100,
-                      "interpretation":"60647",
-                      "utterance":"6 0 6 4 7",
-                      "value":"60647",
-                      "xml":"<?xml version=\"1.0\"?>\r\n<result grammar=\"0@4e1adcec.vxmlgrammar\">\r\n <interpretation grammar=\"0@4e1adcec.vxmlgrammar\" confidence=\"100\">\r\n \r\n <input mode=\"dtmf\">dtmf-6 dtmf-0 dtmf-6 dtmf-4 dtmf-7<\/input>\r\n <\/interpretation>\r\n<\/result>\r\n"}
-                  }
-                }'
-
-      post '/process_zip.json', json
+      post '/process_zip.json', process_zip
     end
 
     it "should list the results and return json" do
