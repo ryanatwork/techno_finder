@@ -3,6 +3,7 @@ source 'http://rubygems.org'
 gem 'sinatra'
 gem 'thin'
 
+gem 'geocoder'
 gem 'haml'
 gem 'json'
 gem 'rake'
