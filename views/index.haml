@@ -43,9 +43,19 @@
           %br
           = "Location: #{@tech[1].address} "
           %br
+          = "Type: #{@tech[1].type}"
+          %br
           = "Hours: #{@tech[1].hours}"
           %br
           = "Phone: #{@tech[1].phone}"
+          %br
+          = "Appointment: #{@tech[1].appointment}"
+          %br
+          = "Internet: #{@tech[1].internet ? 'Yes' : 'No'}"
+          %br
+          = "WIFI: #{@tech[1].wifi ? 'Yes' : 'No'}"
+          %br
+          = "Training: #{@tech[1].training ? 'Yes' : 'No'}"
       %dt
         Would you like to have a text message sent to you? Press 1 to get a text message; Press 2 to conclude this session.
         %dd
