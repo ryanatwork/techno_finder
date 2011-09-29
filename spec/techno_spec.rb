@@ -72,7 +72,7 @@ describe 'TechnoFinder Application' do
                 }'
 
       post '/process_selection.json', json
-      last_response.body.should == "{\"tropo\":[{\"say\":[{\"value\":\"Information about location Bucktown-Wicker Park is as follows: Location: 1701 N. Milwaukee Avenue Hours: M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: ClosedPhone: (312) 744-6022\"}]},{\"ask\":{\"name\":\"send_sms\",\"bargein\":true,\"timeout\":60,\"attempts\":1,\"say\":[{\"event\":\"nomatch:1\",\"value\":\"That wasnt a valid answer. \"},{\"value\":\"Would you like to have a text message sent to you?\\n                               Press 1 to get a text message; Press 2 to conclude this session.\"}],\"choices\":{\"value\":\"true(1), false(2)\",\"mode\":\"dtmf\"}}},{\"say\":[{\"value\":\"No location with that value. Please try again.\"}]},{\"on\":{\"event\":\"continue\",\"next\":\"/send_text_message.json\"}},{\"on\":{\"event\":\"hangup\",\"next\":\"/hangup.json\"}}]}"
+      last_response.body.should == "{\"tropo\":[{\"say\":[{\"value\":\"Information about location Bucktown-Wicker Park is as follows: Location: 1701 N. Milwaukee Avenue Hours: M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: ClosedPhone: (312) 744-6022\"}]},{\"ask\":{\"name\":\"send_sms\",\"bargein\":true,\"timeout\":60,\"attempts\":1,\"say\":[{\"event\":\"nomatch:1\",\"value\":\"That wasnt a valid answer. \"},{\"value\":\"Would you like to have a text message sent to you?\\n                               Press 1 to get a text message; Press 2 to conclude this session.\"}],\"choices\":{\"value\":\"true(1), false(2)\",\"mode\":\"dtmf\"}}},{\"on\":{\"event\":\"continue\",\"next\":\"/send_text_message.json\"}},{\"on\":{\"event\":\"hangup\",\"next\":\"/hangup.json\"}}]}"
     end
   end
 
