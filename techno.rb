@@ -85,7 +85,8 @@ post '/process_selection.json' do
       t.say say_string
 
       session[:say_string] = "" # storing in a session variable to send it via text message later (if the user wants)
-      session[:say_string] += "Location:#{item.address} "
+      session[:say_string] += "#{item.facility} "
+      session[:say_string] += "#{item.address} "
       session[:say_string] += "Type:#{item.type} "
       session[:say_string] += "Hours:#{item.hours} "
       session[:say_string] += "Phone:#{item.phone} "
