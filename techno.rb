@@ -143,8 +143,17 @@ post '/hangup.json' do
   puts " Call complete (CDR received). Call duration: #{v[:result][:session_duration]} second(s)"
 end
 
+def get_technology
+  technology = Windy.views.find_by_id("nen3-vcxj")
+  places = technology.rows
+  get_technology  = places.find_all_by_zip("60647")
+end
+
 
 get '/' do
+  @tech = get_technology
+  @items_say = []
+  @tech.each_with_index{|item,i| @items_say << "Location ##{i+1} #{item.facility}"}
   haml :index
 end
 
