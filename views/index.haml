@@ -31,7 +31,7 @@
         Enter your 5 digit zip code
         %dd 60647
       %dt
-        Here are you 8 locations. Press the location number you want more information about.
+        = "Here are #{@items_say.count} locations. Press the location number you want more information about."
         %dd
           - @items_say.each do |item|
             = item
