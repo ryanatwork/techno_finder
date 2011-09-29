@@ -20,7 +20,7 @@ post '/index.json' do
       t.ask :name => 'initial_text', :choices => { :value => "[ANY]"}
       session[:zip] = v[:session][:initial_text]
     else
-      t.say "Welcome to techno finder; search for public technology resources in your area"
+      t.say "Welcome to techno finder; search for public technology resources in Chicago"
       t.ask :name => 'zip', :bargein => true, :timeout => 60, :attempts => 2,
           :say => [{:event => "timeout", :value => "Sorry, I did not hear anything."},
                    {:event => "nomatch:1 nomatch:2", :value => "Oops, that wasnt a five-digit zip code."},
