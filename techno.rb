@@ -75,7 +75,7 @@ post '/process_selection.json' do
       session[:say_string] = "" # storing in a session variable to send it via text message later (if the user wants)
       session[:say_string] += "Information about location #{item.facility} is as follows: "
       session[:say_string] += "Location: #{item.address} "
-      session[:say_string] += "Hours: #{item.hours} "
+      session[:say_string] += "Hours: #{fix_hours(item.hours)} "
       session[:say_string] += "Phone: #{item.phone}"
       t.say session[:say_string]
 
@@ -141,6 +141,10 @@ end
 post '/hangup.json' do
   v = Tropo::Generator.parse request.env["rack.input"].read
   puts " Call complete (CDR received). Call duration: #{v[:result][:session_duration]} second(s)"
+end
+
+def fix_hours(hours)
+  hours.gsub('-', ' to ')
 end
 
 def get_technology
