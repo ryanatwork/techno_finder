@@ -75,8 +75,13 @@ post '/process_selection.json' do
       session[:say_string] = "" # storing in a session variable to send it via text message later (if the user wants)
       session[:say_string] += "Information about location #{item.facility} is as follows: "
       session[:say_string] += "Location: #{item.address} "
+      session[:say_string] += "Type: #{item.type} "
       session[:say_string] += "Hours: #{fix_hours(item.hours)} "
-      session[:say_string] += "Phone: #{item.phone}"
+      session[:say_string] += "Phone: #{item.phone} "
+      session[:say_string] += "Appointment: #{item.appointment} "
+      session[:say_string] += "Internet: #{item.internet ? 'Yes' : 'No'} "
+      session[:say_string] += "WiFi: #{item.wifi ? 'Yes' : 'No'} "
+      session[:say_string] += "Training: #{item.training ? 'Yes' : 'No'} "
       t.say session[:say_string]
 
       t.ask :name => 'send_sms', :bargein => true, :timeout => 60, :attempts => 1,
