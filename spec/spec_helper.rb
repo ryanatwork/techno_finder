@@ -43,6 +43,29 @@ RSpec.configure do |conf|
 
   end
 
+  def process_selection
+    '{"result":
+                {"sessionId":"abc123",
+                  "callId":"xyz456",
+                  "state":"ANSWERED",
+                  "sessionDuration":28,
+                  "sequence":2,
+                  "complete":true,
+                  "error":null,
+                  "actions":{
+                    "name":"selection",
+                    "attempts":1,
+                    "disposition":
+                    "SUCCESS",
+                    "confidence":100,
+                    "interpretation":"1",
+                    "utterance":"1",
+                    "value":"1",
+                    "xml":"<?xml version=\"1.0\"?>\r\n<result grammar=\"1@4e1adcec.vxmlgrammar\">\r\n <interpretation grammar=\"1@4e1adcec.vxmlgrammar\" confidence=\"100\">\r\n \r\n <input mode=\"dtmf\">dtmf-1<\/input>\r\n <\/interpretation>\r\n<\/result>\r\n"}
+                  }
+                }'
+
+  end
 
 end
 

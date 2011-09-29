@@ -76,4 +76,17 @@ describe 'TechnoFinder Application' do
     end
   end
 
+  describe "/send_text_message.json" do
+    before do
+      post '/process_zip.json', process_zip
+      post '/process_selection.json', process_selection
+    end
+
+    it "should ask to send a text message" do
+      json = '{"result":{"sessionId":"abc123","callId":"xyz456","state":"ANSWERED","sessionDuration":97,"sequence":4,"complete":true,"error":null,"actions":{"name":"number_to_text","attempts":1,"disposition":"SUCCESS","confidence":100,"interpretation":"6615551212","utterance":"6 6 1 5 5 5 1 2 1 2","value":"6615551212","xml":"<?xml version=\"1.0\"?>\r\n<result grammar=\"3@90564d7e.vxmlgrammar\">\r\n <interpretation grammar=\"3@90564d7e.vxmlgrammar\" confidence=\"100\">\r\n \r\n <input mode=\"dtmf\">dtmf-6 dtmf-6 dtmf-1 dtmf-9 dtmf-9 dtmf-3 dtmf-5 dtmf-8 dtmf-3 dtmf-2<\/input>\r\n <\/interpretation>\r\n<\/result>\r\n"}}}'
+      post '/send_text_message.json', json
+      last_response.body.should == "{\"tropo\":[{\"message\":{\"to\":\"6615551212\",\"network\":\"SMS\",\"say\":{\"value\":\"Information about location Bucktown-Wicker Park is as follows: Location: 1701 N. Milwaukee Avenue Hours: M-W: 12PM-8PM; TU, TH: 10AM-6PM; F-SA: 9AM-5PM; SU: ClosedPhone: (312) 744-6022\"}}},{\"say\":[{\"value\":\"Message sent.\"}]},{\"on\":{\"event\":\"continue\",\"next\":\"/goodbye.json\"}},{\"on\":{\"event\":\"hangup\",\"next\":\"/hangup.json\"}}]}"
+    end
+  end
+
 end
