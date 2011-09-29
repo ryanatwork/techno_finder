@@ -89,4 +89,12 @@ describe 'TechnoFinder Application' do
     end
   end
 
+  describe "/goodbye.json" do
+    it "should read the goodbye message to the user" do
+      json = '{"result":{"sessionId":"abc123","callId":"xyz456","state":"ANSWERED","sessionDuration":100,"sequence":5,"complete":true,"error":null}}'
+      post '/goodbye.json', json
+      last_response.body.should == "{\"tropo\":[{\"say\":[{\"value\":\"That's all. Communication services donated by http://Tropo.com; data by http://data.cityofchicago.org/\"}]},{\"hangup\":null},{\"on\":{\"event\":\"hangup\",\"next\":\"/hangup.json\"}}]}"
+    end
+  end
+
 end
