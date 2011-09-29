@@ -72,17 +72,27 @@ post '/process_selection.json' do
   t = Tropo::Generator.new
     if v[:result][:actions][:selection][:value]
       item = session[:data][v[:result][:actions][:selection][:value].to_i-1]
+      say_string = ""
+      say_string += "Information about location #{item.facility} is as follows: "
+      say_string += "Location: #{item.address};"
+      say_string += "Type: #{item.type};"
+      say_string += "Hours: #{fix_hours(item.hours)};"
+      say_string += "Phone: #{item.phone};"
+      say_string += "Appointment: #{item.appointment};"
+      say_string += "Internet: #{item.internet ? 'Yes' : 'No'};"
+      say_string += "WiFi: #{item.wifi ? 'Yes' : 'No'} "
+      say_string += "Training: #{item.training ? 'Yes' : 'No'};"
+      t.say say_string
+
       session[:say_string] = "" # storing in a session variable to send it via text message later (if the user wants)
-      session[:say_string] += "Information about location #{item.facility} is as follows: "
-      session[:say_string] += "Location: #{item.address} "
-      session[:say_string] += "Type: #{item.type} "
-      session[:say_string] += "Hours: #{fix_hours(item.hours)} "
-      session[:say_string] += "Phone: #{item.phone} "
-      session[:say_string] += "Appointment: #{item.appointment} "
-      session[:say_string] += "Internet: #{item.internet ? 'Yes' : 'No'} "
-      session[:say_string] += "WiFi: #{item.wifi ? 'Yes' : 'No'} "
-      session[:say_string] += "Training: #{item.training ? 'Yes' : 'No'} "
-      t.say session[:say_string]
+      session[:say_string] += "Location:#{item.address} "
+      session[:say_string] += "Type:#{item.type} "
+      session[:say_string] += "Hours:#{item.hours} "
+      session[:say_string] += "Phone:#{item.phone} "
+      session[:say_string] += "Appointment:#{item.appointment} "
+      session[:say_string] += "Internet:#{item.internet ? 'Yes' : 'No'} "
+      session[:say_string] += "WiFi:#{item.wifi ? 'Yes' : 'No'} "
+      session[:say_string] += "Training:#{item.training ? 'Yes' : 'No'} "
 
       t.ask :name => 'send_sms', :bargein => true, :timeout => 60, :attempts => 1,
             :say => [{:event => "nomatch:1", :value => "That wasnt a valid answer. "},
