@@ -84,6 +84,7 @@ post '/process_selection.json' do
                    {:value => "Would you like to have a text message sent to you?
                                Press 1 to get a text message; Press 2 to conclude this session."}],
             :choices => { :value => "true(1), false(2)", :mode => "dtmf"}
+    else
       t.say "No location with that value. Please try again."
     end
 
