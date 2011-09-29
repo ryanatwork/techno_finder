@@ -16,8 +16,39 @@
 .row
   .span8
     %h2 How to Use
-    %p Find technology resources in Chicago by calling (773) 280-8612 and entering your 5 digit zip code.
-
+    %p Find technology resources in Chicago by calling <strong>(773) 280-8612</strong> and entering your 5 digit zip code.
+    %h4 Example:
+    %dl
+      %dt
+        Call
+        %dd (773) 280-8612
+      %dt
+        Enter your 5 digit zip code
+        %dd 60647
+      %dt
+        Here are you 8 locations. Press the location number you want more information about.
+        %dd
+          - @items_say.each do |item|
+            = item
+            %br
+      %dt
+        2
+        %dd
+          = "Information about location #{@tech[1].facility} is as follows: "
+          %br
+          = "Location: #{@tech[1].address} "
+          %br
+          = "Hours: #{@tech[1].hours}"
+          %br
+          = "Phone: #{@tech[1].phone}"
+      %dt
+        Would you like to have a text message sent to you? Press 1 to get a text message; Press 2 to conclude this session.
+        %dd
+          1
+      %dt
+        What 10-digit phone number would you like to send the information to?
+        %dd 773-555-1212
+      %dt That's all thanks for using!
   .span8
     %img{:class => "thumbnail", :src => "http://placehold.it/330x230"}/
 %br
