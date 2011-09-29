@@ -1,3 +1,38 @@
-%form_tag
-  %input
-  %submit
+.hero-unit
+  %h1 Techno Finder
+  %br
+  %p Find public technology resources in Chicago by calling (773) 280-8612.
+
+.row
+  .span16
+    %h2 About
+    %p Chicago has many public sites with technology resources that are free or afforable.
+    %br
+    %p Technology Resources include:
+    %ul
+      %li Computers with Internet
+      %li Wi-fi hotspots
+      %li Technology training
+.row
+  .span8
+    %h2 How to Use
+    %p Find technology resources in Chicago by calling (773) 280-8612 and entering your 5 digit zip code.
+
+  .span8
+    %img{:class => "thumbnail", :src => "http://placehold.it/330x230"}/
+%br
+.row
+  .span16
+    %h2 View on the map
+    %br
+    %p The City of Chicago also provides an easy to use map to view Public Technology Resources:
+    %div
+      %p{:style => "margin-bottom:3px"}
+        %a{:href => "https://data.cityofchicago.org/Technology/Public-Technology-Map/zexr-ueke", :target => "_blank", :style =>"font-size:12px;font-weight:bold;text-decoration:none;color:#333333;font-family:arial;"} Public Technology Map
+      %iframe{:width => "500px", :title => "Public Technology Map", :height => "425px", :src => "https://data.cityofchicago.org/w/zexr-ueke/3q3f-6823?cur=Q_SVgdxO7nK&from=root", :frameborder => "0", :scrolling => "no"}
+        %a{:href => "https://data.cityofchicago.org/Technology/Public-Technology-Map/zexr-ueke", :title => "Public Technology Map", :target => "_blank"} Public Technology Map
+      %p
+        %a{:href => "http://www.socrata.com/", :target => "_blank"} Powered by Socrata
+%footer
+  %p &copy; Company 2011
+
