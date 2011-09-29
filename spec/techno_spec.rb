@@ -97,4 +97,12 @@ describe 'TechnoFinder Application' do
     end
   end
 
+  describe "/hangup.json" do
+    it "should send the hangup signal" do
+      json = '{"result":{"sessionId":"abc123","callId":"xyz456","state":"DISCONNECTED","sessionDuration":110,"sequence":6,"complete":true,"error":null}}'
+      post '/hangup.json', json
+      last_response.body.should == ""
+    end
+  end
+
 end
