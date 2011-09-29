@@ -145,26 +145,24 @@ end
 
 
 get '/' do
-
-    b = JSON.parse(Net::HTTP.get(URI.parse("http://data.cityofchicago.org/api/views/nen3-vcxj/rows.json")))
-    us = [41.864447,-87.644806]
-    a = b["data"].min_by {|x| dist(x,us)}
-    "#{a}"
+  haml :index
 end
 
 get '/address/:location' do
 
-    b = JSON.parse(Net::HTTP.get(URI.parse("http://data.cityofchicago.org/api/views/nen3-vcxj/rows.json")))
+  b = JSON.parse(Net::HTTP.get(URI.parse("http://data.cityofchicago.org/api/views/nen3-vcxj/rows.json")))
 
+  if params[:location].nil?
+    location = [41.864447,-87.644806]
+  else
     location = params[:location]
+  end
 
-    us = Geocoder.coordinates(location)
-    a = b["data"].min_by {|x| dist(x,us)}
-    "#{a[1]}"
+  us = Geocoder.coordinates(location)
+  a = b["data"].min_by {|x| dist(x,us)}
+  "#{a[1]}"
 
 end
-
-
 
 def dist(entry,loc)
   entry.last[1..2].map(&:to_f).zip(loc).inject(0) {|s,(c1,c2)| s+(c1-c2)**2}
