@@ -168,6 +168,8 @@ def get_technology(zip_code)
   places = technology.rows
   if zip_code == "all"
     get_technology = places
+  elsif zip_code == "wifi"
+    get_technology = places.find_all_by_wifi(true)
   else
     get_technology  = places.find_all_by_zip(zip_code)
   end
@@ -198,6 +200,11 @@ get '/address/:location' do
 end
 
 get '/mobile' do
+  @tech = get_technology("wifi")
+  erb :mobile, :layout => false
+end
+
+get '/map' do
   @tech = get_technology("all")
   erb :mobile, :layout => false
 end
