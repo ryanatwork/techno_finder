@@ -16,6 +16,7 @@
         src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
     <script type="text/javascript">
     function initialize() {
+    detectBrowser();
     var myLatlng = new google.maps.LatLng(41.850033 , -87.65005229999997);
     var myOptions = {
       zoom: 13,
@@ -50,13 +51,24 @@
       var marker<%=places.position%> = new google.maps.Marker({
           position: myPoints,
           map: map,
-          title: '<%=places.position %>'
+          title: '<%=places.facility.tr("'","/'") %>'
       });
       google.maps.event.addListener(marker<%=places.position%>, 'click', function() {
         infowindow<%=places.position%>.open(map,marker<%=places.position%>);
       });
     <% end %>
+  function detectBrowser() {
+  var useragent = navigator.userAgent;
+  var mapdiv = document.getElementById("map_canvas");
+
+  if (useragent.indexOf('iPhone') != -1 || useragent.indexOf('Android') != -1 ) {
+    mapdiv.style.width = '100%';
+    mapdiv.style.height = '100%';
+  } else {
+    mapdiv.style.width = '600px';
+    mapdiv.style.height = '800px';
   }
+  }}
   </script>
   </head>
   <body onload="initialize()">
