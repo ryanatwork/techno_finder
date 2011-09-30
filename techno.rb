@@ -163,15 +163,19 @@ def fix_hours(hours)
   hours.gsub('-', ' to ')
 end
 
-def get_technology
+def get_technology(zip_code)
   technology = Windy.views.find_by_id("nen3-vcxj")
   places = technology.rows
-  get_technology  = places.find_all_by_zip("60647")
+  if zip_code == "all"
+    get_technology = places
+  else
+    get_technology  = places.find_all_by_zip(zip_code)
+  end
 end
 
 
 get '/' do
-  @tech = get_technology
+  @tech = get_technology("60647")
   @items_say = []
   @tech.each_with_index{|item,i| @items_say << "Location ##{i+1} #{item.facility}"}
   haml :index
@@ -194,6 +198,7 @@ get '/address/:location' do
 end
 
 get '/mobile' do
+  @tech = get_technology("all")
   erb :mobile, :layout => false
 end
 
