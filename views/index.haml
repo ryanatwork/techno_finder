@@ -3,21 +3,9 @@
     .span10
       %h1 Techno Finder
       %p Find public technology resources in Chicago by calling <strong>(773) 280-8612</strong>.
+      %p Also find public Wi Fi locations on your mobile phone.
     .span3
     %img{:src => 'computer.png'}
-.row
-  .span16
-    %h2 About
-    %p Need to use a computer with Internet?  Looking for technology training or wi-fi hotspots?
-    %br
-    %p Chicago has many public sites with technology resources that are free or afforable.
-    %br
-    %p Technology Resources include:
-    %ul
-      %li Computers with Internet
-      %li Wi-fi hotspots
-      %li Technology training
-    %br
 .row
   .span8
     %h2 How to Use
@@ -69,7 +57,19 @@
           %a{:href => "sms_example.png"}
             %img{:class => "thumbnail", :src => "sms_example.png"}/
       %dt That's all thanks for using!
-%br
+  .span8
+    %h2 About
+    %p Need to use a computer with Internet?  Looking for technology training or wi-fi hotspots?
+    %br
+    %p Chicago has many public sites with technology resources that are free or afforable.
+    %br
+    %p Technology Resources include:
+    %ul
+      %li Computers with Internet
+      %li Wi-fi hotspots
+      %li Technology training
+    %br
+    %br
 %br
 .row
   .span8
@@ -81,6 +81,8 @@
     %br
     %p The City of Chicago also provides an easy to use map to view Public Technology Resources:
     %iframe{:width => "500px", :height => "425px", :src => "/map",  :frameborder => "0", :scrolling => "no"}
+
+
 %footer
   %p Created by <a href="http://about.me/ryanresella">Ryan Resella</a>
 
