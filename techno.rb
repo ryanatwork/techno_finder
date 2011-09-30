@@ -206,7 +206,7 @@ end
 
 get '/map' do
   @tech = get_technology("all")
-  erb :mobile, :layout => false
+  erb :map, :layout => false
 end
 
 def dist(entry,loc)

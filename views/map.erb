@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Techno Finder Map</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+    <style type="text/css">
+      html, body, #map_canvas {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      p {
+        font-size: 13px;
+        font-weight: normal;
+        line-height: 18px;
+        margin-bottom: 9px;
+      }
+    </style>
+<script type="text/javascript"
+        src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript">
+    function initialize() {
+    var myLatlng = new google.maps.LatLng(41.850033 , -87.65005229999997);
+    var myOptions = {
+      zoom: 13,
+      center: myLatlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+
+    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+    var _myLocationMarker = null, _myLocationLatLng = null;
+
+    if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition( function(position) {
+                var latLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+
+                //Clear the marker if it exists
+                if(_myLocationMarker) {
+                  _myLocationMarker.setMap(null);
+                }
+
+                _myLocationLatLng = latLng;
+
+                //Add a marker on my current location
+                _myLocationMarker = new google.maps.Marker({
+                    map: map,
+                    position: _myLocationLatLng,
+                    icon: 'bluedot.png'
+                });
+
+                map.setCenter(_myLocationLatLng);
+
+            },
+            function(msg){
+              alert('We couldn\'t locate your position.');
+              console.log(msg);
+            },
+            { enableHighAccuracy: true, maximumAge: 90000 });
+        }
+
+    <% @tech.each do |places| %>
+      var contentString = '<div id="content">'+
+          '</div>'+
+          '<div>'+
+          '<p><%= places.facility.tr("'","/'") %> <br/>' +
+          'Addres: <%= places.address %> <br/>' +
+          'Type: <%= places.type %> <br/>' +
+          'Phone: <%= places.phone %> <br/>' +
+          'Website: <a href="<%= places.website[0] %>" _target="blank"><%=places.website[0]%></a> <br/>' +
+          'Hours: <%= places.hours %> <br/>' +
+          'Appointment: <%= places.appointment %> <br/>' +
+          'Internet: <%= places.internet ? 'Yes' : 'No' %> <br/>' +
+          'Wifi: <%= places.wifi ? 'Yes' : 'No' %> <br/>' +
+          'Training: <%= places.training ? 'Yes' : 'No' %> <br/>' +
+          '</p></div>'+
+          '</div>';
+
+      var infowindow<%=places.position%> = new google.maps.InfoWindow({
+          content: contentString
+      });
+
+      var myPoints = new google.maps.LatLng(<%= places.location[1] %>, <%= places.location[2] %>)
+      var marker<%=places.position%> = new google.maps.Marker({
+          position: myPoints,
+          map: map,
+          title: '<%=places.facility.tr("'","/'") %>'
+      });
+      google.maps.event.addListener(marker<%=places.position%>, 'click', function() {
+        infowindow<%=places.position%>.open(map,marker<%=places.position%>);
+      });
+    <% end %>
+  }
+  </script>
+  </head>
+  <body onload="initialize()">
+    <div id="map_canvas"></div>
+
+  </body>
+</html>
+
