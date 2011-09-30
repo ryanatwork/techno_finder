@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Google Maps JavaScript API v3 Example: Map Simple</title>
+    <title>Techno Finder Map</title>
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta charset="UTF-8">
@@ -13,32 +13,52 @@
       }
     </style>
     <script type="text/javascript"
-        src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
     <script type="text/javascript">
-      var map;
-      function initialize() {
-        var myOptions = {
-          zoom: 13,
-          center: new google.maps.LatLng(41.850033 , -87.65005229999997),
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        map = new google.maps.Map(document.getElementById('map_canvas'),
-            myOptions);
-        <% puts "hi #{@tech}" %>
-        <% @tech.each do |places| %>
-            var myLatlng = new google.maps.LatLng(<%=places.location[1] %>,<%=places.location[2]%>);
-          var marker = new google.maps.Marker({
-            position: myLatlng,
-            map: map,
-            title:"Hello World!"
-            });
-        <% end %>
-      }
+    function initialize() {
+    var myLatlng = new google.maps.LatLng(41.850033 , -87.65005229999997);
+    var myOptions = {
+      zoom: 13,
+      center: myLatlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
 
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
+    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+    <% @tech.each do |places| %>
+      var contentString = '<div id="content">'+
+          '</div>'+
+          '<div>'+
+          'Addres: <%= places.address %> <br/>' +
+          'Type: <%= places.type %> <br/>' +
+          'Phone: <%= places.phone %> <br/>' +
+          'Website: <a href="<%= places.website[0] %>" _target="blank"><%=places.website[0]%></a> <br/>' +
+          'Hours: <%= places.hours %> <br/>' +
+          'Appointment: <%= places.appointment %> <br/>' +
+          'Internet: <%= places.internet ? 'Yes' : 'No' %> <br/>' +
+          'Wifi: <%= places.wifi ? 'Yes' : 'No' %> <br/>' +
+          'Training: <%= places.training ? 'Yes' : 'No' %> <br/>' +
+          '</div>'+
+          '</div>';
+
+      var infowindow<%=places.position%> = new google.maps.InfoWindow({
+          content: contentString
+      });
+
+      var myPoints = new google.maps.LatLng(<%= places.location[1] %>, <%= places.location[2] %>)
+      var marker<%=places.position%> = new google.maps.Marker({
+          position: myPoints,
+          map: map,
+          title: '<%=places.position %>'
+      });
+      google.maps.event.addListener(marker<%=places.position%>, 'click', function() {
+        infowindow<%=places.position%>.open(map,marker<%=places.position%>);
+      });
+    <% end %>
+  }
+  </script>
   </head>
-  <body>
+  <body onload="initialize()">
     <div id="map_canvas"></div>
   </body>
 </html>
