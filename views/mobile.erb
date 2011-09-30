@@ -26,6 +26,37 @@
 
     var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
+    var _myLocationMarker = null, _myLocationLatLng = null;
+
+    if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition( function(position) {
+                var latLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+
+                //Clear the marker if it exists
+                if(_myLocationMarker) {
+                  _myLocationMarker.setMap(null);
+                }
+
+
+                _myLocationLatLng = latLng;
+
+                //Add a marker on my current location
+                _myLocationMarker = new google.maps.Marker({
+                    map: map,
+                    position: _myLocationLatLng,
+                    icon: 'bluedot.png'
+                });
+
+                map.setCenter(_myLocationLatLng);
+
+            },
+            function(msg){
+              alert('We couldn\'t locate your position.');
+              console.log(msg);
+            },
+            { enableHighAccuracy: true, maximumAge: 90000 });
+        }
+
     <% @tech.each do |places| %>
       var contentString = '<div id="content">'+
           '</div>'+
