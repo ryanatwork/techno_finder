@@ -11,6 +11,12 @@
         padding: 0;
         height: 100%;
       }
+      p {
+        font-size: 13px;
+        font-weight: normal;
+        line-height: 18px;
+        margin-bottom: 9px;
+      }
     </style>
 <script type="text/javascript"
         src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
@@ -60,7 +66,7 @@
       var contentString = '<div id="content">'+
           '</div>'+
           '<div>'+
-          '<%= places.facility.tr("'","/'") %> <br/>' +
+          '<p><%= places.facility.tr("'","/'") %> <br/>' +
           'Addres: <%= places.address %> <br/>' +
           'Type: <%= places.type %> <br/>' +
           'Phone: <%= places.phone %> <br/>' +
@@ -70,7 +76,7 @@
           'Internet: <%= places.internet ? 'Yes' : 'No' %> <br/>' +
           'Wifi: <%= places.wifi ? 'Yes' : 'No' %> <br/>' +
           'Training: <%= places.training ? 'Yes' : 'No' %> <br/>' +
-          '</div>'+
+          '</p></div>'+
           '</div>';
 
       var infowindow<%=places.position%> = new google.maps.InfoWindow({
