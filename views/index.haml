@@ -1,8 +1,8 @@
-.hero-unit{:style => 'background-color: silver;'}
+.hero-unit{:style => 'background-color: #DDF4FB;border-color: #C6EDF9;'}
   .row
     .span10
       %h1 Techno Finder
-      %p Find public technology resources in Chicago by calling (773) 280-8612.
+      %p Find public technology resources in Chicago by calling <strong>(773) 280-8612</strong>.
     .span3
     %img{:src => 'computer.png'}
 .row
@@ -70,6 +70,11 @@
             %img{:class => "thumbnail", :src => "sms_example.png"}/
       %dt That's all thanks for using!
 %br
+%br
+.row
+  .span8
+    %h2 Data Source
+    %p Data provided by the City of Chicago Data portal - <a href="http://data.cityofchicago.org/Technology/Public-Technology-Resources/nen3-vcxj">Public Technology Resources</a>
 .row
   .span16
     %h2 View on the map
