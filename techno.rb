@@ -193,6 +193,10 @@ get '/address/:location' do
 
 end
 
+get '/mobile' do
+  erb :mobile, :layout => false
+end
+
 def dist(entry,loc)
   entry.last[1..2].map(&:to_f).zip(loc).inject(0) {|s,(c1,c2)| s+(c1-c2)**2}
 end
