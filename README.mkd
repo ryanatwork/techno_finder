@@ -15,9 +15,9 @@ You can see a running version of the application at
     cd technofinder
     bundle install
 
-    ruby yakbus.rb
+    SOCRATA_KEY=abc123 bundle exec thin start
 
-Open your browser to http://localhost:4567 to see the web views
+Open your browser to http://localhost:3000 to see the web views
 
 ## <a name="configuration">Configuration</a>
 This app currently uses Tropo for Voice and SMS
