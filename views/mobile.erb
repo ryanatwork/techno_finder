@@ -2,14 +2,10 @@
 <html>
   <head>
     <title>Techno Finder Map</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <style type="text/css">
-      html, body, #map_canvas {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-      }
+      .page-map, #map-canvas { width: 100%; height: 100%; padding: 0; }
       p {
         font-size: 13px;
         font-weight: normal;
@@ -107,15 +103,6 @@
     mapdiv.style.height = '800px';
   }
   }
-
-$('[data-role=content]')
-  .height(
-    $(window).height() -
-    (5 + $('[data-role=header]').last().height()
-    + $('[data-role=footer]').last().height())
-  );
-// tell google to resize the map
-google.maps.event.trigger(map, 'resize');
 
 }
   </script>
