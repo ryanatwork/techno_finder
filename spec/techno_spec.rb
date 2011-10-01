@@ -116,4 +116,18 @@ describe 'TechnoFinder Application' do
     end
   end
 
+  describe "get /mobile" do
+    it "should render the /mobile page" do
+      get '/mobile'
+      last_response.should be_ok
+    end
+  end
+
+  describe "get /map" do
+    it "should render the /map page" do
+      get '/map'
+      last_response.should be_ok
+    end
+  end
+
 end
