@@ -147,8 +147,8 @@ post '/goodbye.json' do
   # Create a Tropo::Generator object which is used to build the resulting JSON response
   t = Tropo::Generator.new
     if session[:channel] == "VOICE"
-      t.say "That's all. Communication services donated by tropo dot com, data by data dot city of chicago dor org. Have a nice day. Goodbye."
-    else # For text users, we can give them a URL (most clients will make the links clickable)
+      t.say "That's all. Communication services donated by tropo dot com, data by data dot city of chicago dot org. Have a nice day. Goodbye."
+    else
       t.say "That's all. Communication services donated by http://Tropo.com; data by http://data.cityofchicago.org/"
     end
     t.hangup
