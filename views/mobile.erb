@@ -104,10 +104,17 @@
   }
   }
 
-}
+    }
+
+$(document).ready(function(){
+  $('.goMap').live('click', function() {
+  initialize();
+  });
+});
+
   </script>
 </head>
-<body onload="initialize();">
+<body >
 <div data-role="page" id="home" style="width:100%; height:100%;">
 <div data-role="header">
 <div class="ui-title-frontpage">
