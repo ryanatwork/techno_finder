@@ -2,8 +2,7 @@
 <html>
   <head>
     <title>Techno Finder Map</title>
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
     <meta charset="UTF-8">
     <style type="text/css">
       html, body, #map_canvas {
@@ -18,6 +17,9 @@
         margin-bottom: 9px;
       }
     </style>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b3/jquery.mobile-1.0b3.min.css" />
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/mobile/1.0b3/jquery.mobile-1.0b3.min.js"></script>
 <script type="text/javascript"
         src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
     <script type="text/javascript">
@@ -104,11 +106,27 @@
     mapdiv.style.width = '600px';
     mapdiv.style.height = '800px';
   }
-  }}
+  }
+$('[data-role=content]')
+  .height(
+    $(window).height() -
+    (5 + $('[data-role=header]').last().height()
+    + $('[data-role=footer]').last().height())
+  );
+// tell google to resize the map
+google.maps.event.trigger(map, 'resize');
+
+    }
   </script>
   </head>
   <body onload="initialize()">
+  <div data-role="page" data-theme="b" class="page-map" style="width:100%; height:100%;">
+    <div data-role="header"><h1>Techno Finder</h1></div>
+    <div data-role="content" style="padding:0;">
     <div id="map_canvas"></div>
+    </div>
+  </div>
+
 
   </body>
 </html>
