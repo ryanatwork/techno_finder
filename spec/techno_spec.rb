@@ -1,6 +1,10 @@
 require File.dirname(__FILE__) + '/spec_helper'
 
 describe 'TechnoFinder Application' do
+  before(:all) do
+    set :socrata, 'abc123'
+  end
+
   describe '/index.json' do
     it "should respond to an incoming call" do
       json = '{"session":

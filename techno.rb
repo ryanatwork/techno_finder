@@ -6,6 +6,8 @@ require 'windy'
 require 'geocoder'
 require 'tropo-webapi-ruby'
 
+set :socrata, ENV['SOCRATA_KEY']
+
 use Rack::Session::Pool
 
 post '/index.json' do
@@ -42,6 +44,7 @@ post '/process_zip.json' do
   session[:zip] = v[:result][:actions][:zip][:value].gsub(" ","") unless session[:zip]
 
   begin
+    Windy.app_token = settings.socrata
     technology = Windy.views.find_by_id("nen3-vcxj")
     places = technology.rows
     session[:data]  = places.find_all_by_zip(session[:zip])
@@ -164,6 +167,7 @@ def fix_hours(hours)
 end
 
 def get_technology(zip_code)
+  Windy.app_token = settings.socrata
   technology = Windy.views.find_by_id("nen3-vcxj")
   places = technology.rows
   if zip_code == "all"
