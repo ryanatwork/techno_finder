@@ -107,6 +107,7 @@
     mapdiv.style.height = '800px';
   }
   }
+
 $('[data-role=content]')
   .height(
     $(window).height() -
@@ -116,17 +117,30 @@ $('[data-role=content]')
 // tell google to resize the map
 google.maps.event.trigger(map, 'resize');
 
-    }
+}
   </script>
-  </head>
-  <body onload="initialize()">
-  <div data-role="page" data-theme="b" class="page-map" style="width:100%; height:100%;">
-    <div data-role="header"><h1>Techno Finder</h1></div>
-    <div data-role="content" style="padding:0;">
-    <div id="map_canvas"></div>
-    </div>
-  </div>
+</head>
+<body onload="initialize();">
+<div data-role="page" id="home" style="width:100%; height:100%;">
+<div data-role="header">
+<div class="ui-title-frontpage">
+<h2>Techno Finder</h2>
+</div>
+</div>
 
+<div data-role="content">
+<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="a">
+<li data-role="list-divider">Technology Locations</li>
+<li class="goMap"><a href="#wifi_map" data-transition="slide">Wi Fi Locations</a></li>
+</ul>
+</div>
+</div>
+<div data-role="page" class="page-map" id="wifi_map" style="width:100%; height:100%;">
+<div data-role="header" data-position="fixed"><h2>Wi Fi Locations</h2></div>
+<div data-role="content" style="width:100%; height:100%; padding:0;">
+<div id="map_canvas" style="width:100%; height:100%;"></div>
+</div>
+</div>
 
   </body>
 </html>
