@@ -4,6 +4,7 @@
       %h1 Techno Finder
       %p Find public technology resources in Chicago by calling <strong>(773) 280-8612</strong>.
       %p Also find public Wi Fi locations on your mobile phone.
+      %a{:class => "btn success large",:href => 'mobile'} Learn more »
     .span3
     %img{:src => 'computer.png'}
 .row
@@ -72,9 +73,20 @@
     %br
 %br
 .row
-  .span10
+  .span16
     %h2 View Public Wifi locations on your mobile phone
     %p Looking for Public Wifi Locations? <a href='/mobile'>Click here to find them</a>
+    %br
+    %ul.media-grid
+      %li
+        %a{:href => "mobile-home.png"}
+          %img{:class => "thumbnail", :src => "mobile-home.png"}/
+      %li
+        %a{:href => "wifi-spots.png"}
+          %img{:class => "thumbnail", :src => "wifi-spots.png"}/
+      %li
+        %a{:href => "wifi-detail.png"}
+          %img{:class => "thumbnail", :src => "wifi-detail.png"}/
 %br
 .row
   .span10
