@@ -107,12 +107,16 @@
 
     }
 
-$(document).ready(function(){
-  $('.goMap').live('click', function() {
-  initialize();
-  });
+$(document).ready(function() {
+  var location = /#wifi/i;
+  if (location.exec(window.location.href)) {
+    initialize();
+  } else {
+    $('.goMap').click(function(e) {
+      initialize();
+    });
+  }
 });
-
   </script>
 </head>
 <body >
