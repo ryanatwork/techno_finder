@@ -57,7 +57,7 @@ post '/process_zip.json' do
       items_say = []
       session[:data].each_with_index{|item,i| items_say << "Location ##{i+1} #{item.facility}"}
       t.ask :name => 'selection', :bargein => true, :timeout => 60, :attempts => 1,
-          :say => [{:event => "nomatch:1", :value => "That wasn't a one-digit opportunity number. Here are your choices: "},
+          :say => [{:event => "nomatch:1", :value => "That wasn't a one-digit location. Here are your choices: "},
                    {:value => items_say.join(", ")}], :choices => { :value => "[1 DIGITS]", :mode => "dtmf"}
     else
       t.say "No public technology resources found in that zip code. Please try again later."
