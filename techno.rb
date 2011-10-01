@@ -180,6 +180,7 @@ get '/' do
   @tech = get_technology("60647")
   @items_say = []
   @tech.each_with_index{|item,i| @items_say << "Location ##{i+1} #{item.facility}"}
+  @places = get_technology("all")
   haml :index
 end
 
@@ -205,7 +206,7 @@ get '/mobile' do
 end
 
 get '/map' do
-  @tech = get_technology("all")
+  @places = get_technology("all")
   erb :map, :layout => false
 end
 
