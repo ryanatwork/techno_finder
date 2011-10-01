@@ -21,45 +21,44 @@
     </script>
     <script type="text/javascript">
     function initialize() {
-    detectBrowser();
-    var myLatlng = new google.maps.LatLng(41.850033 , -87.65005229999997);
-    var myOptions = {
-      zoom: 13,
-      center: myLatlng,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    }
+      detectBrowser();
+      var myLatlng = new google.maps.LatLng(41.850033 , -87.65005229999997);
+      var myOptions = {
+        zoom: 13,
+        center: myLatlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      }
 
-    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+      var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
-    var _myLocationMarker = null, _myLocationLatLng = null;
+      var _myLocationMarker = null, _myLocationLatLng = null;
 
-    if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition( function(position) {
-                var latLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition( function(position) {
+        var latLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 
-                //Clear the marker if it exists
-                if(_myLocationMarker) {
-                  _myLocationMarker.setMap(null);
-                }
-
-                _myLocationLatLng = latLng;
-
-                //Add a marker on my current location
-                _myLocationMarker = new google.maps.Marker({
-                    map: map,
-                    position: _myLocationLatLng,
-                    icon: 'bluedot.png'
-                });
-
-                map.setCenter(_myLocationLatLng);
-
-            },
-            function(msg){
-              alert('We couldn\'t locate your position.');
-              console.log(msg);
-            },
-            { enableHighAccuracy: true, maximumAge: 90000 });
+        //Clear the marker if it exists
+        if(_myLocationMarker) {
+          _myLocationMarker.setMap(null);
         }
+
+        _myLocationLatLng = latLng;
+
+        //Add a marker on my current location
+        _myLocationMarker = new google.maps.Marker({
+          map: map,
+          position: _myLocationLatLng,
+          icon: 'bluedot.png'
+          });
+
+        map.setCenter(_myLocationLatLng);
+        },
+        function(msg){
+          alert('We couldn\'t locate your position.');
+          console.log(msg);
+        },
+        { enableHighAccuracy: true, maximumAge: 90000 });
+      }
 
     <% @tech.each do |places| %>
       var contentString = '<div id="content">'+
@@ -102,45 +101,45 @@
   } else {
     mapdiv.style.width = '600px';
     mapdiv.style.height = '800px';
-  }
-  }
-
     }
+    }
+  }
 
-$(document).ready(function() {
-  var location = /#wifi/i;
-  if (location.exec(window.location.href)) {
-    initialize();
-  } else {
+  $(document).ready(function() {
+    var location = /#wifi/i;
+    if (location.exec(window.location.href)) {
+      initialize();
+    } else {
     $('.goMap').click(function(e) {
       initialize();
     });
-  }
-});
-  </script>
+    }
+  });
+</script>
 </head>
-<body >
-<div data-role="page" id="home" style="width:100%; height:100%;">
-<div data-role="header">
-<div class="ui-title-frontpage">
-<h2>Techno Finder</h2>
-</div>
-</div>
-
-<div data-role="content">
-<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="a">
-<li data-role="list-divider">Technology Locations</li>
-<li class="goMap"><a href="#wifi_map" data-transition="slide">Wi Fi Locations</a></li>
-</ul>
-</div>
-</div>
-<div data-role="page" class="page-map" id="wifi_map" style="width:100%; height:100%;">
-<div data-role="header" data-position="fixed"><h2>Wi Fi Locations</h2></div>
-<div data-role="content" style="width:100%; height:100%; padding:0;">
-<div id="map_canvas" style="width:100%; height:100%;"></div>
-</div>
-</div>
-
-  </body>
+<body>
+  <div data-role="page" id="home" style="width:100%; height:100%;">
+    <div data-role="header">
+      <div class="ui-title-frontpage">
+        <h2>Techno Finder</h2>
+      </div>
+    </div>
+    <div data-role="content">
+      <ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="a">
+        <li data-role="list-divider">Technology Locations</li>
+        <li class="goMap"><a href="#wifi_map" data-transition="slide">Wi Fi Locations</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="page" class="page-map" id="wifi_map" style="width:100%; height:100%;">
+    <div data-role="header" data-position="fixed">
+      <h2>Wi Fi Locations</h2>
+    </div>
+    <div data-role="content" style="width:100%; height:100%; padding:0;">
+      <div id="map_canvas" style="width:100%; height:100%;">
+      </div>
+    </div>
+  </div>
+</body>
 </html>
 
