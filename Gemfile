@@ -8,7 +8,7 @@ gem 'haml'
 gem 'json'
 gem 'rake'
 gem 'tropo-webapi-ruby'
-gem 'windy', :git => "git://github.com/Chicago/windy.git"
+gem 'windy'
 
 group :development, :test do
   gem 'rack-test'
