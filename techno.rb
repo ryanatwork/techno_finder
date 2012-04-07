@@ -77,7 +77,7 @@ post '/process_selection.json' do
       item = session[:data][v[:result][:actions][:selection][:value].to_i-1]
       say_string = ""
       say_string += "Information about location #{item.facility} is as follows: "
-      say_string += "Location: #{item.address};"
+      say_string += "Location: #{item.street_address};"
       say_string += "Type: #{item.type};"
       say_string += "Hours: #{fix_hours(item.hours)};"
       say_string += "Phone: #{item.phone};"
@@ -89,7 +89,7 @@ post '/process_selection.json' do
 
       session[:say_string] = "" # storing in a session variable to send it via text message later (if the user wants)
       session[:say_string] += "#{item.facility} "
-      session[:say_string] += "#{item.address} "
+      session[:say_string] += "#{item.street_address} "
       session[:say_string] += "Type:#{item.type} "
       session[:say_string] += "Hours:#{item.hours} "
       session[:say_string] += "Phone:#{item.phone} "
