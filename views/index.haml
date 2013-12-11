@@ -1,15 +1,15 @@
-.hero-unit{:style => 'background-color: #D1EED1;border-color: #BFE7BF;border-top-color: #BFE7BF;border-right-color: #BFE7BF;border-bottom-color: #BFE7BF;border-left-color: #BFE7BF;'}
+.jumbotron{:style => 'background-color: #D1EED1;border-color: #BFE7BF;border-top-color: #BFE7BF;border-right-color: #BFE7BF;border-bottom-color: #BFE7BF;border-left-color: #BFE7BF;'}
   .row
-    .span10
+    .col-md-10
       %h1 Techno Finder
       %br
       %p Find public technology resources in Chicago by calling <strong>(773) 280-8612</strong>.
       %p Also find public Wi Fi locations on your mobile phone.
-      %a{:class => "btn success large",:href => 'mobile'} View »
-    .span3
+      %a{:class => "btn btn-success btn-lrg",:href => 'mobile'} View »
+    .col-md-3
     %img{:src => 'computer.png'}
 .row
-  .span8
+  .col-md-8
     %h2 How to Use
     %p Find technology resources in Chicago by calling <strong>(773) 280-8612</strong> and entering your 5 digit zip code.
     %h4 Example:
@@ -54,12 +54,10 @@
         What 10-digit phone number would you like to send the information to?
         %dd 773-555-1212
         %br
-      %ul.media-grid
-        %li
-          %a{:href => "sms_example.png"}
-            %img{:class => "thumbnail", :src => "sms_example.png"}/
+        %a{:href => "sms_example.png", :class => "thumbnail"}
+          %img{:class => "thumbnail", :src => "sms_example.png"}/
       %dt That's all thanks for using!
-  .span8
+  .col-md-8
     %h2 About
     %p Need to use a computer with Internet?  Looking for technology training or wi-fi hotspots?
     %br
@@ -74,28 +72,24 @@
     %br
 %br
 .row
-  .span16
+  .col-xs-6.col-md-3
     %h2 View Public Wifi locations on your mobile phone
     %p Looking for Public Wifi Locations? <a href='/mobile'>Click here to find them</a>
     %br
-    %ul.media-grid
-      %li
-        %a{:href => "mobile-home.PNG"}
-          %img{:class => "thumbnail", :src => "mobile-home.PNG"}/
-      %li
-        %a{:href => "wifi-spots.PNG"}
-          %img{:class => "thumbnail", :src => "wifi-spots.PNG"}/
-      %li
-        %a{:href => "wifi-detail.png"}
-          %img{:class => "thumbnail", :src => "wifi-detail.PNG"}/
+      %a{:href => "mobile-home.PNG", :class => "thumbnail"}
+        %img{:class => "thumbnail", :src => "mobile-home.PNG"}/
+      %a{:href => "wifi-spots.PNG", :class => "thumbnail"}
+        %img{:class => "thumbnail", :src => "wifi-spots.PNG"}/
+      %a{:href => "wifi-detail.png", :class => "thumbnail"}
+        %img{:class => "thumbnail", :src => "wifi-detail.PNG"}/
 %br
 .row
-  .span10
+  .col-md-10
     %h2 Data Source
     %p Data provided by the City of Chicago Data portal - <a href="http://data.cityofchicago.org/Technology/Public-Technology-Resources/nen3-vcxj">Public Technology Resources</a>
 %br
 .row
-  .span16
+  .col-md-16
     %h2 View all public technology resources on a map
     %br
 
